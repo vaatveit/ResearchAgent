@@ -1,0 +1,50 @@
+{
+  "id": "s071",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9372633/",
+  "subtopic": "Cooperation, norms and institutions",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Institutional modelling: Adding social backbone to agent-based models",
+  "publisher": "MethodsX (Elsevier), via PMC; author Amineh Ghorbani (TU Delft)",
+  "published_date": "2022-07-28",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Institutional modelling is a branch of ABMS that explicitly models institutions (social structure/rules) as the social backbone of simulated societies, combining bottom-up agent behaviour with top-down structure.",
+      "evidence_quote": "While agent-based modelling is a bottom-up (individual-based) simulation approach, institutional modelling also incorporates top-down institutional structures"
+    },
+    {
+      "claim": "Institutions are conceptualized with the Institutional Grammar (ABDICO): Attribute, Deontic, Aim, Object, Condition, Or else.",
+      "evidence_quote": "Each statement consists of a maximum of 6 components."
+    },
+    {
+      "claim": "Three institution types are distinguished: rules (A-D-I-C-O, explicit sanction), norms (A-D-I-C), shared strategies (A-I-C, no deontic or sanction).",
+      "evidence_quote": "Shared Strategies (A-I-C): an institutional statement with no sanction (similar to norms) and no deontic attached to it"
+    },
+    {
+      "claim": "Institutions should be modelled as independent entities, not inside agents: they are common knowledge, context-specific, can be deliberated on/disobeyed/sanctioned, and can be interlinked.",
+      "evidence_quote": "institutions, at least at the conceptualization phase should be modelled as independent entities, not as part of agent behaviour"
+    },
+    {
+      "claim": "Institutional data are qualitative and hard to collect. Methods include interviews/ethnography for informal institutions and IG coding of legal documents (6-step guideline from Basurto et al.) for formal ones.",
+      "evidence_quote": "data about institutions is not easy to collect to incorporate into a model given its qualitative nature"
+    },
+    {
+      "claim": "Agent decisions can incorporate institutions' deontic, condition and sanction via standard decision frameworks (theory of planned behaviour, multi-criteria decision making). Conditions link physical environment and social context.",
+      "evidence_quote": "This decision can be modelled with any decision making framework such as Theory of planned behaviour or Multi-criteria decision making."
+    },
+    {
+      "claim": "Institutions can be static (hard-coded) or dynamic (agents change or create institutions, so structures emerge). This enables studying evolution between shared strategies, norms and rules, and institutional change.",
+      "evidence_quote": "By allowing agents to use a language to define institutions, these social structures are not pre-defined by the modeller but are emergent from the simulation."
+    },
+    {
+      "claim": "Recommended use cases for detailed institutional modelling are policy analysis, institutional dynamics (e.g., commons self-organization with agents voting on rules) and collective behaviour patterns.",
+      "evidence_quote": "The agents collectively define institutions by voting: i.e., they suggest their own individual strategy as the preferred rule."
+    },
+    {
+      "claim": "Institutions can form networks that define relationships between actors. Hierarchies of institutions are possible because the 'or else' can itself be an institutional statement.",
+      "evidence_quote": "In that case, the \u201cor else\u201d component can itself be another institutional statement."
+    }
+  ],
+  "reliability_notes": "Full text, open access (CC BY), peer-reviewed methods paper. It is a single-author methodological overview centred on the author's own approach (IG/MAIA), not a broad survey. It has few empirical results and is self-citation heavy."
+}

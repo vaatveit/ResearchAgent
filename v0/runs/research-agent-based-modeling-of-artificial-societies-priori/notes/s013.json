@@ -1,0 +1,30 @@
+{
+  "id": "s013",
+  "url": "https://arxiv.org/pdf/1705.07161",
+  "subtopic": "Cooperation, norms and institutions",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Statistical physics of human cooperation",
+  "publisher": "arXiv (Perc, Jordan, Rand, Wang, Boccaletti, Szolnoki; Physics Reports)",
+  "published_date": "2017-05",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Review of experimental and theoretical work on human cooperation, focusing on spatial pattern formation, spatiotemporal dynamics and self-organization that promote or hinder social states.",
+      "evidence_quote": "focusing on spatial pattern formation, on the spatiotemporal dynamics of observed solutions, and on self-organization that may either promote or hinder socially favorable states."
+    },
+    {
+      "claim": "Non-equilibrium statistical physics and Monte Carlo methods are the main modelling tools for explaining counterintuitive evolutionary outcomes.",
+      "evidence_quote": "Non-equilibrium statistical physics, in particular Monte Carlo methods and the theory of collective behavior of interacting particles near phase transition points, has proven to be very valuable"
+    },
+    {
+      "claim": "Human interactions are group-based with many states, so they are more complex than pairwise particle interactions in physics.",
+      "evidence_quote": "interactions among humans often involve group interactions, and they also involve a larger number of possible states"
+    },
+    {
+      "claim": "The review covers incentive mechanisms (peer and pool punishment, rewarding, institutionalized and self-organized incentives, tolerance), with the public goods game as the null model.",
+      "evidence_quote": "Public goods game as the null model"
+    }
+  ],
+  "reliability_notes": "Only the start of the document (abstract and table of contents) was read. It is a peer-reviewed review from a reputable group. It is about lattice and evolutionary-game models, not agent-based artificial societies in general. Claims come from the abstract and table of contents, not from the full text."
+}

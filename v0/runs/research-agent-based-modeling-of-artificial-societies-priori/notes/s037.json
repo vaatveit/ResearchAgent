@@ -1,0 +1,46 @@
+{
+  "id": "s037",
+  "url": "https://www.medrxiv.org/content/10.1101/2020.11.07.20227462.full.pdf",
+  "subtopic": "Demography, migration and epidemics",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Synthetic Reproduction and Augmentation of COVID-19 Case Reporting Data by Agent-Based Simulation",
+  "publisher": "medRxiv (preprint)",
+  "published_date": "2020-11",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Population aspect: the model maps Austria's ~9M inhabitants as agents with demographically representative properties; demographic events (death, childbirth) are stochastic and event-driven.",
+      "evidence_quote": "we map the population of Austria (approximately nine million inhabitants) with agents that correctly represent the demographic properties of the country"
+    },
+    {
+      "claim": "Social structure/interaction: daily face-to-face contacts occur in virtual groups (households, workplaces, schools, leisure), aligned to demographic, commuting, density and class-size data.",
+      "evidence_quote": "face-to-face encounters which occur on a daily basis in virtual groups that represent workplaces, schools, households and leisure-time"
+    },
+    {
+      "claim": "Institutions/policy: a manually recorded timeline of government countermeasures modulates agent behavior; awareness effects need heuristic modeling.",
+      "evidence_quote": "we use a manually recorded timeline of the implementation and expiration of administrative policies to modulate the behavior of agents"
+    },
+    {
+      "claim": "Calibration/validation: calibrated to the first wave cumulative confirmed cases; validated against independent hospitalization, fatality, age and mobility data. Calibrated infection probability of 5% per contact is close to the literature value of 4.4%.",
+      "evidence_quote": "the infection probability during face-to-face contact has been calibrated to 5%, resembling a value of 4.4%"
+    },
+    {
+      "claim": "Individual behavior/pathways: agents follow branching disease/treatment pathways (symptoms, testing, hospitalization, isolation) with transition times set from medical data.",
+      "evidence_quote": "agents go through a pathway that depicts different stages of the disease and treatment"
+    },
+    {
+      "claim": "Use as data augmentation: the simulation yields 98,342 virtual patients versus 20,797 reported cases, revealing unreported cases and age-related under-reporting in younger groups.",
+      "evidence_quote": "the number of records (including unreported cases) in the synthetic data set (98,342)"
+    },
+    {
+      "claim": "Limitations: fatalities are decided retrospectively, which produces a time delay in the death curve. The data are a statistical sample and cannot reconstruct the model inputs.",
+      "evidence_quote": "the curve displays a significant time delay"
+    },
+    {
+      "claim": "Future work: scenario testing of vaccination and lockdown policies, plus transmission clusters with geographic and socio-structural information.",
+      "evidence_quote": "We intend to provide synthetic data on transmission clusters in combination with geographic and socio-structural information"
+    }
+  ],
+  "reliability_notes": "Full text was available. It is a preprint, so it is not peer reviewed. It is an epidemiological ABM with a synthetic population, and it is only tangentially about artificial societies in general. Validation is limited, and much of the validation data is not public."
+}

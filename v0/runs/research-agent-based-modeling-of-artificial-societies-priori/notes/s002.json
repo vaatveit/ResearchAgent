@@ -1,0 +1,50 @@
+{
+  "id": "s002",
+  "url": "https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/blake.sfisum.pdf",
+  "subtopic": "Economy and markets",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Building the Santa Fe Artificial Stock Market",
+  "publisher": "Brandeis University (working paper, hosted on Tesfatsion's ACE site)",
+  "published_date": "2002-06",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Design philosophy of the SFI market: an evolving ecology of strategies, with little preloaded and emergent macro features, using Holland's GA and classifier systems.",
+      "evidence_quote": "The market was to be a continually coevolving soup of strategies."
+    },
+    {
+      "claim": "LeBaron uses agent-based markets first to test rational-expectations convergence via heterogeneous learning, built around a well-defined equilibrium benchmark.",
+      "evidence_quote": "a first level test of rational expectations from a heterogeneous learning perspective was always needed."
+    },
+    {
+      "claim": "The first-generation market's price-adjustment mechanism was fragile: results were sensitive to the adjustment parameter, and rules were reinforced on unfilled orders.",
+      "evidence_quote": "Setting too low generated long persistent trends during which the market stayed in excess demand or supply."
+    },
+    {
+      "claim": "The SFI market reproduces stylized facts (fat tails, weak autocorrelation, volatility persistence, volume-volatility correlation). Results were reported over 25 runs because ergodicity can't be proven.",
+      "evidence_quote": "Return series show excess kurtosis, very little linear autocorrelation, and persistent volatility."
+    },
+    {
+      "claim": "Results depend on agents' learning speed. Fast GA updating gives realistic dynamics. Slow updating gives the homogeneous rational-expectations equilibrium.",
+      "evidence_quote": "When they update their rules more slowly the market is very close to what would be predicted in the homogeneous rational expectations equilibrium."
+    },
+    {
+      "claim": "Quantitative calibration is weak: the model is qualitatively right but undershoots real volatility and kurtosis.",
+      "evidence_quote": "In many ways it is doing the right thing qualitatively, but under shooting quantitatively."
+    },
+    {
+      "claim": "Agent behavior: fast learners show more heterogeneous forecast parameters and converge on trend-following rules without coordination other than through price.",
+      "evidence_quote": "Through no coordination other than through movements in the price itself agents appear to be using similar trading strategies."
+    },
+    {
+      "claim": "The second-generation market uses CRRA preferences, wealth-determined price impact, calibrated fundamentals, social learning, neural-network-style strategies, and memory length as the key heterogeneity.",
+      "evidence_quote": "Replacing the classifier systems with a more streamlined mechanism for mapping past information into trading strategies using a neural network inspired nonlinear functions."
+    },
+    {
+      "claim": "Related work: Chen & Yeh use genetic programming to evolve forecasting equations. Earlier markets include Kirman, Lux, Levy-Levy-Solomon and Beltratti-Margarita.",
+      "evidence_quote": "takes open ended learning to a higher level by modeling agent behavior with genetic programmming"
+    }
+  ],
+  "reliability_notes": "Full text was read (20-page PDF). It is an insider's retrospective by a builder of the model, so it may be biased. It is from 2002, so it is dated for the current state of the art. Some equations and numbers were garbled in extraction."
+}

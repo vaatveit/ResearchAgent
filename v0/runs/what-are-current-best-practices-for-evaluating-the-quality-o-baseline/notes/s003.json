@@ -1,0 +1,54 @@
+{
+  "id": "s003",
+  "url": "https://docs.langchain.com/langsmith/trajectory-evals",
+  "subtopic": "Process, trajectory and operational metrics",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "How to evaluate your agent with trajectory evaluations",
+  "publisher": "LangChain (LangSmith documentation)",
+  "published_date": "",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Many agent behaviors can only be tested with a real LLM in the loop, so agents should be evaluated on their full execution trajectory, not just the final output.",
+      "evidence_quote": "Many agent behaviors only emerge when using a real LLM, such as which tool the agent decides to call, how it formats responses, or whether a prompt modification affects the entire execution trajectory."
+    },
+    {
+      "claim": "The page defines trajectory evaluation as checking the exact sequence of messages and tool calls, and offers two approaches: matching against a reference trajectory, or using an LLM judge.",
+      "evidence_quote": "AgentEvals allows you to evaluate the trajectory of your agent (the exact sequence of messages, including tool calls) by performing a *trajectory match* or by using an *LLM judge*"
+    },
+    {
+      "claim": "Reference trajectory matching is recommended for well-defined workflows. It is deterministic, fast and cheap because it needs no extra LLM calls.",
+      "evidence_quote": "Use when you have specific expectations about which tools should be called and in what order. This approach is deterministic, fast, and cost-effective since it doesn't require additional LLM calls."
+    },
+    {
+      "claim": "An LLM judge is more flexible and can assess qualities like efficiency and appropriateness, but it costs an extra LLM call and gives less deterministic results.",
+      "evidence_quote": "More flexible and can assess nuanced aspects like efficiency and appropriateness, but requires an LLM call and is less deterministic."
+    },
+    {
+      "claim": "The LLM judge scores the agent's decisions against a prompt rubric. A reference trajectory is optional.",
+      "evidence_quote": "The \"judge\" LLM reviews the agent's decisions against a prompt rubric (which can include a reference trajectory)."
+    },
+    {
+      "claim": "Strict mode requires the same tool calls in the same order, which suits cases where one step must come before another.",
+      "evidence_quote": "This is useful when you need to enforce a specific sequence of operations, such as requiring a policy lookup before authorizing an action."
+    },
+    {
+      "claim": "Unordered mode suits information retrieval where the order of tool calls doesn't matter, which is relevant to research agents that gather from several sources.",
+      "evidence_quote": "Same tool calls allowed in any order | Verifying information retrieval when order doesn't matter"
+    },
+    {
+      "claim": "Subset mode checks efficiency: the agent must not call tools outside the reference. Superset mode checks that the minimum required actions happened, with extra calls allowed.",
+      "evidence_quote": "Use `subset` mode to ensure agent efficiency by verifying that the agent did not call any irrelevant or unnecessary tools beyond those in the reference."
+    },
+    {
+      "claim": "By default, two tool calls count as equal only if they call the same tool with the same arguments. Users can configure how strictly arguments must match.",
+      "evidence_quote": "By default, only tool calls with the same arguments to the same tool are considered equal."
+    },
+    {
+      "claim": "The package provides prebuilt judge prompts, in versions with and without a reference trajectory. The code example uses o3-mini as the judge model.",
+      "evidence_quote": "we use the prebuilt `TRAJECTORY_ACCURACY_PROMPT_WITH_REFERENCE` prompt and configure the `reference_outputs` variable"
+    }
+  ],
+  "reliability_notes": "This is vendor documentation from LangChain for its own open-source agentevals package, which integrates with LangSmith. It is practical how-to guidance, not independent research: it gives no empirical results or benchmarks and does not cover research-agent-specific concerns such as citation accuracy or factuality. It is useful as an example of common industry practice for evaluating agent tool-use trajectories. The code examples appear to use generic tool-calling agents (e.g. a weather tool). The page shows no publication date."
+}

@@ -1,0 +1,42 @@
+{
+  "id": "s017",
+  "url": "https://jasss.soc.surrey.ac.uk/12/4/13.html",
+  "subtopic": "Demography, migration and epidemics",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Understanding Artificial Anasazi",
+  "publisher": "Journal of Artificial Societies and Social Simulation (JASSS) 12(4) 13",
+  "published_date": "2009-10-31",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Artificial Anasazi is an icon ABM of population dynamics in Long House Valley (AD 800-1350); simple household location rules reproduce archaeological occupation records.",
+      "evidence_quote": "The Artificial Anasazi model is one of the icon models of the agent-based modeling community."
+    },
+    {
+      "claim": "Replication shows the fit to historical data stems mainly from two parameters adjusting the valley's carrying capacity. Agent behavior adds only modest improvement.",
+      "evidence_quote": "the success of replicating historical data is based on two parameters that adjust the carrying capacity of the Long House Valley."
+    },
+    {
+      "claim": "The model acts as a smoothing function of the input data, with limited endogenous dynamics. Population growth is capped by the reproduction rate, and declines are buffered by stored corn.",
+      "evidence_quote": "The agent-based model acted as a smoothing function for the irregular carrying capacity levels."
+    },
+    {
+      "claim": "Demographic parameters matter little: if households last over 30 years and reproduce every 6-8 years, population tracks carrying capacity.",
+      "evidence_quote": "another household is reproduced on average each 6 to 8 years, the model will generate population numbers that follow the carrying capacity."
+    },
+    {
+      "claim": "Replication context: the original model was reimplemented in NetLogo from Ascape code and documented with ODD. Paper and code differed (annual vs monthly time step, household composition), which illustrates the importance of replication in ABM. Other failed or difficult replications are cited.",
+      "evidence_quote": "The code uses an annual time step while the paper suggests that there are monthly time steps"
+    },
+    {
+      "claim": "The original conclusion that environment alone does not explain abandonment is confirmed, but the drought debate is not settled. Social interactions (exchange, kinship, networks) are missing from the model and appear in later models.",
+      "evidence_quote": "It is also likely that households do not make decisions to leave the valley completely independent of other households if they are part of a social fabric."
+    },
+    {
+      "claim": "Methodological state of the art: model-based archaeology has two approaches, data-driven models and stylized models. The author advocates stylized, theory-based models over fitting to material culture.",
+      "evidence_quote": "Instead of fitting models to the material culture I would propose to focus on stylized theory based models"
+    }
+  ],
+  "reliability_notes": "Full text of a peer-reviewed JASSS article (Janssen 2009). It is a critical replication of a single model, so its conclusions apply mainly to archaeological or social-ecological ABMs."
+}

@@ -1,0 +1,50 @@
+{
+  "id": "s024",
+  "url": "https://arxiv.org/pdf/0707.1762",
+  "subtopic": "Culture and opinion dynamics",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Continuous Opinion Dynamics under Bounded Confidence: A Survey",
+  "publisher": "arXiv (physics.soc-ph), Jan Lorenz (Univ. Bremen / ETH Z\u00fcrich); published version in Int. J. Modern Physics C",
+  "published_date": "2007-07-12 (v2 18 Jan 2008)",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Two core bounded-confidence agent models: Deffuant-Weisbuch (DW, random pairwise) and Hegselmann-Krause (HK, averaging over all agents in confidence range). Both are analyzed by agent-based Monte Carlo simulation and by density-based master equations.",
+      "evidence_quote": "In the DW model agents meet in random pairwise encounters after which they compromise or not. In the HK model, each agent moves to the average opinion of all agents which lie in her area of confidence"
+    },
+    {
+      "claim": "Convergence and conservation results: the homogeneous DW process converges to a limit profile (usually not in finite time) and conserves mean opinion. The homogeneous HK process converges in finite time and does not conserve mean opinion. Convergence proofs for heterogeneous bounds are lacking.",
+      "evidence_quote": "the homogeneous process always converges to a limit opinion profile in finite time. The same convergence is observed in simulations for the heterogeneous case"
+    },
+    {
+      "claim": "Continuous-time and discrete-time density models give similar results for DW but differ qualitatively for HK. In the discrete HK model, consensus returns at lower \u03b5 after polarization, and an odd or even number of opinion bins matters.",
+      "evidence_quote": "discrete and continuous solutions of the DW model are quite similar but discrete and continuous solutions of the HK model differ qualitatively"
+    },
+    {
+      "claim": "Bifurcation diagrams for uniform initial opinions show that DW has minor clusters (outliers) at the extremes and between major clusters, and that the HK model has none. The number of major clusters is roughly the integer part of 1/(2\u03b5). The consensus threshold is about \u03b5\u22480.19 for HK (1001 bins) versus \u22480.22 in an earlier study using 1000 bins. The DW consensus transition is at a higher \u03b5 (\u22480.27).",
+      "evidence_quote": "the number of major clusters after cluster formation is roughly determined as the integer part of 1/2\u03b5"
+    },
+    {
+      "claim": "Dimensionality matters. With budget-constrained (simplex) opinion spaces, more issues lower the consensus threshold, though not to zero. Without budget constraints, more independent issues raise the threshold.",
+      "evidence_quote": "if you want to foster consensus, bring more interrelated issues into the discussion. If you want to prevent consensus, bring more independent issues into the discussion."
+    },
+    {
+      "claim": "Heterogeneous confidence bounds: mixing open- and closed-minded agents can yield consensus even when both bounds are below the critical value. Clusters of open-minded agents drift toward closed-minded ones, which can produce extremism. HK shows a related 'sitting between the chairs' effect.",
+      "evidence_quote": "Consensus can be achieved by mixing closed- and open-minded agents even if both bounds of confidence are far below the critical value of the consensus transition"
+    },
+    {
+      "claim": "Social network structure and communication regime: on scale-free, random and lattice networks, DW reaches full consensus for \u03b5>0.5 (later proven). The HK consensus threshold stays roughly 0.2 only if the average degree scales with population size. The number of final clusters on Barab\u00e1si-Albert graphs scales with the number of agents. Manipulating who meets whom can enforce or prevent consensus.",
+      "evidence_quote": "enforcing as well as preventing consensus is possible for a for huge \u03b5-phase if it is possible to manipulate who meets whom at what time"
+    },
+    {
+      "claim": "Other extensions: a convergence/cautiousness parameter \u03bc (lower \u03bc means longer convergence and smaller minor clusters), smooth bounds and relative agreement, repulsion, non-arithmetic means, biased confidence intervals, agent communication strategies, attitude vs. verbalized opinion, and truth-seeking agents.",
+      "evidence_quote": "lower \u00b5 also reduces the sizes of the minor clusters. So more cautious agents are not that likely to produce minor clusters."
+    },
+    {
+      "claim": "Open problems: classifying which initial profiles lead to which cluster patterns (almost all studies use uniform initial opinions), understanding drift under heterogeneous bounds, proving convergence and the universal scaling of bifurcation points, and quantifying how well density models match finite-population agent-based runs.",
+      "evidence_quote": "the most important remaining issue is the understanding of the impact of the initial profile or initial density on the final outcome"
+    }
+  ],
+  "reliability_notes": "Full text was read. It is a single-author survey, cited and peer-reviewed as a journal paper, with numerical bifurcation results from the author's own thesis. The focus is narrow: opinion dynamics (the cognition/opinion aspect of artificial societies), not whole societies. It is dated, since it covers work up to 2007. Some claims are numerical or empirical without proof, and the paper says so."
+}

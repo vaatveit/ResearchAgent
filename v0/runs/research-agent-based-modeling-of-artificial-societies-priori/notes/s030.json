@@ -1,0 +1,46 @@
+{
+  "id": "s030",
+  "url": "https://www.sciencedirect.com/science/article/pii/S1574002118300030",
+  "subtopic": "Methodology: calibration, validation and platforms",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Empirical Validation of Agent-Based Models (Chapter 8, Handbook of Computational Economics vol. 4)",
+  "publisher": "Elsevier (Handbook of Computational Economics)",
+  "published_date": "2018",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "ABMs replicate stylized facts of financial and macro time series, and estimation methods have advanced over the past decade. This is the validation/calibration aspect of artificial societies, but the chapter is about economics and finance, not general societies.",
+      "evidence_quote": "The literature on agent-based models has been highly successful in replicating many stylized facts of financial and macroeconomic time series."
+    },
+    {
+      "claim": "Validating ABMs against data is hard. Reasons: many unknown parameters, nonlinearity that can give a non-monotonic likelihood surface, and limited data.",
+      "evidence_quote": "an often large number of unknown parameters, nonlinearity of the models leading to a possibly non-monotonic likelihood surface, and sometimes limited data availability"
+    },
+    {
+      "claim": "There are two estimation approaches. One simplifies ABMs or HAMs into reduced-form models that standard econometrics can estimate. The other keeps fuller agent behavior and uses simulation-based estimators that fit higher moments.",
+      "evidence_quote": "The first approach covers (further) simplifications of ABMs and HAMs to reduced form models making them suitable for estimation using relatively standard econometric techniques."
+    },
+    {
+      "claim": "Agent behavior: bounded rationality leaves many degrees of freedom, so empirical validation disciplines model design. Hong and Stein's three criteria are offered as a restriction on modelers.",
+      "evidence_quote": "This generates a large number of degrees of freedom for the theorist as deviations from rationality can take many forms."
+    },
+    {
+      "claim": "Agent heterogeneity and switching: virtually all studies find support for heterogeneity, and letting agents switch groups improves fit, both in-sample and out-of-sample. Results are hard to compare across studies because models and methods vary.",
+      "evidence_quote": "virtually all studies find evidence in support of the relevance of the heterogeneity of agents. Allowing agents to switch between groups generally has a positive effect on model fit."
+    },
+    {
+      "claim": "Typical HAM structure: two agent types (fundamentalists and chartists) plus a performance-based switching function. Simple versions still reproduce complex price dynamics to a degree.",
+      "evidence_quote": "most models contain a group of fundamentalists expecting mean reversion and chartists expecting trend continuation."
+    },
+    {
+      "claim": "The chapter covers ABM estimation in other fields such as biology and ecology, and proposes state-space and sequential Monte Carlo methods, which had not yet been applied to ABMs in economics and finance. It also reviews method-of-moments estimation.",
+      "evidence_quote": "It also proposes a new avenue for estimation by means of state-space methods, which have not been applied in agent-based models in economics and finance so far."
+    },
+    {
+      "claim": "The boundary between ABMs and traditional models is blurring, for example dynamic games and heterogeneous-agent macro models. ABMs are defined by bounded rationality, not by inductive optimization.",
+      "evidence_quote": "the boundaries between agent-based models and more traditional approaches are becoming more and more fuzzy."
+    }
+  ],
+  "reliability_notes": "Abstract, introduction and section snippets only. The full text is paywalled. It is a peer-reviewed handbook chapter by Lux and Zwinkels, and the authors describe it as an idiosyncratic, non-exhaustive review. It focuses on financial and macro ABMs, so it is only partly relevant to artificial societies in general. The citing-article list includes Poledna et al. 2023, an ABM that competes with VAR and DSGE models in forecasting."
+}

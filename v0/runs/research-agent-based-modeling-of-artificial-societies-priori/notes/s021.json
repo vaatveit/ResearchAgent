@@ -1,0 +1,70 @@
+{
+  "id": "s021",
+  "url": "https://arxiv.org/pdf/1505.06012",
+  "subtopic": "Foundations and frameworks",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "The Specification of Sugarscape",
+  "publisher": "arXiv (cs.MA), Joseph Kehoe",
+  "published_date": "2015-05 (v1 dated 9 Mar 2015; v3 revised 7 Nov 2016)",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Sugarscape (Epstein & Axtell 1996) is the seminal large-scale agent-based social simulation. Major ABM toolkits ship partial implementations of it. Ambiguity in its rules hinders replication and comparison, and the paper gives a formal Z specification to fix this.",
+      "evidence_quote": "a lack of agreement on the precise definition of the rules within Sugarscape has curtailed its usefulness. We provide a formal specification of Sugarscape using the Z specification language."
+    },
+    {
+      "claim": "ABSS takes a bottom-up approach: local agent interactions produce emergent population behaviour. The paper argues this is the only workable approach when the overall behaviour, or its causes, are unknown.",
+      "evidence_quote": "The behaviour of the overall population is left to emerge from these local interactions."
+    },
+    {
+      "claim": "Environment: a toroidal M\u00d7M lattice. Each site holds at most one agent, has a resource capacity and regrows resources each step. Vision is limited to the four cardinal directions and is much smaller than M. Sugarscape has only ever been implemented with one pollutant and two resources (sugar and spice).",
+      "evidence_quote": "The environment, or simulation space, is modelled as a two dimensional M by M grid or matrix of discrete locations known as the lattice. This lattice is toroidal in nature"
+    },
+    {
+      "claim": "Agent attributes: metabolism rate, age, maximum age, resource stores, vision, sex, culture tag bit-string, loans, diseases (bit strings) and an immunity bit-string. Agents die when they run out of resources or reach maximum age.",
+      "evidence_quote": "Once an agent runs out of resources it dies (is removed from the simulation)"
+    },
+    {
+      "claim": "Environment rules: Growback (\u03b1 units per step, capped at capacity), Seasonal Growback (summer/winter halves of the grid that flip), and Pollution formation (\u03b1s+\u03b2m) with diffusion to von Neumann neighbours every fixed number of steps. With pollution, movement welfare becomes sugar/(1+pollution).",
+      "evidence_quote": "When pollution is incorporated into the Sugarscape the movement rule is changed so that the welfare of a location is now defined using the sugar to pollution ratio"
+    },
+    {
+      "claim": "Movement and combat are local and rule-based. Movement picks the nearest unoccupied site with maximum welfare within vision. Combat is a movement extension: skip own-tribe sites, skip wealthier occupants, avoid sites open to retaliation, and gain the victim's wealth up to a limit.",
+      "evidence_quote": "The combat rule is really an extension of the movement rule where we are now allowed to move to locations occupied by other agents under certain predefined conditions."
+    },
+    {
+      "claim": "Social and demographic rules: mating between fertile neighbours with crossover of genetic and cultural traits. Parents gift half their sugar to offspring; the book says this but the rule text omits it. Inheritance splits a dead agent's wealth among living children. The paper says the omitted resource contribution has a huge effect on how mating works.",
+      "evidence_quote": "The Mating rule omits important information about parents contributing half of their resources to their offspring. This has a huge effect on how mating works in a simulation."
+    },
+    {
+      "claim": "Culture and group identity: each agent has an odd-length bit-string of tags. Neighbours flip one random tag to match the agent. Majority-0 means Blue tribe and majority-1 means Red.",
+      "evidence_quote": "Agents are defined to be members of the Blue group when 0s outnumber 1s on their tag strings, and members of the Red group in the opposite case."
+    },
+    {
+      "claim": "Credit and disease: lending is limited to older agents or those with wealth above the child-bearing threshold. Loans have a duration and simple interest. Debt is renegotiated by paying half of wealth. If a lender dies, inheritance passes the loan to the lender's children. Disease is a bit-string. Immunity means the disease is a substring of the immune string. Otherwise the immune string mutates one bit toward it, and each disease with no immunity adds one to metabolism.",
+      "evidence_quote": "for every disease carried by an agent that it has no immunity to, sugar metabolism is increased by one."
+    },
+    {
+      "claim": "Trade requires two resources. Agents compute marginal rates of substitution (MRS). Exchange price is the geometric mean of the two MRSs. Trades continue until the MRSs would cross. With two resources, movement welfare is a Cobb-Douglas-style function weighted by relative metabolism.",
+      "evidence_quote": "The geometric mean of the two MRSs is calculated-this will serve as the bargaining price, p"
+    },
+    {
+      "claim": "Update scheduling is a central modelling choice. The original Sugarscape assumed asynchronous (sequential, randomised-order) updating. Synchronous updating gives different results, and how much they diverge for complex ABMs is unknown. Asynchronous updating dominates in ABM because good synchronous algorithms for Movement, Combat and Trade are lacking. Five asynchronous variants are specified: fixed line-by-line, fixed random sweep, random new sweep, uniform choice, exponential waiting time.",
+      "evidence_quote": "it is well known that asynchronous and synchronous updating produce different results. What is not known is how divergent these results are in the case of complex ABMs such as Sugarscape"
+    },
+    {
+      "claim": "Concurrency needs explicit conflict resolution. The original rules give none, e.g. when two agents pick the same site or the same vacant child site. The spec stays agnostic and uses conflict-free sets of pairs applied in sequence for mating, trade and loan payment.",
+      "evidence_quote": "How we decide which agent succeeds is not defined. We assume that either a conflict resolution or conflict avoidance rule is available to make this decision but it is not stated what this rule should be."
+    },
+    {
+      "claim": "The paper's three classes of specification problem are lack of clarity, missing information and sequential biases. Examples of missing information: whether immune agents still carry a disease, whether all carried diseases or only non-immune ones are transmitted, credit-worthiness, and rule ordering.",
+      "evidence_quote": "The issues with the model definition that we have encountered can broadly be grouped into three main types: Lack of Clarity, Missing Information and Sequential biases."
+    },
+    {
+      "claim": "Sugarscape is proposed as a benchmark for parallel/GPU ABM frameworks. Prior GPU work tends to skip the hard-to-parallelise rules (Combat, Inheritance, Trade). Further work: community agreement on the interpretations, and whether ABM modellers will adopt formal specifications is unknown.",
+      "evidence_quote": "These approaches tend not to be tested on the more complex rules in Sugarscape (such as Combat, Inheritance and Trade) as they are not easily parallelized."
+    }
+  ],
+  "reliability_notes": "Full text was fetched (111-page arXiv PDF). It is a single-author formal-methods specification paper with no empirical simulation results. It covers one model (Sugarscape) and not the whole field of artificial-society ABM, so it is best used for the replication, specification, update-scheduling and concurrency parts of a state-of-the-art summary. Claims about ABSS breadth (fields of application, toolkits) rest on cited secondary sources. The specification's interpretive choices are the author's own and the paper says community agreement is still needed. The text contains some typos and schema inconsistencies, and the author says he loosened type-checker rules for readability."
+}

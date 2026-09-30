@@ -1,0 +1,42 @@
+{
+  "id": "s041",
+  "url": "https://jasss.soc.surrey.ac.uk/10/4/reviews/conte.html",
+  "subtopic": "Foundations and frameworks",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Review of Epstein, J.: Generative Social Science: Studies in Agent-Based Computational Modeling",
+  "publisher": "Journal of Artificial Societies and Social Simulation (JASSS), vol. 10(4); reviewer Rosaria Conte",
+  "published_date": "2007",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Epstein's generative approach: grow macro regularities from heterogeneous autonomous agents following simple local rules in a spatial environment.",
+      "evidence_quote": "allow them to interact according to *simple* local rules, and thereby generate - or 'grow' - the macroscopic regularity from the bottom up"
+    },
+    {
+      "claim": "Book's applications include Anasazi culture, retirement-age norms, precedence rules, inequality, civil violence, epidemics, and organizations/hierarchies.",
+      "evidence_quote": "the rise and fall of the Anasazi culture, the gradual stabilizing of retirement age norms, the emergence of precedence rules and of iniquity in resource distribution"
+    },
+    {
+      "claim": "Conte argues generative explanation needs a prior theory of the causes and of the linked causal chain. Otherwise the model is ad hoc or mere reproduction. Her example is the witness (bystander) effect, which has never been simulated.",
+      "evidence_quote": "Generative explanation requires a theory of the causes from *which* to grow the effect, otherwise the explanation is irrelevant and *a hoc*."
+    },
+    {
+      "claim": "Emergence: Epstein finds the notion useless. Conte defends it, distinguishing macro properties 'implemented' on local rules from those 'incorporated' in them. She adds second-order emergence and 'immergence' (downward causation) as needed for a bidirectional micro-macro link.",
+      "evidence_quote": "Second-order emergence consists of emergent effects retroacting on the lower level and getting partially incorporated into local representations."
+    },
+    {
+      "claim": "Norms: Epstein's 'thoughtless conformity' follows Lewis's game-theoretic conventions, which reduce norms to selecting among equilibria. Conte argues this takes conformity for granted and ignores why and whether agents conform, out-of-equilibrium dynamics, and non-coordination norms.",
+      "evidence_quote": "the main question to be asked will no longer be which solution to select but *whether* and *why* autonomous agents conform to them."
+    },
+    {
+      "claim": "Agent architecture: Conte calls for richer cognitive agent models (representations, motivations, norm internalization, filtering of social influence) instead of simple ad hoc local rules. She also says social influence differs from learning, citing prestige-driven cultural transmission.",
+      "evidence_quote": "we must be more demanding as to the agent model, and not content ourselves with a *bunch of simple*, at most *plausible* local rules."
+    },
+    {
+      "claim": "Limits and open problems: generative explanation covers only bottom-up processes, and downward causation is poorly understood. Epstein himself omits learning and updating of local rules.",
+      "evidence_quote": "Epstein applies generative explanation only to bottom-up processes. Why? What about the way back?"
+    }
+  ],
+  "reliability_notes": "Book review (opinion/critique), not an empirical paper. Full text was available. Reflects Conte's cognitive-agent perspective, from 2007, so it is dated for \"state of the art\". Useful for conceptual debates on generativism, emergence, norms and agent cognition."
+}

@@ -1,0 +1,54 @@
+{
+  "id": "s028",
+  "url": "https://arxiv.org/pdf/2411.00114",
+  "subtopic": "Agent cognition and LLM-based agents",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Project Sid: Many-agent simulations toward AI civilization",
+  "publisher": "Altera.AL (arXiv:2411.00114, cs.AI)",
+  "published_date": "2024-10-31",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Architecture: PIANO (concurrent modules plus a bottlenecked Cognitive Controller) is meant to keep agents coherent across output streams in real time. The paper runs 10 modules concurrently.",
+      "evidence_quote": "the PIANO architecture selectively and concurrently executes various modules in parallel to enable agents to interact with the environment in real-time."
+    },
+    {
+      "claim": "Scale: societies of 50-100 agents and multi-society civilizations of 500-1,000 agents. The authors say prior LLM-agent experiments were much smaller, with the biggest at 25-50 agents. Social-network simulations reached up to 18,000 personas, but those were restricted settings.",
+      "evidence_quote": "The biggest experiments to date have simulated 25-50 agents (39), which is not close to the scale of a civilization."
+    },
+    {
+      "claim": "Agent-level challenges: hallucinations compound over successive LLM calls and spread through social interaction. Miscommunication between an agent's talk and action modules causes incoherence.",
+      "evidence_quote": "even a small rate of hallucinations can poison downstream agent behavior when agents continuously interact with the environment via LM calls."
+    },
+    {
+      "claim": "Individual progression in Minecraft: PIANO agents got an average of 17 unique items in 30 minutes, and the best got 30-40. A 49-agent, 4-hour run saturated at about one third of all Minecraft items (~320). Ablating the action-awareness module lowered progression. Only GPT-4o gave this performance; older or smaller base LMs did worse.",
+      "evidence_quote": "unique item count collected by all agents reliably saturated at one third (\u223c320) of all Minecraft items across repeated runs"
+    },
+    {
+      "claim": "Social cognition and relationships: with a social-awareness module, agents tracked others' changing sentiment and let it guide behavior (a chef gave food to those who liked him most). In 50-agent, 4-hour runs, perceived likeability correlated with true likeability (r=0.81 with social modules, 0.62 without). Extroverts got more in-degree ties (r=0.48). Sentiments were mostly, but not always, reciprocal.",
+      "evidence_quote": "introverted agents consistently exhibited fewer in-degree connections\u2014indicating that they had fewer incoming social ties\u2014compared to their extroverted counterparts"
+    },
+    {
+      "claim": "Specialization: 30 agents with an identical personality and goal self-organized into roles such as farmer, miner, engineer, guard and blacksmith. Roles were persistent and strongly shaped actions. Without the social module, roles were homogeneous and did not persist (role entropy 2.60 bits ablated, 3.41 normal, 3.83 martial, 4.04 artistic). The starting community goal changed the roles: scout/strategist appeared only in martial villages, curator/collector only in artistic ones.",
+      "evidence_quote": "when agents lacked social modules and were unable to form profiles of other agents, they failed to specialize (Figure 8B, D): roles did not persist across time and were also homogeneous"
+    },
+    {
+      "claim": "Collective rules: 25 constituents, 3 influencers and 1 election manager agent operated under a tax constitution with democratic amendment. Agents obeyed the ~20% tax law. Influencers shifted votes and amendments, and behavior followed the amended law (tax paid fell from 20% to about 9% under anti-tax influence). A frozen-constitution control showed no change. A baseline (ablated) architecture failed to produce bidirectional change. No guards or police were enforcing the law.",
+      "evidence_quote": "when the tax rate decreased from 20% to 5-10%, agents reduced taxes paid from 20% to 9%"
+    },
+    {
+      "claim": "Cultural transmission: in one 500-agent run (6 towns with 200 agents, 300 rural agents), memes arose spontaneously from agent goals. Towns produced more memes per agent than rural areas, and different towns favored different memes. A seeded religion (Pastafarianism, 20 priests) spread steadily in number and area over 2+ hours. 1000+ agent runs exceeded the Minecraft server's compute limits.",
+      "evidence_quote": "meme propagation requires a threshold level of population density and social interaction, that multiple memes can coexist within a single society, and that different societies propagate and transmit cultural memes independently."
+    },
+    {
+      "claim": "Stated limitations: agents lack vision and spatial reasoning. They lack robust innate drives. Because they are built on pretrained foundation models, they cannot show de novo emergence of institutions such as democracy or fiat economies. The laws and religion were pre-seeded, and religion was measured by keyword proxies.",
+      "evidence_quote": "they cannot simulate de novo emergence of societal innovations and infrastructures, such as the emergence of democratic systems, fiat economies, or communication systems."
+    },
+    {
+      "claim": "Related-work landscape: LLM multi-agent work falls into productivity, games and social modeling. Cited examples include Generative Agents, Social Simulacra, S3, EconAgent, WarAgent and CompeteAI. Multi-agent benchmarks such as BattleAgentBench, COMMA, VillagerBench and LLMcoordination cover only small groups. Many prior systems are constrained by turn-based execution or rigid communication channels.",
+      "evidence_quote": "Common constraints include turn-based execution, constrained workflows, or rigid communication channels between agents"
+    }
+  ],
+  "reliability_notes": "Full text was read. It is an Altera.AL technical report, a preprint that is not peer-reviewed and has company authorship. Results are preliminary. Several experiments use small numbers of repeats (3-6). The 500-agent cultural results come from a single simulation. Roles and memes were inferred with LLM calls (GPT-4o), and religious conversion was measured by keyword proxies. Agents are LLM-based, not classical rule-based ABM, and the environment is Minecraft. The laws, tax system and religion were pre-seeded rather than emergent."
+}

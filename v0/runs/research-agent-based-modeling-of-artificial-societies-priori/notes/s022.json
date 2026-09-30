@@ -1,0 +1,38 @@
+{
+  "id": "s022",
+  "url": "https://jasss.soc.surrey.ac.uk/12/2/reviews/lebaron.html",
+  "subtopic": "Economy and markets",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Review of Ehrentreich: Agent-Based Modeling: the Santa Fe Institute Artificial Stock Market Model Revisited",
+  "publisher": "JASSS (Journal of Artificial Societies and Social Simulation), reviewer Blake LeBaron",
+  "published_date": "2009",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "The SFI Artificial Stock Market is an early benchmark agent-based financial model with heterogeneous, adaptive, learning agents.",
+      "evidence_quote": "As one of the earliest agent-based approaches to financial models it has served as a kind of benchmark model inspiring many others."
+    },
+    {
+      "claim": "The SFI model's complexity and code size deterred wider replication and use.",
+      "evidence_quote": "The general complexity of the model, and daunting amounts of computer code that one needed to understand the model kept most researchers away."
+    },
+    {
+      "claim": "Changing the mutation operator (learning mechanism) overturned the original finding that technical trading dominates. Convergence to rational expectations equilibrium may be possible over a broad parameter set.",
+      "evidence_quote": "this feature of the original model was sensitive to the type of mutation operator considered"
+    },
+    {
+      "claim": "Genetic drift, not purposeful selection, may explain much of the strategy dynamics. Fitness signals in noisy financial data are weak, so strategy pools stay diverse.",
+      "evidence_quote": "fitness signals are weak in the world of noisy financial data, and that changes in strategies may be more dominated by drift than purposeful selection."
+    },
+    {
+      "claim": "Many ABMs ignore long-run wealth dynamics because fitness is tied to short-run forecast accuracy or utility. CARA preferences make positions independent of wealth.",
+      "evidence_quote": "Traders' fitness is often tied to short range forecast accuracy, or utility measures, and not long range wealth growth."
+    },
+    {
+      "claim": "The reviewer's framework has three levels of ABM market design: software, learning dynamics, and economic structure. The learning-dynamics middle level is under-explored. He calls for simpler platforms that keep rich evolutionary dynamics.",
+      "evidence_quote": "we can eventually settle on simpler platforms which still offer the rich evolutionary dynamics of the SFI market with fewer moving parts."
+    }
+  ],
+  "reliability_notes": "This is a book review, not a primary paper. It is full text, by an author of the original SFI model, so he may be partial. It covers only the artificial financial market and its learning and agent-adaptation aspects. It is a peer-reviewed venue but a secondary source."
+}

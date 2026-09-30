@@ -1,0 +1,34 @@
+{
+  "id": "s082",
+  "url": "https://aclanthology.org/2025.coling-main.264/",
+  "subtopic": "Culture and opinion dynamics",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Decoding Echo Chambers: LLM-Powered Simulations Revealing Polarization in Social Networks",
+  "publisher": "ACL Anthology (COLING 2025, Abu Dhabi)",
+  "published_date": "2025-01",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Proposes an LLM-based agent simulation of a social opinion network to evaluate and counter polarization/echo chambers; motivated by limits of numeric/formula opinion models that ignore text.",
+      "evidence_quote": "we propose an LLM-based simulation for the social opinion network to evaluate and counter polarization phenomena"
+    },
+    {
+      "claim": "Network structure: three typical network topologies are built to represent different social interaction characteristics.",
+      "evidence_quote": "We first construct three typical network structures to simulate different characteristics of social interactions."
+    },
+    {
+      "claim": "Agent behavior: agents interact via recommendation algorithms and update strategies through LLM reasoning.",
+      "evidence_quote": "agents interact based on recommendation algorithms and update their strategies through reasoning and analysis"
+    },
+    {
+      "claim": "Validation: compared against classic Bounded Confidence and Friedkin-Johnsen models and echo-chamber indices; reproduces polarization and echo chambers.",
+      "evidence_quote": "By comparing these interactions with the classic Bounded Confidence Model (BCM), the Friedkin-Johnsen (FJ) model, and using echo chamber-related indices"
+    },
+    {
+      "claim": "Intervention: two mitigation methods, active and passive nudges, reduce echo chambers in language-based simulations.",
+      "evidence_quote": "We propose two mitigation methods\u2014active and passive nudges\u2014that can help reduce echo chambers"
+    }
+  ],
+  "reliability_notes": "Abstract only (abstract and metadata; full text PDF not fetched). Peer-reviewed COLING 2025 paper. No quantitative results available from the abstract."
+}

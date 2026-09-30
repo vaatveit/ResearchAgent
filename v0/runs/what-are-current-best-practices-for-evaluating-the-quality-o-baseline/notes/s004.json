@@ -1,0 +1,78 @@
+{
+  "id": "s004",
+  "url": "https://arxiv.org/pdf/2504.12516",
+  "subtopic": "Benchmarks for research/deep-research agents",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents",
+  "publisher": "OpenAI (arXiv preprint 2504.12516v1)",
+  "published_date": "2025-04-16",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "BrowseComp has 1,266 hard questions that require persistent web navigation. It is kept easy to use by having short answers that can be checked against a reference answer.",
+      "evidence_quote": "BrowseComp comprises 1,266 questions that require persistently navigating the internet in search of hard-to-find, entangled information. Despite the difficulty of the questions, BrowseComp is simple and easy-to-use, as predicted answers are short and easily verifiable against reference answers."
+    },
+    {
+      "claim": "The authors say the benchmark only measures part of what matters. It leaves out realistic user query distributions, long-form answers and resolving ambiguity, so it is a proxy that is useful but incomplete.",
+      "evidence_quote": "While BrowseComp sidesteps challenges of a true user query distribution, like generating long answers or resolving ambiguity, it measures the important core capability of exercising persistence and creativity in finding information."
+    },
+    {
+      "claim": "Older retrieval benchmarks are saturated because their answers are easy to find. This is the case for building a harder benchmark.",
+      "evidence_quote": "most of these benchmarks focus on retrieving information that can be found easily, and hence have become saturated by recent language models."
+    },
+    {
+      "claim": "Questions were checked for difficulty in three ways: current models had to fail them, the answer could not appear on the first page of five Google searches, and another person should not be able to solve it within 10 minutes. Tasks solved more than 40% of the time were sent back for revision.",
+      "evidence_quote": "Trainers who created tasks that were solved more than 40 % of the time were asked to revise their tasks."
+    },
+    {
+      "claim": "Questions were built 'inverted': start from a known fact so the answer is hard to find but easy to verify. The downside is that other valid answers cannot be fully ruled out.",
+      "evidence_quote": "we encouraged trainers to start with a fact, and then create an inverted question, where the answer is hard to find but easy to verify."
+    },
+    {
+      "claim": "Grading uses an LLM judge that checks whether the predicted answer means the same as the reference answer. The judge prompt is the one from Humanity's Last Exam.",
+      "evidence_quote": "grading is done by simply using an AI model compare whether a predicted answer is semantically equivalent to the reference answer. We use the same grading prompt as Humanity's Last Exam"
+    },
+    {
+      "claim": "Human baseline: trainers working without AI help solved 29.2% of questions and gave up on 70.8% after two hours. When they did solve one, their answer matched the reference 86.4% of the time.",
+      "evidence_quote": "trainers solved 29.2% of problems, and of solved problems, the answer from the trainer matched with the original reference answer 86.4% of the time."
+    },
+    {
+      "claim": "Model accuracy: GPT-4o 0.6%, GPT-4o with browsing 1.9%, GPT-4.5 0.9%, o1 9.9%, Deep Research 51.5%. Deep Research was trained on data aimed specifically at BrowseComp-style tasks.",
+      "evidence_quote": "GPT-4o 0.6 69 / GPT-4o w/ browsing 1.9 82 / GPT-4.5 0.9 68 / OpenAI o1 9.9 65 / Deep Research 51.5 91"
+    },
+    {
+      "claim": "The authors conclude that browsing access alone does not help much. Both reasoning and tool use contribute to performance.",
+      "evidence_quote": "This indicates that browsing alone is not sufficient\u2014models must also be capable of reasoning strategically, identifying relevant search paths, and interpreting retrieved content."
+    },
+    {
+      "claim": "Calibration is measured as a separate reliability dimension by asking the model for a confidence score. Models with browsing had higher calibration error (Deep Research 91%), which suggests web tools may make models more confident in wrong answers.",
+      "evidence_quote": "models with browsing capabilities such as GPT-4o w/ browsing and Deep Research exhibit higher calibration error, suggesting that access to web tools may increase the model's confidence in incorrect answers."
+    },
+    {
+      "claim": "Performance should be reported as a function of test-time compute. Accuracy rises smoothly as browsing effort increases.",
+      "evidence_quote": "each point is a full evaluation run with a different browsing effort, and we see that performance scales smoothly as a function of the amount of test-time compute used."
+    },
+    {
+      "claim": "With 64 samples per question, majority voting, confidence-weighted voting and best-of-N all improved accuracy by 15\u201325% over a single attempt. Best-of-N did best.",
+      "evidence_quote": "the three methods improve performance by 15% to 25% compared to just using a single attempt... Among these methods, best-of-N consistently achieved the highest accuracy"
+    },
+    {
+      "claim": "Looking at the distribution of pass rates over 64 trials per task shows how difficulty varies. Deep Research solved 16% of tasks every time and failed 14% every time.",
+      "evidence_quote": "Deep Research perfectly solved 16% of the tasks (100% pass rate) but failed entirely on 14% (0% pass rate), indicating a wide gap in task difficulty."
+    },
+    {
+      "claim": "Tasks the model always failed were used to audit the benchmark. Of the 118 such tasks, 21 had faulty labels and were removed, shrinking the set from 1,287 to 1,266. Giving the model the answer and asking it to find supporting evidence showed that most of the remaining tasks can be solved.",
+      "evidence_quote": "Upon reviewing the 118 tasks where Deep Research had a 0% pass rate, we identified 21 tasks where the labeled ground-truth answer was either mismatched with the required answer format, ambiguous in phrasing, or incorrect based on reasoning. These tasks were removed from the dataset."
+    },
+    {
+      "claim": "To prevent contamination, the paper includes a canary string and asks readers not to post examples online, so the data stays out of training corpora and browsing agents cannot look up the answers.",
+      "evidence_quote": "we include canary string ... to make it easier to filter out our benchmark from training corpora and prevent models from directly retrieving the ground-truth answers when solving problems in this benchmark."
+    },
+    {
+      "claim": "Suggested future work: benchmarks that test finding information across other modalities such as images, video, audio or interactive webpages.",
+      "evidence_quote": "future benchmarks could evaluate the ability to find information by interacting with different modalities, such as images, video, audio, or interactive webpages."
+    }
+  ],
+  "reliability_notes": "This is a primary source: OpenAI's own arXiv preprint (v1), not peer-reviewed. OpenAI built the benchmark, and its own Deep Research model scores highest; the authors disclose that this model was trained on BrowseComp-style data. The dataset only covers short-answer fact-finding, not long research reports. The human baseline comes from the same trainers who wrote the questions, and the authors say they are not expert browsers. The LLM grader was not separately validated against human judgments in this paper."
+}

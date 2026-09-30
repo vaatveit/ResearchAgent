@@ -1,0 +1,30 @@
+{
+  "id": "s067",
+  "url": "https://www.cambridge.org/core/journals/knowledge-engineering-review/article/abs/bdi-agents-in-social-simulations-a-survey/ADBACF4B23F625D42A7DB45E0D7556C4",
+  "subtopic": "Agent cognition and LLM-based agents",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "BDI agents in social simulations: a survey",
+  "publisher": "Cambridge University Press (The Knowledge Engineering Review, vol. 31, issue 3, pp. 207\u2013238)",
+  "published_date": "2016-06",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Agent-based modelling displaced equation-based approaches. Model complexity is debated between KISS (Axelrod) and KIDS.",
+      "evidence_quote": "Axelrod promoted the KISS principle: \u2018Keep It Simple, Stupid\u2019. But the community is divided and a new principle appeared: KIDS, \u2018Keep It Descriptive, Stupid\u2019."
+    },
+    {
+      "claim": "Agent cognition is still often modelled with simple reactive agents, which is inadequate for social science questions about human behaviour.",
+      "evidence_quote": "agent cognition still tends to be modelled with simple reactive particle-like agents. This is not always appropriate"
+    },
+    {
+      "claim": "BDI (belief-desire-intention) agents use folk-psychology concepts. This makes simulations easier for modellers and users to understand.",
+      "evidence_quote": "an expressive paradigm using concepts from folk psychology, making it easier for modellers and users to understand the simulation"
+    },
+    {
+      "claim": "The paper is a methodological guide to using BDI agents in social simulation. It also reviews existing methodologies and tools.",
+      "evidence_quote": "This paper provides a methodological guide to the use of BDI agents in social simulations, and an overview of existing methodologies and tools for using them."
+    }
+  ],
+  "reliability_notes": "Abstract only. The full text is a PDF that was not retrieved. It is a peer-reviewed survey by Benoit Gaudou and colleagues. The relevant aspect is agent cognition."
+}

@@ -1,0 +1,58 @@
+{
+  "id": "s040",
+  "url": "https://arxiv.org/pdf/1703.10639",
+  "subtopic": "Methodology: calibration, validation and platforms",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Agent-Based Model Calibration using Machine Learning Surrogates",
+  "publisher": "arXiv (Lamperti, Roventini, Sani; Scuola Superiore Sant'Anna)",
+  "published_date": "2017-03-30",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Calibration and parameter-space exploration of ABMs is a bottleneck because of emergent behaviour and computational cost. The authors propose an ML surrogate meta-model with active learning.",
+      "evidence_quote": "combining supervised machine-learning and intelligent sampling to build a surrogate meta-model. The proposed approach provides a fast and accurate approximation of model behaviour, dramatically reducing computation time."
+    },
+    {
+      "claim": "Methodology aspect: the curse of dimensionality makes full factorial exploration infeasible. Kriging surrogates do not scale beyond about 20 parameters and assume smooth surfaces, which ABMs lack.",
+      "evidence_quote": "kriging cannot be reasonably applied to large scale models with more than 20 parameters"
+    },
+    {
+      "claim": "The surrogate is XGBoost, tuned by automated hyperparameter optimization. It is trained by pool-based, semi-supervised active learning. Training starts from Sobol-sampled seed points and evaluates roughly C\u00b7log(budget) points per round.",
+      "evidence_quote": "we evaluate C log budget parameters per round, with C = 1, also ensuring at least one positive calibration in the initial seed round."
+    },
+    {
+      "claim": "Calibration aspect: calibration is framed as finding all 'positive calibrations'. The criterion is either binary (a classification problem) or real-valued (a regression problem). Scores are F1 and MSE, and the aim is to maximize the true positive rate. Feature-split counts give a free, rank-based parameter-importance (sensitivity) measure.",
+      "evidence_quote": "a positive calibration is a parameter vector x \u2208 I whose label in contained in the set C"
+    },
+    {
+      "claim": "Agent behaviour and market aspect: on the Brock-Hommes heterogeneous-agent asset pricing model (12 free parameters, fitted to S&P 500 return distributions), trend and bias parameters matter most. The intensity of choice matters less.",
+      "evidence_quote": "the most relevant parameters to fit the empirical distribution of returns observed in the SP500 are those characterizing traders' attitude towards the trend (g1 and g2) and, secondly, their bias"
+    },
+    {
+      "claim": "Brock-Hommes results: in the binary setting the surrogate reached F1 of about 0.80 and found about 75% of positives. In the real-valued setting the TPR was about 95% at 2500 training points. Prediction was about 500x faster than the ABM.",
+      "evidence_quote": "the surrogate is 500X faster on average in prediction"
+    },
+    {
+      "claim": "Economy and innovation aspect: on the Island endogenous growth model (firms exploring, imitating and mining; 8 parameters), the surrogate found about 90% of true positives in the real-valued setting. It was about 3750x faster than the ABM, and the gain grows with model complexity.",
+      "evidence_quote": "the surrogate is 3750 times faster than the fully-fledged Island agent-based model"
+    },
+    {
+      "claim": "Island model dynamics: self-sustained growth requires technological opportunities, path-dependency and information diffusion to be above minimum thresholds. Firms must also balance exploration and exploitation.",
+      "evidence_quote": "the system endogenously generate exponential growth if the trade-off between exploration and exploitation is solved"
+    },
+    {
+      "claim": "Validation aspect: ABMs must move from qualitatively reproducing stylized facts (stage I) to econometrically grounded parameter estimation (stage II). Existing estimation and validation work mostly uses very simple ABMs because simulation is costly.",
+      "evidence_quote": "the vast majority of previous contributions employ extremely simple ABMs (few parameters, few agents, no stochastic draws) to illustrate their approach, and large macro ABMs are usually poorly validated and calibrated"
+    },
+    {
+      "claim": "Robustness check: with a Monte Carlo version of the Island model and a budget of 500 evaluations, Logit and XGBoost had comparable precision. Platt-scaled XGBoost was better.",
+      "evidence_quote": "precision of 94.17% and 94.72% between Logit and XGBoost, respectively ... its precision rises to 99.35%"
+    },
+    {
+      "claim": "Limitations: only small illustrative models were tested and the surrogate is an approximation. The authors recommend re-checking with the original ABM, and large-scale application is still under development.",
+      "evidence_quote": "the surrogate remains an approximation of the original model"
+    }
+  ],
+  "reliability_notes": "Full text was available. It is an arXiv preprint (2017), probably not peer-reviewed at that stage. It concerns economic ABMs (finance and growth), not broad artificial societies. It is relevant mainly to the calibration, validation and methodology aspect. Its performance claims come from only two simple models."
+}

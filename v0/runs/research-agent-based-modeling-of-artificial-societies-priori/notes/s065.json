@@ -1,0 +1,13 @@
+{
+  "id": "s065",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5796695/",
+  "subtopic": "Politics, conflict and governance",
+  "fetched_ok": false,
+  "failure_reason": "Fetch returned only a reCAPTCHA \"Checking your browser\" challenge page from pmc.ncbi.nlm.nih.gov, with no article content.",
+  "title": "",
+  "publisher": "",
+  "published_date": "",
+  "relevance": "none",
+  "key_points": [],
+  "reliability_notes": "No usable content was retrieved, so I extracted nothing."
+}

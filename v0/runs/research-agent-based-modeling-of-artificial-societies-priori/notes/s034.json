@@ -1,0 +1,50 @@
+{
+  "id": "s034",
+  "url": "https://www.jasss.org/24/4/5.html",
+  "subtopic": "Culture and opinion dynamics",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Cultural Dissemination: An Agent-Based Model with Social Influence",
+  "publisher": "Journal of Artificial Societies and Social Simulation (JASSS) 24(4) 5; Nguyen, Chen, Jin, Quinn, Tyler, Landsberg",
+  "published_date": "2021-10-31",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Axelrod model basics: homophily + assimilation on a grid; can yield persistent diversity (absorbing states with distinct cultural regions) rather than a single monoculture.",
+      "evidence_quote": "the model predicts in some cases the persistence of diversity"
+    },
+    {
+      "claim": "Adding neighborhood social influence (many-to-one) via a probabilistic switching rule Q = O(j trait)/(O(i trait)+O(j trait)) amplifies cultural heterogeneity vs Axelrod.",
+      "evidence_quote": "the more one allows individual agents to be influenced by other agents in their local environment, the less homogeneous the resulting society becomes"
+    },
+    {
+      "claim": "Quantitative comparison on 30x30 grid, F=5, Q=10: social influence gives ~8.0 frozen zones vs 1.34 for Axelrod; more events (23.5M vs 7.4M) but fewer interactions (376k vs 1.82M).",
+      "evidence_quote": "Average number of frozen zones | 8.0 \\(\\pm\\) 0.3 | 1.34 \\(\\pm\\) 0.06"
+    },
+    {
+      "claim": "Lattice size effect: in Axelrod, frozen zones rise then fall past ~6x6 (monoculture prevails); in the social influence model they keep increasing with size, explained by competition between multiplicity effect and dominant-regions effect, with social influence making zones robust.",
+      "evidence_quote": "in the Social Influence Model the number of zones steadily increases"
+    },
+    {
+      "claim": "Mechanism: social influence hardens local consensus so zones resist infiltration by distant regions; final monoculture differed from initial dominant region in ~63% of Axelrod trials vs ~9% for social influence.",
+      "evidence_quote": "social influence produces a hardening of opinions within local zones that are relatively robust to external influences"
+    },
+    {
+      "claim": "Three new heterogeneity metrics: neighbor dissimilarity, configurational entropy of region sizes, and geometric roughness/elongation of regions; applicable to other cultural dissemination models.",
+      "evidence_quote": "The quantitative metrics introduced in this paper have broad potential applicability across a large variety of agent-based cultural dissemination models."
+    },
+    {
+      "claim": "Boundary conditions and neighborhood size matter: periodic boundaries reduce frozen zones in both models; a larger neighborhood (12 vs 4) lowers zone count (8.0 to 6.7) and raises moderate-size zones.",
+      "evidence_quote": "boundary effects can still play an important role even in large systems"
+    },
+    {
+      "claim": "Axelrod model has a first-order order-disorder transition for F>2; the social influence model at F=5 shows no corresponding discontinuous transition. A stripped-down Flache & Macy (2011) model shows similar heterogeneity growth, suggesting robust mechanism.",
+      "evidence_quote": "for the Social Influence Model at \\(F=5\\) there does *not* exist a corresponding discontinous (first-order) transition"
+    },
+    {
+      "claim": "Literature context: extensions of Axelrod include mass media, cultural drift/noise, complex networks, neighborhood size, and opinion dynamics/bounded confidence models (Deffuant, Hegselmann-Krause).",
+      "evidence_quote": "the effect of a \u201cmass media\u201d agent was studied by Shibanai et al. (2001)"
+    }
+  ],
+  "reliability_notes": "Full text peer-reviewed JASSS article with open code (Python, CoMSES). Simulation-based on abstract lattice models; findings limited to tested parameter ranges (authors caution asymptotic trend may not hold for larger lattices). Focused on culture/opinion dynamics only."
+}

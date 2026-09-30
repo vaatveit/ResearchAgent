@@ -1,0 +1,46 @@
+{
+  "id": "s073",
+  "url": "https://arxiv.org/pdf/1107.5354",
+  "subtopic": "Social networks and structure",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Replicator Dynamics of Co-Evolving Networks",
+  "publisher": "arXiv (AAAI-format workshop paper; Galstyan, Kianercy, Allahverdyan, USC ISI)",
+  "published_date": "2011-07",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Proposes a model of network co-evolution in which agents play repeated games with neighbors and adapt both behaviors and links via reinforcement learning. Relevant to the social-structure/interaction-topology and learning aspects of artificial societies.",
+      "evidence_quote": "agents that play repeated games with their neighbors, and adapt their behaviors network links based on the outcome of those games. The adaptation is achieved through a simple reinforcement learning scheme."
+    },
+    {
+      "claim": "Argues that modeling individual and network dynamics separately is too limited. Attributes and topology should be coupled, as in homophily and opinion dynamics.",
+      "evidence_quote": "modeling individual and network dynamics separately is too limited to capture realistic behavior of networks"
+    },
+    {
+      "claim": "Agents use stateless Q-learning with Boltzmann exploration. In the continuous-time limit the collective dynamics become coupled replicator equations. The temperature T sets the exploration/exploitation tradeoff and adds an entropic term.",
+      "evidence_quote": "Here the inverse temperature =1/T>0 controls exploration/exploitation tradeoff"
+    },
+    {
+      "claim": "Factorizing strategies into a partner-choice probability c_xy and an action probability p_x^i gives coupled equations for strategy and network-link evolution. The authors note that this assumption may destroy some Nash equilibria.",
+      "evidence_quote": "c_{xy} is the probability that the agent x will initiate a game with the agent y, whereas p_x^i is the probability that he will choose action i"
+    },
+    {
+      "claim": "In a 3-agent coordination game, the symmetric interior rest point (all link weights 1/2) becomes stable when 4T>1. Pure Nash configurations also exist, such as two agents pairing up while the third is isolated.",
+      "evidence_quote": "for 4T>1 all three eigenvalues of this Jacobian become negative, thus making the interior rest point stable"
+    },
+    {
+      "claim": "In a Rock-Paper-Scissors example, the stability of the symmetric link configuration depends on the payoff parameter epsilon and on T. At T=0 with negative average reward, agents avoid playing each other.",
+      "evidence_quote": "the interior rest point becomes stable whenever $T>\\epsilon/12$ for $1>\\epsilon>0$ , and $T>|\\epsilon|/6$ for $-1<\\epsilon<0$"
+    },
+    {
+      "claim": "The background section reviews related network models. These are Erd\u0151s\u2013R\u00e9nyi random graphs, Barab\u00e1si\u2013Albert preferential attachment (p_k ~ k^-3), the Holme\u2013Newman co-evolving opinion model with a phase transition, Skyrms\u2013Pemantle adaptive networks, and network-formation games.",
+      "evidence_quote": "while varying the parameter $\\phi$ , the model undergoes a phase transition from a phase in which opinions are diverse to one in which most individuals hold the same opinion"
+    },
+    {
+      "claim": "Limitations: the analysis covers only 3 agents and simple games. Full analysis and larger systems are left to future work.",
+      "evidence_quote": "we intend to go beyond the three-agent systems considered here and examine larger systems"
+    }
+  ],
+  "reliability_notes": "Full text was fetched. It is a short, preliminary, theory-oriented arXiv paper with no empirical validation or large-scale agent-based simulation. It is useful for co-evolving networks and learning agents, not for full artificial societies. The AAAI copyright line says 2018, which looks like a template artifact."
+}

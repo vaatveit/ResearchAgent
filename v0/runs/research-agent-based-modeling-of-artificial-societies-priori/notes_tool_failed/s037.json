@@ -1,0 +1,13 @@
+{
+  "id": "s037",
+  "url": "https://www.medrxiv.org/content/10.1101/2020.11.07.20227462.full.pdf",
+  "subtopic": "Demography, migration and epidemics",
+  "fetched_ok": false,
+  "failure_reason": "The code_execution tool refused to run, so web_fetch was never called and the page was never retrieved.",
+  "title": "",
+  "publisher": "",
+  "published_date": "",
+  "relevance": "none",
+  "key_points": [],
+  "reliability_notes": "No content was retrieved, so nothing was extracted."
+}

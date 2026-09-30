@@ -1,0 +1,50 @@
+{
+  "id": "s005",
+  "url": "https://arxiv.org/html/2605.06635v1",
+  "subtopic": "Factuality, citation and attribution evaluation",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Cited but Not Verified: Parsing and Evaluating Source Attribution in LLM Deep Research Agents",
+  "publisher": "arXiv (cs.CL); authors from PwC US Commercial Technology and Innovation Office",
+  "published_date": "2026-05-07",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Proposes a reproducible AST-parser framework that extracts inline citations from Markdown reports, retrieves the cited content, and has evaluators judge each citation against its source (closing the loop rather than verifying claims in isolation).",
+      "evidence_quote": "our framework closes the loop by retrieving the actual cited content, enabling human or model evaluators to judge each citation against its source."
+    },
+    {
+      "claim": "Evaluates citations on three dimensions: Link Works, Relevant Content, Fact Check, using rubric-based LLM-as-a-judge evaluators calibrated by human review, across 14 models.",
+      "evidence_quote": "(1) Link Works verifies URL accessibility, (2) Relevant Content measures topical alignment, and (3) Fact Check validates factual accuracy against source content."
+    },
+    {
+      "claim": "Surface-level citation quality masks factual failures: link validity and relevance are high while factual accuracy is low and varies widely, making Fact Check the most differentiating dimension.",
+      "evidence_quote": "even the strongest frontier models maintain link validity above 94% and relevance above 80%, yet achieve only 39\u201377% factual accuracy"
+    },
+    {
+      "claim": "Existing benchmarks mostly do binary attribution classification; prior work documents citation hallucination rates of 11\u201357% in deployed models.",
+      "evidence_quote": "citation hallucination rates ranging from 11% to 57% across commercially deployed models"
+    },
+    {
+      "claim": "More search depth degraded factual accuracy (2 to 150 tool calls) while link and relevance stayed above 92%, so depth ablations are useful evaluation practice.",
+      "evidence_quote": "GPT-5.4 shows the steepest decline, from 79% to 17% (62%). Claude Opus 4.6 demonstrates the greatest resilience, declining from 80% to 58% (22%)."
+    },
+    {
+      "claim": "Citation quantity trades off against factual accuracy, so citation counts or task success are poor proxies for quality.",
+      "evidence_quote": "Providers that generate more citations achieve lower factual accuracy."
+    },
+    {
+      "claim": "Task success rate should be reported: fewer than half of open-source models generated cited reports one-shot (e.g., Pixtral Large 16.7% success).",
+      "evidence_quote": "fewer than half of open-source models successfully generate cited reports in a one-shot setting"
+    },
+    {
+      "claim": "Link failures should be error-analyzed by type (404, paywall/bot blocking, timeouts); rate limits had minimal effect.",
+      "evidence_quote": "HTTP 404 errors (content removed or URL changed), blocked access (paywalls, bot detection), and connection timeouts."
+    },
+    {
+      "claim": "Acknowledged limitation: LLM-as-judge may keep biases such as position bias and self-enhancement despite human calibration.",
+      "evidence_quote": "may retain biases inherent to the judge model, including position bias and self-enhancement effects"
+    }
+  ],
+  "reliability_notes": "Preprint (not peer reviewed), v1, by industry authors. It is focused on citation and attribution quality, not full research-agent quality (e.g., coverage, reasoning). Judge-based metrics rely on LLM judges. The explanation of attention dilution or information overload is a hypothesis. I read only the abstract, intro, results and limitations sections. Sample sizes appear small (about 30 queries per model, based on success percentages)."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "s033",
+  "url": "https://link.springer.com/article/10.1007/s10458-019-09422-0",
+  "subtopic": "Cooperation, norms and institutions",
+  "fetched_ok": false,
+  "failure_reason": "Tool calls failed: code_execution and web_fetch both reported no remaining calls, so the page was never retrieved.",
+  "title": "",
+  "publisher": "",
+  "published_date": "",
+  "relevance": "none",
+  "key_points": [],
+  "reliability_notes": "No content was retrieved, so no claims were extracted."
+}

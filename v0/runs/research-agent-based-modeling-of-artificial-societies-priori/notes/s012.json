@@ -1,0 +1,30 @@
+{
+  "id": "s012",
+  "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167268106001545",
+  "subtopic": "Economy and markets",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Technical trading in the Santa Fe Institute Artificial Stock Market revisited",
+  "publisher": "Journal of Economic Behavior & Organization (Elsevier), vol. 61(4), pp. 599-616; author Norman Ehrentreich",
+  "published_date": "2006-12-01",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Re-examines evidence of technical trading in the Santa Fe Artificial Stock Market, given an upwardly biased mutation operator in the original model.",
+      "evidence_quote": "reconsiders evidence of technical trading in the Santa Fe Artificial Stock Market in light of an upwardly biased mutation operator"
+    },
+    {
+      "claim": "An alternative mutation operator shows no technical trading, but two other tests still establish that technical trading exists.",
+      "evidence_quote": "While an alternative mutation operator points to no technical trading, two tests other than the inappropriate investigation of the aggregate bit level establish the existence of technical trading beyond a doubt."
+    },
+    {
+      "claim": "Genetic drift is an important evolutionary force in the agents' learning. The paper gives tools for judging the relative importance of selection and drift.",
+      "evidence_quote": "identifies genetic drift as an important evolutionary force and provides tools to judge the relative importance of selection and genetic drift with arbitrary mutation operators"
+    },
+    {
+      "claim": "When selection is weak, persistent technical trading is consistent with the Efficient Market Hypothesis.",
+      "evidence_quote": "when selective forces are weak, the continued existence of technical trading can be reconciled with the Efficient Market Hypothesis"
+    }
+  ],
+  "reliability_notes": "Abstract only (ScienceDirect page, full text not retrieved). Peer-reviewed journal article. Relevant to the learning and evolution of agents and to market institutions in artificial stock markets."
+}

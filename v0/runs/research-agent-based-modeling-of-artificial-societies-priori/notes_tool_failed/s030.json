@@ -1,0 +1,13 @@
+{
+  "id": "s030",
+  "url": "https://www.sciencedirect.com/science/article/pii/S1574002118300030",
+  "subtopic": "Methodology: calibration, validation and platforms",
+  "fetched_ok": false,
+  "failure_reason": "The fetch returned a string instead of the expected list of results. I couldn't inspect it because the code tool ran out of calls, so I have no confirmed page content.",
+  "title": "",
+  "publisher": "",
+  "published_date": "",
+  "relevance": "none",
+  "key_points": [],
+  "reliability_notes": "No content was extracted."
+}

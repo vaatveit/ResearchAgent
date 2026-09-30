@@ -1,0 +1,50 @@
+{
+  "id": "s078",
+  "url": "https://www.theoj.org/joss-papers/joss.07668/10.21105.joss.07668.pdf",
+  "subtopic": "Methodology: calibration, validation and platforms",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Mesa 3: Agent-based modeling with Python in 2025",
+  "publisher": "Journal of Open Source Software (JOSS), 10(107), 7668",
+  "published_date": "2025-03-28",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Mesa is an open-source Python ABM framework (v3.1.5). It is a tooling and infrastructure paper, not a substantive artificial-society model.",
+      "evidence_quote": "Mesa is an open-source Python framework for agent-based modeling (ABM) that enables researchers to create, analyze, and visualize agent-based simulations."
+    },
+    {
+      "claim": "ABM's conceptual basis is heterogeneous autonomous agents whose local interactions produce emergent aggregate dynamics. It cites Epstein & Axtell's Growing Artificial Societies as foundational.",
+      "evidence_quote": "Agent-based models (ABMs) are composed of autonomous, heterogeneous agents interacting locally with other agents. These interactions give rise to emergent phenomena."
+    },
+    {
+      "claim": "The paper places Mesa in the history of ABM tooling. NetLogo (1999) is accessible but limited to small models. MASON (2003) is faster but hard for non-programmers. Mesa was built to serve web hosting and the Python ecosystem.",
+      "evidence_quote": "NetLogo is the most widely adopted tool and the first to make ABMs accessible, but it only allows for small models. MASON is Java-based, allowing for advancements in scalability and speed above NetLogo"
+    },
+    {
+      "claim": "Application domains cited: infrastructure resilience, energy auctions, transport, recommender systems, climate adaptation (household behaviour), COVID SEIR, and edge computing. Mesa has been cited in more than 500 papers.",
+      "evidence_quote": "Mesa has been applied to modeling a wide range of phenomena from economics and sociology to ecology and epidemiology and has been cited in more than 500 papers and 800 authors."
+    },
+    {
+      "claim": "Agents aspect: Mesa 3 adds an AgentSet class for filtering, grouping and aggregating agents, and drops the fixed Scheduler API. Activation is now flexible: sequential, random, multi-stage or per type.",
+      "evidence_quote": "the newly added AgentSet class provides a more flexible way to activate agents. These changes include the removal of the Scheduler API and its previously available fixed patterns."
+    },
+    {
+      "claim": "Space aspect: Mesa 3 supports discrete spaces (orthogonal Moore and von Neumann grids, hex grids, network, Voronoi mesh) and continuous space. It has specialised agent classes (FixedAgent, CellAgent, Grid2DMovingAgent) and numpy-based PropertyLayers for cell-level environment properties.",
+      "evidence_quote": "Mesa 3 provides both discrete (cell-based) and continuous space implementations."
+    },
+    {
+      "claim": "Time aspect: tick-based stepping is the default. Experimental next-event scheduling (DiscreteEventSimulator) and hybrid tick/event modes are also offered.",
+      "evidence_quote": "Mesa also includes experimental support for next-event time progression through the DiscreteEventSimulator."
+    },
+    {
+      "claim": "Experimentation aspect: reproducibility comes from seeded random number generators. There is a DataCollector with model, agent and agent-type reporters, pandas integration, and batch parameter sweeps.",
+      "evidence_quote": "Since ABMs are typically stochastic simulations, Mesa includes a random number generator and, for reproducibility purposes, allows the user to pass a seed."
+    },
+    {
+      "claim": "Visualization and ecosystem: SolaraViz gives interactive browser-based exploration. Extensions include Mesa-Geo for geospatial modeling and Mesa-Frames for high-performance simulation. Development involves 7 maintainers and over 140 contributors.",
+      "evidence_quote": "Mesa's visualization module, SolaraViz, allows for interactive browser-based model exploration."
+    }
+  ],
+  "reliability_notes": "Full text fetched (a 6-page peer-reviewed JOSS software paper, CC BY 4.0). It describes a framework, not empirical findings or societal model results, so it is useful for the tooling, infrastructure and architecture parts of a state-of-the-art summary. It has little on social-mechanism content such as norms, institutions, cognition or economies. The authors are the Mesa maintainers, so the claims are self-descriptive, and comparisons with NetLogo and MASON are brief and unbenchmarked."
+}

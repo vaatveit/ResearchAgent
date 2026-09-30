@@ -1,0 +1,34 @@
+{
+  "id": "s050",
+  "url": "https://www.jasss.org/19/1/5.html",
+  "subtopic": "Methodology: calibration, validation and platforms",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Which Sensitivity Analysis Method Should I Use for My Agent-Based Model?",
+  "publisher": "Journal of Artificial Societies and Social Simulation (JASSS) 19(1) 5; authors ten Broeke, van Voorn, Ligtenberg",
+  "published_date": "2016-01-31",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Classical sensitivity analysis may be insufficient for ABMs because of multiple levels, nonlinear interactions and emergence. This is a methodology and validation issue for ABMs, not about a specific society.",
+      "evidence_quote": "Most ABMs consist of multiple levels, contain various nonlinear interactions, and display emergent behaviour."
+    },
+    {
+      "claim": "The paper compares three methods on a simple ABM: extended OFAT, regression-based variance decomposition, and Sobol' decomposition. The model has free-roaming, procreating agents harvesting a diffusing renewable resource. No method gives a complete picture.",
+      "evidence_quote": "each methodology has its own merits and exposes useful information, yet none of them provide a complete picture of model behaviour."
+    },
+    {
+      "claim": "The authors recommend extended OFAT as the starting point. It reveals tipping points and nonlinearities and shows how robust emergent patterns are. It ignores interactions, so it should be supplemented by a global method. It is also cheap (1650 runs in this case).",
+      "evidence_quote": "Furthermore, it shows the existence of tipping points and other strong nonlinearities."
+    },
+    {
+      "claim": "Regression-based sensitivity analysis fit poorly for the ABM (R\u00b2>0.9 not reached even with a third-order polynomial), consistent with earlier difficulties reported for a trading-agent ABM. It can still help select influential parameters.",
+      "evidence_quote": "a good fit (with \\(R^2>0.9\\)) was not obtained even using a third-order polynomial function"
+    },
+    {
+      "claim": "The paper frames a gap in the field: solid methods for exploring ABM behaviour and linking it to empirical data are still missing.",
+      "evidence_quote": "Still missing are solid methods to explore the behaviour of an ABM and assess its relation with the empirical world"
+    }
+  ],
+  "reliability_notes": "Full text was fetched. It is a peer-reviewed JASSS article. It covers model analysis methodology (sensitivity analysis, validation and robustness) and does not cover artificial society content such as agents, norms or institutions. The case study is a simple, stylized ecological model, so the findings may not generalize."
+}

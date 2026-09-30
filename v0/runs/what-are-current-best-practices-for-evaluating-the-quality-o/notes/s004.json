@@ -1,0 +1,30 @@
+{
+  "id": "s004",
+  "url": "https://arxiv.org/abs/2504.12516",
+  "subtopic": "Benchmarks for deep research agents",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents",
+  "publisher": "arXiv (OpenAI authors)",
+  "published_date": "2025-04-16",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "BrowseComp is a 1,266-question benchmark that tests web-browsing agents on hard-to-find information.",
+      "evidence_quote": "BrowseComp comprises 1,266 questions that require persistently navigating the internet in search of hard-to-find, entangled information."
+    },
+    {
+      "claim": "Its design favors short answers that are easy to verify against a reference, which makes grading simple.",
+      "evidence_quote": "predicted answers are short and easily verifiable against reference answers"
+    },
+    {
+      "claim": "The authors present it as an incomplete but useful benchmark, comparable to programming competitions for coding agents.",
+      "evidence_quote": "analogous to how programming competitions are an incomplete but useful benchmark for coding agents"
+    },
+    {
+      "claim": "The benchmark leaves out long-form answer generation and ambiguity resolution. It measures persistence and creativity in search.",
+      "evidence_quote": "sidesteps challenges of a true user query distribution, like generating long answers or resolving ambiguity"
+    }
+  ],
+  "reliability_notes": "This is the arXiv abstract page, so the notes come from the abstract only and not the full paper. The authors are from OpenAI, the benchmark's creator. It covers one benchmark and is not a general survey of best practices for evaluating research agents."
+}

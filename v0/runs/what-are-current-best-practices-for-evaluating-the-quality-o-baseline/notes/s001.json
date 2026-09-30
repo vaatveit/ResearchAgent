@@ -1,0 +1,42 @@
+{
+  "id": "s001",
+  "url": "https://arxiv.org/abs/2506.11763",
+  "subtopic": "Benchmarks for research/deep-research agents",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
+  "publisher": "arXiv (Mingxuan Du, Benfeng Xu, Chiwei Zhu, Xiaorui Wang, Zhendong Mao)",
+  "published_date": "2025-06-13",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Deep Research Agents (DRAs) are defined as LLM agents that do multistep web exploration, targeted retrieval and synthesis to produce citation-rich reports.",
+      "evidence_quote": "By autonomously orchestrating multistep web exploration, targeted retrieval, and higher-order synthesis, they transform vast amounts of online information into analyst-grade, citation-rich reports"
+    },
+    {
+      "claim": "The authors say that before this work there was no comprehensive benchmark for systematically evaluating DRAs.",
+      "evidence_quote": "a comprehensive benchmark for systematically evaluating the capabilities of these agents remains absent"
+    },
+    {
+      "claim": "DeepResearch Bench contains 100 PhD-level research tasks written by domain experts across 22 fields.",
+      "evidence_quote": "a benchmark consisting of 100 PhD-level research tasks, each meticulously crafted by domain experts across 22 distinct fields"
+    },
+    {
+      "claim": "Evaluating DRAs is described as complex and labor-intensive, so the authors propose automated methods that they say align well with human judgment.",
+      "evidence_quote": "Evaluating DRAs is inherently complex and labor-intensive. We therefore propose two novel methodologies that achieve strong alignment with human judgment."
+    },
+    {
+      "claim": "Report quality is scored with a reference-based method that uses adaptive criteria (later known as RACE).",
+      "evidence_quote": "The first is a reference-based method with adaptive criteria to assess the quality of generated research reports."
+    },
+    {
+      "claim": "A second framework (later known as FACT) scores retrieval and information-collection ability using effective citation count and citation accuracy.",
+      "evidence_quote": "evaluate DRA's information retrieval and collection capabilities by assessing its effective citation count and overall citation accuracy"
+    },
+    {
+      "claim": "The benchmark and key parts of the evaluation frameworks are open-sourced.",
+      "evidence_quote": "We have open-sourced DeepResearch Bench and key components of these frameworks at https://github.com/Ayanami0730/deep_research_bench"
+    }
+  ],
+  "reliability_notes": "Only the arXiv abstract page was retrieved; the 31-page full paper was not read. That means there are no specific results, model rankings, or human-agreement figures here. The page gives no names for the two methods; RACE and FACT are the names used in the paper itself, supplied from background knowledge rather than this source. This is a preprint (v1, June 2025) and not peer-reviewed. The claim of 'strong alignment with human judgment' is the authors' own and is not quantified on this page."
+}

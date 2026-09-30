@@ -1,0 +1,30 @@
+{
+  "id": "s010",
+  "url": "https://www.jasss.org/23/2/7.html",
+  "subtopic": "Methodology: calibration, validation and platforms",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "The ODD Protocol for Describing Agent-Based and Other Simulation Models: A Second Update to Improve Clarity, Replication, and Structural Realism",
+  "publisher": "Journal of Artificial Societies and Social Simulation (JASSS)",
+  "published_date": "2020-03-31",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "ODD is widely accepted as the standard for documenting ABMs in journal articles; some groups also use it as a model-design workflow.",
+      "evidence_quote": "is now widely accepted and used to document such models in journal articles"
+    },
+    {
+      "claim": "Identified limitations: scarce guidance, long documents, poor fit for highly complex models, insufficient detail for reimplementation, and no sections for rationale, narrative, and evaluation.",
+      "evidence_quote": "lack of sufficient details of many ODDs to enable reimplementation without access to the model code"
+    },
+    {
+      "claim": "The update gives guidance on structuring complex ODDs, adds an ODD summary for articles (full details in supplement), links ODD to code, and adds sections on model rationale and evaluation.",
+      "evidence_quote": "update the document structure to include sections on model rationale and evaluation"
+    },
+    {
+      "claim": "Authors advocate standard descriptions of simulation experiments and argue ODD can apply to any simulation model, serving as a lingua franca.",
+      "evidence_quote": "ODD would provide a lingua franca for simulation modelling"
+    }
+  ],
+  "reliability_notes": "Peer-reviewed JASSS article, authored by many leading ABM researchers. The fetch returned the full-text page, but I only read the abstract and metadata, so the key points come from the abstract. The paper is about model documentation and replicability standards. It is not about the substantive aspects of artificial societies."
+}

@@ -1,0 +1,46 @@
+{
+  "id": "s005",
+  "url": "https://neurips.cc/virtual/2024/poster/96675",
+  "subtopic": "Factuality, citation and source attribution evaluation",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Long-form factuality in large language models",
+  "publisher": "NeurIPS 2024 (poster); Wei, Yang, Song, Lu, Hu, Huang, Tran, Peng, Liu, Huang, Du, Le (Google DeepMind)",
+  "published_date": "2024",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "LongFact is a benchmark prompt set, generated with GPT-4, for testing long-form factuality in open domains: thousands of questions across 38 topics.",
+      "evidence_quote": "we first use GPT-4 to generate LongFact, a prompt set comprising thousands of questions spanning 38 topics"
+    },
+    {
+      "claim": "The paper proposes SAFE, which uses LLM agents as automated evaluators of long-form factuality.",
+      "evidence_quote": "we propose that LLM agents can be used as automated evaluators for long-form factuality through a method which we call Search-Augmented Factuality Evaluator (SAFE)"
+    },
+    {
+      "claim": "SAFE's method: split a response into individual facts, then check each one through multi-step reasoning using Google Search queries.",
+      "evidence_quote": "SAFE utilizes an LLM to break down a long-form response into a set of individual facts and to evaluate the accuracy of each fact using a multi-step reasoning process comprising sending search queries to Google Search and determining whether a fact is supported by the search results"
+    },
+    {
+      "claim": "The paper proposes an extended F1 metric (F1@K). Precision is the share of supported facts. Recall is measured against a hyperparameter for the user's preferred response length, so both accuracy and coverage count.",
+      "evidence_quote": "we balance the percentage of supported facts in a response (precision) with the percentage of provided facts relative to a hyperparameter representing a user\u2019s preferred response length (recall)"
+    },
+    {
+      "claim": "SAFE agreed with crowdsourced human annotators 72% of the time on about 16k facts. On 100 randomly sampled disagreement cases, SAFE was judged correct 76% of the time.",
+      "evidence_quote": "on a set of\u223c16k individual facts, SAFE agrees with crowdsourced human annotators 72% of the time, and on a random subset of 100 disagreement cases, SAFE wins 76% of the time"
+    },
+    {
+      "claim": "SAFE costs more than 20 times less than human annotation.",
+      "evidence_quote": "SAFE is more than 20 times cheaper than human annotators"
+    },
+    {
+      "claim": "Across 13 models from four families, larger models generally scored better on long-form factuality.",
+      "evidence_quote": "We also benchmark thirteen language models on LongFact across four model families (Gemini, GPT, Claude, and PaLM-2), finding that larger language models generally achieve better long-form factuality"
+    },
+    {
+      "claim": "The benchmark, evaluator and code are released openly, so results can be reproduced.",
+      "evidence_quote": "LongFact, SAFE, and all experimental code are available at https://github.com/google-deepmind/long-form-factuality"
+    }
+  ],
+  "reliability_notes": "This is a peer-reviewed NeurIPS 2024 paper from Google DeepMind; only the abstract page was fetched. It is about evaluating the factuality of long-form LLM output, not research agents directly. Still, the method (breaking output into atomic facts, checking them with search-augmented LLM agents, and scoring precision/recall with F1@K) applies to judging research-agent reports. The claim that SAFE beats humans is based on only 100 disagreement cases, and the 72% agreement figure comes from crowdsourced annotators, not experts. The 2024 results may be dated."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "s007",
+  "url": "https://x.com/AnthropicAI/status/2009696515061911674",
+  "subtopic": "Process, trajectory and operational metrics",
+  "fetched_ok": false,
+  "failure_reason": "web_fetch returned error_code 'url_not_allowed' for the x.com URL; content could not be retrieved.",
+  "title": "",
+  "publisher": "Anthropic (X/Twitter account @AnthropicAI)",
+  "published_date": "",
+  "relevance": "none",
+  "key_points": [],
+  "reliability_notes": "Page not fetched, so there is nothing to check. It's likely an official Anthropic post, but its content is unknown. The post may link to an Anthropic blog post on agent evaluations, which could be fetched directly from anthropic.com."
+}

@@ -1,0 +1,70 @@
+{
+  "id": "s023",
+  "url": "https://arxiv.org/pdf/0910.0826",
+  "subtopic": "Cooperation, norms and institutions",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Coevolutionary games \u2013 a mini review",
+  "publisher": "arXiv (Perc & Szolnoki; later published in BioSystems)",
+  "published_date": "2009",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Framing: coevolutionary rules extend evolutionary games so that besides strategies, another property (links, population size, teaching activity, mobility, age, reputation) also evolves. This is the review's organizing principle and maps onto aspects of an artificial society.",
+      "evidence_quote": "besides the evolution of strategies, another property may simultaneously be subject to evolution as well."
+    },
+    {
+      "claim": "Spatial structure: nearest-neighbour interactions on a lattice let cooperators form clusters that resist defectors. Experiments have supported this, but spatial structure does not always favor cooperation.",
+      "evidence_quote": "the introduction of spatial structure via nearest neighbor interactions enabled the cooperators to form clusters on the square lattice"
+    },
+    {
+      "claim": "Network topology: scale-free networks sustain cooperation in the prisoner's dilemma, snowdrift and stag-hunt games. The review attributes this mainly to degree heterogeneity.",
+      "evidence_quote": "scale-free networks (Barab\u00e1si and Albert, 1999) turned out to sustain cooperation by all three above-described social dilemmas"
+    },
+    {
+      "claim": "Agent decision rules: the review covers three strategy-adoption rules. These are the Fermi pairwise comparison rule (noise K), the degree-normalized payoff-difference rule for heterogeneous networks, and the deterministic richest-following rule. The choice of rule matters when degree distributions change.",
+      "evidence_quote": "the richest-following is completely deterministic, in fact exercising the strongest selection between players."
+    },
+    {
+      "claim": "Dynamic interaction networks: rewiring rules fall into three types. Type A depends on link type, type B on payoffs, and type C on strategy adoption. Time-scale separation between link and strategy dynamics strongly affects outcomes. With fast active linking, a prisoner's dilemma is effectively rescaled into a coordination game.",
+      "evidence_quote": "the prisoner's dilemma game transforms to the coordination game, while the snowdrift game transforms to the harmony game"
+    },
+    {
+      "claim": "Heterogeneous agent behaviour: individual differences in willingness to rewire promote cooperation. The best case is when defectors switch partners often and cooperators stay loyal. Reputation-based partner choice works better than random partner choice.",
+      "evidence_quote": "it was found very beneficial for the evolution of cooperation if defectors changed their partners frequently while cooperators behaved oppositely"
+    },
+    {
+      "claim": "Multilevel selection can emerge spontaneously. When an invaded player loses all links except the one to the donor of the new strategy, and random links are added every \u03c4 steps, cooperation is maintained even though the network stays random.",
+      "evidence_quote": "evokes the spontaneous emergence of a powerful multilevel selection mechanism"
+    },
+    {
+      "claim": "Population growth: payoff-based preferential attachment yields scale-free networks and Pareto-like wealth distributions. Strong payoff-driven growth produces super-hubs, and cooperators occupy intermediate-degree nodes rather than hubs. Only three works were found on this aspect.",
+      "evidence_quote": "only three works fit into this subsection"
+    },
+    {
+      "claim": "Evolving influence/teaching activity: a 'successful become more successful' rule produces an exponential distribution of influence. An intermediate increment (\u0394w\u22480.07) is optimal for cooperation. Promoting defectors' influence helps cooperation more than promoting cooperators'.",
+      "evidence_quote": "a simple 'successful become more successful' principle can result in a heterogenous hierarchy of individual properties of players"
+    },
+    {
+      "claim": "Mobility: random diffusion has mixed effects on cooperation. Success-driven migration promotes cooperation robustly under noise. Moderate mobility of influential players helps, while fast mobility approximates well-mixed conditions and hurts cooperators.",
+      "evidence_quote": "high moving speeds generate conditions mimicking the well-mixed regime which is damning for cooperators"
+    },
+    {
+      "claim": "Aging: age is mapped to teaching activity via w=(e/emax)^\u03b1. If agents that adopt a new strategy are treated as newborns (rule B), this blocks the spread of defection through a microscopic mechanism that statistical heterogeneity measures do not detect. The review notes few studies of aging.",
+      "evidence_quote": "rule B promotes cooperation remarkably better than rule A"
+    },
+    {
+      "claim": "Other coevolving traits include learning rules, the noise parameter K, payoff matrices, internal norms (gene-culture coevolution) and choosiness. Selection on K drives the population to the value that is best for cooperation.",
+      "evidence_quote": "a Darwinian selection rule affecting a model parameter can spontaneously lead to the prevalence of the value that ensures an optimal level of cooperation"
+    },
+    {
+      "claim": "Methodological caution: coevolutionary rules should not give cooperators and defectors different cognitive abilities. Otherwise the rule builds in cooperation.",
+      "evidence_quote": "defectors should be assumed being just as skilful by selecting appropriate partners as cooperators."
+    },
+    {
+      "claim": "Gaps and future work: coevolution has not yet been applied to punishers or loners, and it has been applied little to public goods, ultimatum and rock-paper-scissors games. Open questions include whether the dynamics or the final outcome of coevolution matters more.",
+      "evidence_quote": "coevolutionary rules have thus far not been considered for many other game types, as for example the public goods game, the ultimatum game or the rock-scissors-paper game"
+    }
+  ],
+  "reliability_notes": "Full text was available. It is a 2009 review by physicists of evolutionary games on networks. It is not a general agent-based social simulation survey: it focuses on cooperation and social dilemmas with stylized agents, and does not cover Sugarscape-style or LLM-agent societies. It is somewhat dated, and the authors' own work is heavily represented."
+}

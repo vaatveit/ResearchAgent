@@ -1,0 +1,66 @@
+{
+  "id": "s042",
+  "url": "https://www.jasss.org/20/1/1.html",
+  "subtopic": "Economy and markets",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Macroeconomic Policy in DSGE and Agent-Based Models Redux: New Developments and Challenges Ahead",
+  "publisher": "Journal of Artificial Societies and Social Simulation (JASSS) 20(1) 1; authors Giorgio Fagiolo and Andrea Roventini",
+  "published_date": "2017-01-31",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "ABM/ACE treats the economy as a complex evolving system of heterogeneous, boundedly rational, directly interacting agents, in contrast to DSGE models with representative agents and rational expectations.",
+      "evidence_quote": "consider the economy as a complex evolving system, i.e. as an ecology populated by heterogeneous agents whose far-from-equilibrium interactions continuously change the structure of the system"
+    },
+    {
+      "claim": "The paper lists ten ingredients of economic ABMs (bottom-up, heterogeneity, evolving complex systems, non-linearity, direct interactions, bounded rationality, learning, true dynamics, endogenous novelty, selection-based market mechanisms).",
+      "evidence_quote": "it is useful to introduce the main ten ingredients that tend to characterize economic AB models."
+    },
+    {
+      "claim": "Basic ABM structure: populations of agents with micro variables and parameters, updated in discrete time by heuristic rules using local information. Aggregates are computed by summing individual variables. Simulation is required because the models are intractable analytically.",
+      "evidence_quote": "Simulations must be intended here in a truly constructive way, e.g. to build and \"grow\" a society \"from the bottom up\""
+    },
+    {
+      "claim": "Analysis of ABM output is hard because the models are out of equilibrium. Ergodicity and stationarity must be checked, for example with Wald-Wolfowitz tests.",
+      "evidence_quote": "Grazzini (2012) discusses the use of Wald-Wolfowitz tests applied to ABMs and shows that, under appropriate settings, these procedures can detect non-stationarity and non-ergodicity."
+    },
+    {
+      "claim": "Model-building strategies (KISS, KIDS, TAPAS) address the trade-off between descriptive accuracy and explanatory power.",
+      "evidence_quote": "the so-called KISS strategy, an acronym standing for \"Keep It Simple, Stupid!\") or by starting with the most descriptive model and simplify it as much as possible (i.e., the so-called KIDS strategy"
+    },
+    {
+      "claim": "Validation and calibration methods for ABMs include stylized-fact replication, causal-structure comparison via VAR, indirect estimation, simulated minimum distance, Bayesian inference, and information criteria. The curse of dimensionality limits these methods, and machine-learning surrogates and Kriging meta-models are proposed to mitigate it.",
+      "evidence_quote": "the curse of dimensionality makes the practical application of the tools discussed insofar nearly impossible for medium and large scale ABMs."
+    },
+    {
+      "claim": "Macro ABMs can jointly reproduce macro stylized facts (growth, fluctuations, deep downturns) and micro ones (firm size distributions, productivity dynamics, income inequality). DSGE models typically target only one or two macro facts.",
+      "evidence_quote": "a macroeconomic agent-based models is typically able to replicate macroeconomic stylized facts such as endogenous growth and economic fluctuations, the emergence of banking crises and deep down-turns"
+    },
+    {
+      "claim": "Fiscal policy: in the K+S ABM, Keynesian fiscal policy supports growth and dampens fluctuations. Austerity is self-defeating, and its effects are magnified by inequality.",
+      "evidence_quote": "fiscal consolidation rules are \"self-defeating\", as they depress the economy without improving public finances."
+    },
+    {
+      "claim": "Expectations: in the K+S model, more rational or OLS-based agents do not improve performance, and individual and collective performance worsen with OLS forecasts.",
+      "evidence_quote": "the performance of the economy does not improve when agents are more rational."
+    },
+    {
+      "claim": "Monetary policy: a dual-mandate Taylor rule stabilizes the economy better than an inflation-only rule, working through the credit channel. A credible, transparent inflation target increases the effectiveness of monetary policy.",
+      "evidence_quote": "the dual-mandate Taylor rule is more efficient in stabilizing the economy"
+    },
+    {
+      "claim": "Macroprudential regulation: results are mixed. Stricter liquidity requirements reduce volatility. Higher capital requirements increase procyclicality. Basel II can destabilize markets through synchronized deleveraging. The best bank resolution policy depends on the phase of the cycle.",
+      "evidence_quote": "stricter liquidity regulations are better suited to reduce output volatility and prevent deep downturns, whereas more stringent capital requirements obtain opposite results"
+    },
+    {
+      "claim": "Quantitative easing combined with expansionary fiscal policy improves performance in the EURACE model but raises inflation and long-run volatility.",
+      "evidence_quote": "such expansionary policies raise inflation and lead to higher output volatility in the long-run."
+    },
+    {
+      "claim": "Open issues for ABMs: empirical validation, over-parametrization, estimation and calibration, and comparability across models.",
+      "evidence_quote": "The most important ones concern empirical validation, over-parametrization, estimation and calibration, and comparability between different models."
+    }
+  ],
+  "reliability_notes": "Peer-reviewed JASSS article, full text retrieved, though the page was truncated in the macroprudential section, so the labor market and climate policy sections and the conclusions were not seen. It is a macroeconomics-focused survey, so it only partly covers artificial societies. The authors advocate ABMs and are critical of DSGE models, so the framing is partisan."
+}

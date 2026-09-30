@@ -1,0 +1,46 @@
+{
+  "id": "s058",
+  "url": "http://rr.liglab.fr/research_report/RR-LIG-050_orig.pdf",
+  "subtopic": "Agent cognition and LLM-based agents",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "BDI agents in social simulations: a survey",
+  "publisher": "Grenoble Informatics Laboratory research report RR-LIG-050 (Adam & Gaudou)",
+  "published_date": "2016-01",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Debate over model simplicity (KISS) vs descriptiveness (KIDS) in agent-based social simulation; the right choice depends on context and goal.",
+      "evidence_quote": "the suitability of the KIDS principle over KISS, i.e. the choice between descriptivity and simplicity, highly depends on the context, the goal of the simulation"
+    },
+    {
+      "claim": "Agent cognition in social simulation is still mostly rudimentary, which limits realism and the study of the micro-macro link (Sun).",
+      "evidence_quote": "a signi\ufb01cant shortcoming of current computational social simulation is that most of the work assumes very rudimentary cognition on the part of agents."
+    },
+    {
+      "claim": "BDI is proposed for human agents because it is grounded in folk psychology, so modellers and users can understand it easily.",
+      "evidence_quote": "the core concepts of the agent framework map easily to the language people use to describe their reasoning and actions in everyday conversations"
+    },
+    {
+      "claim": "Cognitive/social aspects: BDI can be extended with norms (also emotions) to model social behaviour and coordination.",
+      "evidence_quote": "Dignum et al. [44] introduce the concept of norms to \"assist in standardising the behaviour of individuals, making it easier to cooperate and/or interact within that society\""
+    },
+    {
+      "claim": "Example of a cognitive social simulation: Sun et al. add cognitive capabilities to Cecconi's survival-in-a-group simulation. An evacuation simulation uses extended BDI with emotions and a planner, with behaviour captured from humans in VR.",
+      "evidence_quote": "Agents are implemented with an extended BDI architecture , which includes an emotional component and a real-time planner."
+    },
+    {
+      "claim": "Criticisms of BDI (scalability, expressivity, learning) and proposed fixes are summarised. Scalability is addressed by optimised engines and mixed BDI/non-BDI populations. Expressivity is addressed by extensions such as norms and emotions. Learning is addressed by symbolic-learning extensions.",
+      "evidence_quote": "Bad performance for real-time or large scale simulations Optimised reasoning engine Mix population of BDI and not BDI agents"
+    },
+    {
+      "claim": "Tooling: BDI frameworks (JACK, Jason, 3APL, JADEX) lack simulation features. Mainstream ABM platforms (NetLogo, Repast, MASON, GAMA) have simple agent architectures, though BDI extensions now exist for NetLogo and GAMA. Frameworks also exist to couple BDI and simulation platforms.",
+      "evidence_quote": "the GAMA platform has also been extended to allow modellers to use a BDI architecture for their agents [29]."
+    },
+    {
+      "claim": "The authors attribute low BDI uptake mainly to missing tool support in platforms, not to fundamental flaws.",
+      "evidence_quote": "the lack of BDI modelling capabilities in existing simulation and modelling platforms"
+    }
+  ],
+  "reliability_notes": "Full text was read (27 pages), but I only skimmed selected sections. It is a 2016 survey report, so its coverage is dated. The focus is BDI agents in social simulation, not artificial societies in general. Authors are academic researchers, and the report is likely also published as a journal paper."
+}

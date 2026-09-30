@@ -1,0 +1,30 @@
+{
+  "id": "s001",
+  "url": "https://www.sciencedirect.com/science/article/abs/pii/S1090513814001093",
+  "subtopic": "Cooperation, trust and institutions",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Reputation based on punishment rather than generosity allows for evolution of cooperation in sizable groups",
+  "publisher": "Evolution and Human Behavior (Elsevier), vol 36(1), pp 59-64",
+  "published_date": "2015-01-01",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Reputation-based cooperation works in dyadic interactions but is harder in large-group social dilemmas with more errors.",
+      "evidence_quote": "reputation-use in social dilemmas involving many individuals (e.g. public goods games) becomes increasingly difficult as groups become larger and errors more frequent"
+    },
+    {
+      "claim": "Computer simulations show a punishment-based reputation system outperforms a generosity-based one for cooperation in larger groups.",
+      "evidence_quote": "a reputation system based on punitive actions can overcome these problems and, compared to reputation system based on generous actions, (i) is more likely to lead to the evolution of cooperation in sizable groups"
+    },
+    {
+      "claim": "Punishment reputation sustains cooperation in larger groups and is more robust to reputation-assessment errors.",
+      "evidence_quote": "(ii) more effectively sustains cooperation within larger groups, and (iii) is more robust to errors in reputation assessment"
+    },
+    {
+      "claim": "Authors suggest punishment and its reputation may have been important in human cooperation evolution.",
+      "evidence_quote": "Punishment and punishment reputation could therefore have played crucial roles in the evolution of cooperation within larger groups of humans."
+    }
+  ],
+  "reliability_notes": "Abstract only. Peer-reviewed journal. Simulation is evolutionary/agent-based public goods; the abstract gives no model details or numbers."
+}

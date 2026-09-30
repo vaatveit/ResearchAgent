@@ -1,0 +1,38 @@
+{
+  "id": "s052",
+  "url": "https://d-nb.info/1151638439/34",
+  "subtopic": "Economy and markets",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Agent-Based Macroeconomics",
+  "publisher": "Bielefeld University, Faculty of Business Administration and Economics (Working Papers in Economics and Management No. 02-2018); chapter for Handbook of Computational Economics Vol. IV",
+  "published_date": "2018-01",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "The chapter surveys macroeconomic agent-based models (MABMs), compares their structure and finds an emerging common core across model families.",
+      "evidence_quote": "identifying what could be considered an emerging common core of macroeconomic agent-based modeling."
+    },
+    {
+      "claim": "Agent-based macroeconomics has early roots: Simon (1959) called for models of heterogeneous adaptive agents, and 1970s micro-founded simulations (MOSES, Transactions Model) were early examples.",
+      "evidence_quote": "micro founded simulation models of the Swedish economy (the MOSES model, see Eliason (1977, 1984)) and the U.S. economy"
+    },
+    {
+      "claim": "MABMs jointly reproduce empirical stylized facts (time series and fat-tailed distributions) at different aggregation levels, which is hard for alternative approaches.",
+      "evidence_quote": "Being able to jointly reproduce empirical stylized facts with respect to time series properties and distributional properties at different levels of aggregation is certainly a very appealing feature of MABMs"
+    },
+    {
+      "claim": "Interaction produces non-linearities and positive feedbacks, giving path dependence and endogenous crashes and crises, which suits policy and institutional design studies.",
+      "evidence_quote": "These properties of MABMs are also the basis for endogenously generating extreme events, like crashes and economic crises"
+    },
+    {
+      "claim": "Agent behaviour: no equilibrium or rational expectations is assumed; agents follow bounded-rational heuristics or rules of thumb informed by psychological and empirical or experimental evidence. Lack of a common basis for bounded rationality remains a concern.",
+      "evidence_quote": "in agent-based macroeconomic models it is not assumed that the economy is in equilibrium and that individuals have rational expectations"
+    },
+    {
+      "claim": "The main model families compared are EURACE (Unibi and Genoa versions), JAMEL, Keynes meeting Schumpeter (KS), LAGOM and Lengnick's small model.",
+      "evidence_quote": "the family of models developed by Dosi, Fagiolo, Roventini and co-authors in Pisa, known as the \u201cKeynes meeting Schumpeter\u201d framework (KS)"
+    }
+  ],
+  "reliability_notes": "Full text of an 84-page PDF working paper by respected authors (Dawid, Delli Gatti). I read only the abstract, the intro and the model list, not the full policy sections. It covers the economic domain of artificial societies only. It is a 2018 survey, so newer work is missing."
+}

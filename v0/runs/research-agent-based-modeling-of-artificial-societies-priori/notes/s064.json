@@ -1,0 +1,34 @@
+{
+  "id": "s064",
+  "url": "https://arxiv.org/pdf/2407.00145",
+  "subtopic": "Social networks and structure",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Co-evolving networks for opinion and social dynamics in agent-based models",
+  "publisher": "arXiv (Zuse Institute Berlin / FU Berlin)",
+  "published_date": "2024-09-20",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Introduces a stochastic ABM where opinion and social position co-evolve. Agent mobility in a social space depends on social and opinion similarity. Opinion updates depend on social neighbours.",
+      "evidence_quote": "Agents' mobility in a social space is governed by both their social and opinion similarity with others; and similarly, opinion dynamics is driven by the opinions of agents in their social vicinity."
+    },
+    {
+      "claim": "Model is formulated as coupled SDEs. It is used to study when consensus or echo chambers emerge.",
+      "evidence_quote": "We formulate our model with a system of coupled stochastic differential equations (SDEs) and study which factors drive the emergence of consensus, or alternatively echo chambers"
+    },
+    {
+      "claim": "Prior adaptive-network models rewire by opinion similarity. This tends to cause fragmentation and prevents global consensus.",
+      "evidence_quote": "This mechanism is shown to hinder the system's ability to reach global consensus, but rather leads to fragmentation"
+    },
+    {
+      "claim": "Gap identified: most ABMs ignore intrinsic social dynamics and treat influence as one-directional.",
+      "evidence_quote": "most such ABMs neglect incorporating the intrinsic social dynamics of agents, a key factor influencing social interaction patterns"
+    },
+    {
+      "claim": "Model is applied to General Social Survey data on political identity and views on government issues.",
+      "evidence_quote": "we apply it to General Social Survey data on political identity and public opinion regarding governmental issues"
+    }
+  ],
+  "reliability_notes": "Only the first part of the paper (abstract and introduction) was read. The full text was returned by the fetch, but I did not read the results sections. The paper is an arXiv preprint and may not be peer-reviewed. It covers opinion dynamics and social networks in ABMs, not artificial societies in general."
+}

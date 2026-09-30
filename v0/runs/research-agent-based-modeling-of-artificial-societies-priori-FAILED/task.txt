@@ -1,0 +1,1 @@
+Research agent-based modeling of artificial societies. Prioritize academic papers for which the full text is available, falling back to abstracts. Reduce this to a summary of the state of the art, organized by aspects of the artificial society.

@@ -1,0 +1,46 @@
+{
+  "id": "s081",
+  "url": "https://arxiv.org/pdf/2410.08948",
+  "subtopic": "Cooperation, norms and institutions",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Emergent Social Conventions and Collective Bias in LLM Populations",
+  "publisher": "arXiv preprint (published in Science Advances 11(20), eadu9368, 2025); Ashery, Aiello, Baronchelli",
+  "published_date": "2024-10 (v2 29 May 2025)",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Universal social conventions emerge spontaneously in decentralized LLM-agent populations via a naming game with only local incentives (norm emergence).",
+      "evidence_quote": "spontaneous emergence of universally adopted social conventions in decentralized populations of Large Language Model (LLM) agents"
+    },
+    {
+      "claim": "Setup: random pairwise interactions, name pool W=10, memory H=5, N=24. Agents are rewarded for matching and penalized for mismatching. Four LLMs were tested (Llama-2-70b-Chat, Llama-3-70B-Instruct, Llama-3.1-70B-Instruct, Claude-3.5-Sonnet).",
+      "evidence_quote": "we set the name pool size to W = 10 and the individual memory length to H = 5 for populations of N = 24 agents"
+    },
+    {
+      "claim": "Convergence is a disorder-to-order transition with symmetry breaking. It happens by about round 15 for all models except Llama-2. It is robust for populations up to N=200 and pools up to W=26, and the classic naming-game model captures the dynamics.",
+      "evidence_quote": "a shared social convention is established by population round 15 in all cases, except for Llama-2-70b-Chat"
+    },
+    {
+      "claim": "Collective bias emerges even when individual agents are unbiased. It arises from the interaction dynamics and the diversity of agents' memory states.",
+      "evidence_quote": "both social conventions and collective biases in the selection process emerge also in absence of individual biases"
+    },
+    {
+      "claim": "Microscopic mechanism: agents almost always repeat a successful name and switch after a failure. An asymmetry between a 'strong' and a 'weak' convention appears by the third interaction.",
+      "evidence_quote": "if an agent succeeds in the first interaction, it will almost surely continue to use the successful name in the next interaction (99.4%...). However, if an agent fails, it will almost surely switch names (97.3%"
+    },
+    {
+      "claim": "Critical-mass dynamics: a committed minority of adversarial agents can overturn an established convention. The threshold depends on the convention's strength and on the LLM, ranging from 2% to 67%.",
+      "evidence_quote": "committed groups as small as 2% (Llama-3-70B-Instruct) or as large as 67% (Llama-2-70b-Chat)"
+    },
+    {
+      "claim": "Comparison with the human literature: theory predicts critical masses of 10\u201340%, and human experiments found about 25%. The authors deliberately use a minimal complex-systems design rather than high-fidelity human simulation, and they do not treat LLMs as proxies for humans.",
+      "evidence_quote": "Empirical evidence from controlled social coordination experiments, which closely follow the scheme described above, supports a 25% threshold"
+    },
+    {
+      "claim": "Once a convention has emerged it is a stable steady state. The strong convention has a larger and deeper basin of attraction.",
+      "evidence_quote": "the basin of attraction of the strong convention is both larger and deeper than that of the weaker convention"
+    }
+  ],
+  "reliability_notes": "Full text was fetched; I read roughly the first 60% (intro, results, start of discussion). It is a peer-reviewed paper (Science Advances) with a preprint version. The experiments are simple: a naming game with small populations, one task type, and a few LLMs. The results may not generalize to richer LLM-agent societies."
+}

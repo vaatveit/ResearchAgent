@@ -1,0 +1,13 @@
+{
+  "id": "s022",
+  "url": "https://jasss.soc.surrey.ac.uk/12/2/reviews/lebaron.html",
+  "subtopic": "Economy and markets",
+  "fetched_ok": false,
+  "failure_reason": "The code_execution tool refused the call with \"no more code_execution tool calls remaining this turn\", so web_fetch never ran and I have no page content.",
+  "title": "",
+  "publisher": "",
+  "published_date": "",
+  "relevance": "none",
+  "key_points": [],
+  "reliability_notes": "Nothing was fetched, so I extracted nothing. The URL looks like a JASSS book review (vol. 12, issue 2) by LeBaron, but that is a guess from the URL alone."
+}

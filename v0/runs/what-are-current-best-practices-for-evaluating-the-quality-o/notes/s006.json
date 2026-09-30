@@ -1,0 +1,50 @@
+{
+  "id": "s006",
+  "url": "https://arxiv.org/pdf/2511.07685",
+  "subtopic": "LLM-as-judge and human evaluation protocols",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "ResearchRubrics: A Benchmark of Prompts and Rubrics For Evaluating Deep Research Agents",
+  "publisher": "arXiv (Scale AI et al.)",
+  "published_date": "2025-11-10",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Deep research (DR) evaluation is hard because outputs are long, open-ended, and have many valid answers. Short-answer QA benchmarks don't capture it.",
+      "evidence_quote": "Evaluating DR remains challenging because responses are lengthy and diverse, admit many valid solutions, and often depend on dynamic information sources."
+    },
+    {
+      "claim": "The benchmark uses expert-written rubrics: 2,500+ fine-grained criteria, built with 2,800+ hours of human labor. They cover factual grounding, reasoning soundness, and clarity. Mandatory criteria are separated from optional ones.",
+      "evidence_quote": "pairs realistic, domain-diverse prompts with 2,500+ expert -written, fine-grained rubrics to assess factual grounding, reasoning soundness, and clarity."
+    },
+    {
+      "claim": "The authors criticize LLM-generated rubrics and reference reports in other benchmarks because they are circular and have little oversight. Other benchmarks are criticized as too narrow.",
+      "evidence_quote": "some benchmarks introduce LLM-generated rubrics and evaluation metrics reliant upon LLM-generated reference reports [8], thus raising concerns about circularity and limited oversight [7]"
+    },
+    {
+      "claim": "They propose a task complexity framework with three axes.",
+      "evidence_quote": "conceptual breadth, logical nesting, and exploration"
+    },
+    {
+      "claim": "Rubrics are scored across six dimensions using an LLM-as-judge. The judges were GPT-5, Claude-Sonnet-4.5 and Gemini-2.5-Pro. Under binary grading, partial verdicts are collapsed to not satisfied.",
+      "evidence_quote": "six dimensions: Explicit Requirements, Implicit Reasoning, Synthesis of Information, References, Communication Quality, and Instruction Following."
+    },
+    {
+      "claim": "Even the leading DR agents score below 70% rubric compliance. Perplexity DR scores lowest. Failures come mainly from missed implicit context and weak reasoning about retrieved information.",
+      "evidence_quote": "Gemini DR 0.677 0.615 OpenAI DR 0.664 0.597 Perplexity DR 0.566 0.487"
+    },
+    {
+      "claim": "Judge validation uses Macro F1 against expert humans (9 annotators, 303 responses). Binary grading gives 0.72\u20130.76 agreement. Ternary grading gives only about 0.53\u20130.57, so partial credit adds ambiguity. Gemini-2.5-Pro was the most reliable judge. A gap to human-human agreement remains.",
+      "evidence_quote": "binary grading achieves substantial agreement (0.72\u20130.76 Macro F1)... The shift from ternary to binary evaluation increases agreement by approximately 20 percentage points"
+    },
+    {
+      "claim": "Rubric design ablation: adding concrete examples to criteria improves human-LLM alignment. LLM-augmented or rephrased rubrics badly degrade it, so expert curation can't be replaced by automated expansion.",
+      "evidence_quote": "including concrete examples within rubric criteria improves alignment by 3-4% (binary) and 2-3% (ternary). However, LLM-based rubric augmentation... catastrophically degrades alignment by 15-20%."
+    },
+    {
+      "claim": "Response length correlates moderately with score, so evaluators should watch for length-quality conflation.",
+      "evidence_quote": "Moderate positive correlations (r\u2248 0.24 \u22120.28 for Gemini and ChatGPT) indicate that longer responses generally achieve higher scores."
+    }
+  ],
+  "reliability_notes": "This is a preprint (v1) from Scale AI, which sells evaluation and data services. It has a small benchmark of 101 prompts and it compares only three commercial agents. The paper compares its own Macro F1 to HealthBench's 0.709, which is not like-for-like. It is a primary source for rubric-based LLM-judge methodology. Its recommendations are from one study and are not a consensus."
+}

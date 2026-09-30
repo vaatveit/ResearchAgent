@@ -1,0 +1,46 @@
+{
+  "id": "s004",
+  "url": "https://www.jasss.org/20/4/2/2.pdf",
+  "subtopic": "Culture and opinion dynamics",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Models of Social Influence: Towards the Next Frontiers",
+  "publisher": "Journal of Artificial Societies and Social Simulation 20(4) 2",
+  "published_date": "2017-10-31",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Review of the opinion dynamics/social influence modelling literature (Axelrod's question). It classifies models into three classes and names two frontiers: comparing and integrating models, and more empirical work.",
+      "evidence_quote": "there is urgent need for more theoretical work comparing, relating and integrating alternative models. Second, the field suffers from a strong imbalance between a proliferation of theoretical studies and a dearth of empirical work."
+    },
+    {
+      "claim": "Bounded-confidence models (similarity bias, continuous opinions): a small confidence threshold fragments the population into opinion clusters; otherwise consensus results. Defuant and Hegselmann-Krause versions differ in updating, but core implications are the same.",
+      "evidence_quote": "if the confidence level \u03b5 is sufficiently small, the population ends up fragmented in separate opinion clusters, while otherwise convergence towards consensus occurs"
+    },
+    {
+      "claim": "Cultural-trait models (Axelrod 1997, nominal opinion vectors) combine homophily with influence on a lattice. Interaction stops when neighbours share nothing, so cultural diversity persists.",
+      "evidence_quote": "interaction and thus influence becomes impossible if two neighbors have nothing in common."
+    },
+    {
+      "claim": "Homophily as a micro-assumption has structural and cognitive/emotional sources, which are formalised similarly but differ conceptually.",
+      "evidence_quote": "Homophily may be caused by structural patterns of social interaction that systematically sort similar people into similar \u201cfoci\u201d"
+    },
+    {
+      "claim": "Repulsive influence models add differentiation, so weights turn negative for large disagreement. They generate bi-polarization and opinions more extreme than any initial opinion. Motivations: balance theory, cognitive dissonance, xenophobia, ego-involvement, and ingroup/outgroup identity.",
+      "evidence_quote": "soon two clusters start to form at the opposite extremes of the spectrum, until eventually all agents have joined one of the two emergent factions."
+    },
+    {
+      "claim": "Empirical frontier: model assumptions are hard to test. Micro-level assumptions rest on 1950s-60s social-psychology experiments, so calibration and validation with experiments and data are needed.",
+      "evidence_quote": "the assumptions of social-influence models, the dynamics that they generate, and also many of their predictions are notoriously difficult to put to the test."
+    },
+    {
+      "claim": "Examples of empirically calibrated ABMs of social influence: Afghan civil war opinions, political opinion distributions, agri-environmental policy diffusion among farmers, and climate-treaty negotiations.",
+      "evidence_quote": "models extending the approaches discussed here have been calibrated and validated to study dynamics of citizens\u2019 opinions about the conflicting forces in the Afghan civil war"
+    },
+    {
+      "claim": "Social media and personalization algorithms are an emerging application. ABMs suggest personalization may contribute to polarization, but modelers have only just begun to address it.",
+      "evidence_quote": "some warn that the personalization of Internet services can contribute to processes of opinion polarization (Dandekar et al. 2013; M\u00e4s & Bischofberger 2015)"
+    }
+  ],
+  "reliability_notes": "Full text was read (PDF, peer-reviewed JASSS review, 2017). It covers only the opinion dynamics/social influence aspect of artificial societies, not the whole field. It is a few years old for a state-of-the-art summary. Quotes were taken from the extracted PDF text."
+}

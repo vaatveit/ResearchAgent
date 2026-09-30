@@ -1,0 +1,34 @@
+{
+  "id": "s007",
+  "url": "https://arxiv.org/abs/2602.21230",
+  "subtopic": "Process, trajectory and efficiency metrics",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "TRACE: Trajectory-Aware Comprehensive Evaluation for Deep Research Agents",
+  "publisher": "arXiv",
+  "published_date": "2026-02-05",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Outcome-only metrics like Pass@1 create a misleading 'high-score illusion' for deep research agents, ignoring process quality, efficiency and soundness.",
+      "evidence_quote": "a reliance on singular metrics like Pass@1, creating a \"high-score illusion\" that ignores the quality, efficiency, and soundness of the reasoning process"
+    },
+    {
+      "claim": "Static benchmarks fail to measure robustness and latent capability.",
+      "evidence_quote": "the failure of static benchmarks to quantify crucial attributes like robustness and latent capability"
+    },
+    {
+      "claim": "TRACE evaluates the whole trajectory with a Hierarchical Trajectory Utility Function covering efficiency, cognitive quality (including evidence grounding), and accuracy.",
+      "evidence_quote": "a Hierarchical Trajectory Utility Function that quantifies process efficiency and cognitive quality, including evidence grounding, alongside accuracy"
+    },
+    {
+      "claim": "A Scaffolded Capability Assessment measures latent ability as the minimum guidance needed for success.",
+      "evidence_quote": "quantifying an agent's latent ability by determining the minimum guidance needed for success"
+    },
+    {
+      "claim": "Accompanying DeepResearch-Bench has controllable complexity; experiments show multi-dimensional ranking reveals accuracy/efficiency/robustness trade-offs missed by single metrics.",
+      "evidence_quote": "uncovers critical trade-offs between agent accuracy, efficiency, and robustness entirely missed by singular metrics"
+    }
+  ],
+  "reliability_notes": "Only the abstract page was read, not the full paper, so there are no experimental numbers. It is a preprint from Feb 2026 and may not be peer reviewed. The authors propose the framework themselves, so the claims are self-reported."
+}

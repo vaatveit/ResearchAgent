@@ -1,0 +1,78 @@
+{
+  "id": "s002",
+  "url": "https://arxiv.org/pdf/2506.11763",
+  "subtopic": "LLM-as-judge, rubrics and human evaluation",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
+  "publisher": "arXiv (Du, Xu, Zhu, Wang, Mao \u2014 University of Science and Technology of China / Metastone Technology)",
+  "published_date": "2025-06-13",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Research agents are hard to evaluate because their internal processes are opaque, so the final report ends up as the main thing you can assess. There is also no ground truth for complex research queries.",
+      "evidence_quote": "the final generated report becomes the primary interface through which their overall performance can be assessed. Moreover, evaluating the quality of these extensive research reports remains an open-ended problem, as establishing a definitive \u2019ground truth\u2019 or standard answer for complex research queries is almost impossible."
+    },
+    {
+      "claim": "Existing benchmarks test isolated capabilities, such as browsing and retrieval, or generation without live information acquisition, rather than end-to-end research.",
+      "evidence_quote": "Current benchmarks typically focus on assessing isolated capabilities\u2014such as web browsing and information retrieval [28, 38, 39], or generative abilities disconnected from real-time information acquisition"
+    },
+    {
+      "claim": "The benchmark's task mix is based on real user demand. The authors analysed 96,147 user queries, filtered them to 44,019 deep-research queries, classified these into 22 domains, and compressed the resulting distribution to 100 tasks (50 Chinese, 50 English).",
+      "evidence_quote": "we proportionally compress this determined distribution to form a final dataset of 100 tasks, 50 in Chinese and 50 in English. This compression process meticulously ensures that the benchmark maintains the same topical balance as the observed real-world distribution."
+    },
+    {
+      "claim": "Tasks were written by PhD holders or senior practitioners with more than five years of domain experience, then screened manually.",
+      "evidence_quote": "We invite Ph.D. or senior practitioners with more than five years of relevant domain experience to propose candidate tasks"
+    },
+    {
+      "claim": "The paper argues that fixed checklists and static rubrics don't adapt well to diverse research tasks. Its RACE framework instead uses an LLM judge to generate task-specific criteria and weights under four fixed top-level dimensions: Comprehensiveness, Insight/Depth, Instruction-Following and Readability.",
+      "evidence_quote": "Existing approaches using fixed checklists [23] or static rubrics [25, 1] struggle to adapt to diverse tasks, specialized domains, and nuanced quality aspects of deep research tasks."
+    },
+    {
+      "claim": "The authors fix the top-level dimensions themselves, because letting the LLM generate criteria from scratch tends to drift away from the intended assessment goals.",
+      "evidence_quote": "Directly prompting LLMs to generate task-specific criteria from scratch can lead to results that deviate significantly from the intended assessment goals. Therefore, we first establish four top-level orthogonal dimensions based on domain expertise"
+    },
+    {
+      "claim": "Scoring reports in isolation doesn't discriminate well, because LLM judges give uniformly high scores. RACE therefore scores each report against a high-quality reference report and computes a relative score: S_tgt/(S_tgt+S_ref).",
+      "evidence_quote": "scoring reports in isolation often yields insufficiently discriminative results; models tend to assign uniformly high scores, thereby masking genuine quality variations. To mitigate this, RACE adopts a reference-based scoring strategy."
+    },
+    {
+      "claim": "The FACT framework evaluates retrieval and citation quality. It extracts statement\u2013URL pairs, removes duplicates, fetches each cited page, and has an LLM make a binary support judgment. It reports Citation Accuracy (precision) and Average Effective Citations per task.",
+      "evidence_quote": "Citation Accuracy (C. Acc.) measures the precision of an agent\u2019s citations, reflecting its ability to ground statements with appropriate sources correctly. And Average Effective Citations per Task (E. Cit.) quantifies the average amount of valuable, verifiably supported information an agent retrieves and presents per task."
+    },
+    {
+      "claim": "Practical tip: strip citation formatting from reports before the LLM judge scores them, because long or complex citation styles hurt its scoring. A cheaper model (Gemini-2.5-flash) was used for the token-heavy citation verification step.",
+      "evidence_quote": "an initial pre-processing step involves cleaning citation formatting from the generated reports, as overly lengthy or complex citation styles can adversely affect the Judge LLM\u2019s scoring process."
+    },
+    {
+      "claim": "Results: Gemini-2.5-Pro Deep Research had the highest RACE overall score (48.88) and averaged 111.21 effective citations. OpenAI Deep Research scored 46.98. Perplexity Deep Research had the highest citation accuracy among the deep research agents (90.24%).",
+      "evidence_quote": "Notably, Gemini-2.5-Pro Deep Research achieves an average of 111.21 effective citations in its final reports, significantly outperforming other models."
+    },
+    {
+      "claim": "Relative scores are compressed, so the authors say to focus on rankings and proportional differences rather than absolute score values.",
+      "evidence_quote": "Therefore, we should focus on the rankings and proportional differences between the scores rather than the absolute score values."
+    },
+    {
+      "claim": "The judge was validated against humans using four metrics: pairwise agreement rate, overall Pearson correlation, and filtered average Pearson and Spearman correlations. Tasks with low expert agreement (ICC < 0) were filtered out, leaving 37 tasks. More than 70 annotators with Master's degrees took part, with 3 experts per task.",
+      "evidence_quote": "we first filter out tasks where expert judgments show low agreement by removing tasks with negative Intraclass Correlation Coefficients (ICC < 0)."
+    },
+    {
+      "claim": "The full RACE framework beat a vanilla judge prompt on pairwise agreement (71.33% vs 58.89%) and also exceeded agreement between human experts (68.44%). Removing the reference report caused the largest drop (to 66.56%), and using static criteria also scored lower (68.33%).",
+      "evidence_quote": "Notably, its Pairwise Agreement Rate also surpasses the inter-agreement rate observed among human experts."
+    },
+    {
+      "claim": "The authors compared judge models on cost and quality. Gemini 2.5 Pro Preview scored best overall (72.56) at $0.13 per query. o4-mini was close (71.63) at $0.04. o3 cost $0.37 and Claude 3.7 Sonnet $0.47.",
+      "evidence_quote": "Gemini 2.5 Pro Preview not only achieves the best overall performance but also maintains a competitive average cost ($0.13 per query), only higher than that of o4-mini."
+    },
+    {
+      "claim": "The authors criticise prior evaluations of deep research agents for relying on QA datasets, which don't reflect real use, or on LLM-as-judge setups with no human-consistency check.",
+      "evidence_quote": "some utilize QA datasets [21, 16, 30] as evaluation metrics; however, this approach neither aligns with real-world DRA applications nor comprehensively assesses their broader capabilities. Others employ the LLM-as-a-judge methodology [36], yet these efforts lack both a comprehensive framework design and verification of human consistency."
+    },
+    {
+      "claim": "Human evaluation is costly: one report takes an expert 30\u201360 minutes to review. The validation covered only 600 reports, which the authors call a modest sample.",
+      "evidence_quote": "Even for PhD-level evaluators, a thorough review typically requires 30\u201360 minutes"
+    }
+  ],
+  "reliability_notes": "This is an arXiv preprint (v1, marked work in progress) and has not been peer-reviewed. The authors propose and validate their own frameworks, so there is some risk of self-assessment bias. All reference reports come from Gemini-2.5-pro Deep Research and Gemini-2.5-pro is also the judge, which may favour Gemini; the paper doesn't discuss this. Human validation used only the 50 Chinese tasks and four agents. The commercial agents were evaluated as snapshots in time. Code and data are open-sourced on GitHub."
+}

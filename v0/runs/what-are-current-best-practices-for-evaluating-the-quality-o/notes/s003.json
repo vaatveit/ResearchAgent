@@ -1,0 +1,74 @@
+{
+  "id": "s003",
+  "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+  "subtopic": "Process, trajectory and efficiency metrics",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Demystifying evals for AI agents",
+  "publisher": "Anthropic (Engineering blog)",
+  "published_date": "2026-01-09",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Research agent quality is context-relative and lacks binary unit-test signals; standards differ by task type.",
+      "evidence_quote": "research quality can only be judged relative to the task. What counts as \u201ccomprehensive,\u201d \u201cwell-sourced,\u201d or even \u201ccorrect\u201d depends on context"
+    },
+    {
+      "claim": "Research evals face specific challenges: expert disagreement, shifting ground truth, and open-ended outputs.",
+      "evidence_quote": "experts may disagree on whether a synthesis is comprehensive, ground truth shifts as reference content changes constantly, and longer, more open-ended outputs create more room for mistakes."
+    },
+    {
+      "claim": "Recommended approach for research agents is combining grader types: groundedness, coverage, source quality, exact match where answers are objective, and LLM checks for synthesis.",
+      "evidence_quote": "Groundedness checks verify that claims are supported by retrieved sources, coverage checks define key facts a good answer must include, and source quality checks confirm the consulted sources are authoritative"
+    },
+    {
+      "claim": "LLM rubrics for research agents should be frequently calibrated against expert human judgment.",
+      "evidence_quote": "LLM-based rubrics should be frequently calibrated against expert human judgment to grade these agents effectively."
+    },
+    {
+      "claim": "Use both pass@k and pass^k to handle non-determinism; choose by product need.",
+      "evidence_quote": "pass@k for tools where one success matters, pass^k for agents where consistency is essential."
+    },
+    {
+      "claim": "Start small: 20-50 tasks drawn from real failures suffice initially.",
+      "evidence_quote": "20-50 simple tasks drawn from real failures is a great start."
+    },
+    {
+      "claim": "Tasks must be unambiguous with reference solutions; a 0% pass rate usually signals a broken task.",
+      "evidence_quote": "A good task is one where two domain experts would independently reach the same pass/fail verdict."
+    },
+    {
+      "claim": "Build balanced problem sets testing both when a behavior should and shouldn't occur (e.g., search vs. answering from knowledge).",
+      "evidence_quote": "Test both the cases where a behavior *should* occur and where it *shouldn't*. One-sided evals create one-sided optimization."
+    },
+    {
+      "claim": "Grade outcomes rather than exact paths, and give partial credit for multi-component tasks.",
+      "evidence_quote": "it\u2019s often better to grade what the agent produced, not the path it took."
+    },
+    {
+      "claim": "LLM-as-judge best practices: calibrate to humans, allow an 'Unknown' escape, grade each rubric dimension with an isolated judge.",
+      "evidence_quote": "grade each dimension with an isolated LLM-as-judge rather than using one to grade all dimensions."
+    },
+    {
+      "claim": "Grader bugs can massively distort scores (CORE-Bench example).",
+      "evidence_quote": "Opus 4.5 initially scored 42% on CORE-Bench... After fixing bugs and using a less constrained scaffold, Opus 4.5\u2019s score jumped to 95%."
+    },
+    {
+      "claim": "Isolate trials in clean environments; shared state causes correlated failures or inflated results.",
+      "evidence_quote": "Claude gaining an unfair advantage on some tasks by examining the git history from previous trials."
+    },
+    {
+      "claim": "Read transcripts to validate graders; don't trust scores at face value.",
+      "evidence_quote": "we do not take eval scores at face value until someone digs into the details of the eval and reads some transcripts."
+    },
+    {
+      "claim": "Monitor for eval saturation; near-saturated evals hide capability gains.",
+      "evidence_quote": "An eval at 100% tracks regressions but provides no signal for improvement."
+    },
+    {
+      "claim": "Evals should be complemented by production monitoring, A/B tests, user feedback, and human review; maintained as living artifacts with clear ownership.",
+      "evidence_quote": "A complete picture includes production monitoring, user feedback, A/B testing, manual transcript review, and systematic human evaluation."
+    }
+  ],
+  "reliability_notes": "Primary source from Anthropic engineering, based on internal experience and customer work. It is practitioner guidance rather than peer-reviewed. The research-agent section is short and mostly conceptual, with no quantitative results. Some anecdotes involve Anthropic's own models."
+}

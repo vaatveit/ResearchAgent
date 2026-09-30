@@ -1,0 +1,38 @@
+{
+  "id": "s056",
+  "url": "https://www.alexmesoudi.com/publication/williams-formal-2024/Williams_Mesoudi_JAS_2024.pdf",
+  "subtopic": "Politics, conflict and governance",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "A formal test using agent-based models of the circumscription theory for the evolution of social complexity",
+  "publisher": "Journal of Archaeological Science 172 (2024) 106090 (Elsevier, open access CC BY)",
+  "published_date": "2024-10-16",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "An agent-based model tests how environmental, resource and social barriers to movement (circumscription) affect the rate of hierarchy formation. It is a formal test of hypotheses that archaeologists usually argue from evidence.",
+      "evidence_quote": "we present and analyse an agent-based model to test the effect of environmental, resource, and social barriers to population movement \u2013 collectively known as \u2018circumscription \u2019 \u2013 on the rate of hierarchy formation."
+    },
+    {
+      "claim": "Social circumscription was the largest driver of social complexity in the model. It works by increasing proximity between settlements.",
+      "evidence_quote": "social circumscription is the largest driver of social complexity by increasing proximity between settlements."
+    },
+    {
+      "claim": "Environmental and resource circumscription have mixed effects. They reduce complexity when they separate settlements spatially. They amplify it when they increase proximity.",
+      "evidence_quote": "Environmental and resource circumscription can negatively impact the emergence of social complexity when the conditions separate the population spatially but can amplify social complexity when the conditions increase proximity between settlements."
+    },
+    {
+      "claim": "Model design: Carneiro's theory is that limits on movement intensify conflict and conquest warfare. Conquest enlarges one polity and removes the other's autonomy.",
+      "evidence_quote": "conditions which circumscribe, or limit, population movement intensify conflict between groups of people and increases the likelihood of the emergence of complex societies."
+    },
+    {
+      "claim": "The authors merge environmental and resource circumscription into one 'geographical circumscription', following Perret and Currie (2023). Agents decide by cost/benefit whether to stay and be conquered or to move.",
+      "evidence_quote": "it may be overall less costly for a group of people to remain put and pay the costs of being conquered, such as a tribute payment or tax, than to move to a new location where resources are less accessible."
+    },
+    {
+      "claim": "The authors position the work as a step towards formal, cultural-evolutionary testing of theories of social complexity. The gap they point to is that formal testing is generally lacking.",
+      "evidence_quote": "formal testing of these hypotheses is generally lacking."
+    }
+  ],
+  "reliability_notes": "Full-text PDF was fetched and only the first part was read: abstract, introduction and the start of the theory section. The methods, results and discussion were not read, so there are no parameter values or quantitative results. The paper is peer reviewed, open access, and published in a reputable journal. It is an abstract model, and the authors themselves present it as a test of theory, not a calibrated simulation of a real society."
+}

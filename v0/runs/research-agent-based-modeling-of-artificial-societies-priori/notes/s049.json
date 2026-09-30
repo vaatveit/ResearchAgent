@@ -1,0 +1,34 @@
+{
+  "id": "s049",
+  "url": "https://www.jasss.org/25/4/3.html",
+  "subtopic": "Environment, resources and socio-ecological systems",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "An Agent-Based Model of the Interaction Between Inequality, Trust, and Communication in Common Pool Experiments",
+  "publisher": "JASSS (Journal of Artificial Societies and Social Simulation) 25(4) 3; Janssen, DeCaro, Lee",
+  "published_date": "2022-10-31",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "The ABM represents a commons dilemma as a spatially explicit renewable resource. Agent trust, shaped by observed harvesting and cheap talk, drives harvesting. The model is based on Ostrom's behavioral theory and humanistic rational choice theory.",
+      "evidence_quote": "The commons dilemma is represented as a spatially explicit renewable resource. Agent\u2019s trust in others has an impact on the harvesting of shared resources"
+    },
+    {
+      "claim": "The model was calibrated to lab experiment data. The best fit was a heterogeneous population, mostly conditional cooperators sensitive to inequality.",
+      "evidence_quote": "a small share of altruistic and selfish agents and a majority of conditional cooperative agents sensitive to inequality"
+    },
+    {
+      "claim": "The best-fit agent mix was 75% conditional cooperators, 9% unconditional cooperators and 16% selfish. It reproduced five qualitative patterns and generalized to a restricted-visibility environment.",
+      "evidence_quote": "75% of the agents were conditional cooperators... unconditional cooperators (9%) and selfish agents (16%)"
+    },
+    {
+      "claim": "Communication raises trust, which explains better group performance. The model used self-reported trust before and after communication to drive dynamic trust changes.",
+      "evidence_quote": "Communication increased trust explaining the better group performance when communication was introduced."
+    },
+    {
+      "claim": "Inequality, trust and communication must all be in the decision-making to explain the outcomes. Agent heterogeneity is key. The effect of communication on trust in non-conditional agent types is not captured.",
+      "evidence_quote": "the heterogeneity of agent types is key to reproducing observed patterns"
+    }
+  ],
+  "reliability_notes": "Full text was fetched. It is a peer-reviewed JASSS article with an open-code badge. It covers a narrow topic, lab-experiment-calibrated commons cooperation, so it applies mainly to the aspects of an artificial society covering cooperation, trust, norms and resource governance."
+}

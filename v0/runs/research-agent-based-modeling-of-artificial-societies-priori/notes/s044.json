@@ -1,0 +1,42 @@
+{
+  "id": "s044",
+  "url": "https://arxiv.org/pdf/2102.06921",
+  "subtopic": "Culture and opinion dynamics",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Polarization inhibits the phase transition of Axelrod's model",
+  "publisher": "arXiv (Gracia-L\u00e1zaro, Brigatti, Hern\u00e1ndez, Moreno)",
+  "published_date": "2021-02-16",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Adding a binary (polarizing) cultural feature to Axelrod's cultural dissemination ABM removes the order-disorder phase transition in the thermodynamic limit; it survives only as a finite-size effect.",
+      "evidence_quote": "polarization reduces the characteristic phase transition of the original model to a finite-size effect, since at the thermodynamic limit only the ordered phase is present."
+    },
+    {
+      "claim": "Finite-size scaling on a 2D lattice (k=4, F=10) shows critical diversity q_c grows proportionally to N, so it diverges as N goes to infinity.",
+      "evidence_quote": "the finite-size transition point values grow proportionally to the system size as: $q_c(N) \\propto N$ ."
+    },
+    {
+      "claim": "The final disordered state depends on the network's site percolation threshold: polarized (two dominant cultures) if it is below 1/2, fragmented multicultural otherwise.",
+      "evidence_quote": "a polarized phase is obtained for percolation thresholds below 1/2, a fragmented multicultural one otherwise."
+    },
+    {
+      "claim": "Simulation evidence: for q>q_c on a square lattice (threshold 0.593) the two largest cultures cover about 10% of the system, whereas on a random regular network (threshold 0.25) they cover about 90%.",
+      "evidence_quote": "the two more spread communities include near 90% of the system"
+    },
+    {
+      "claim": "The dynamics has three stages. Cultural uniformization first happens within groups sharing the binary trait, then exchange across binary traits (low q only), then a finite-size-driven convergence to order. The authors read this socially as agents finding empathy through a polarizing feature.",
+      "evidence_quote": "agents find empathy on the base of some polarizing feature and then tend to align their cultures."
+    },
+    {
+      "claim": "The authors extend the single-link mean-field approach to a system of equations for P_{m,s}. It qualitatively reproduces the overlap dynamics, and the stationary active-link density is independent of q and always positive, so no transition appears at infinite size.",
+      "evidence_quote": "The corresponding stationary values of $\\rho$ are independent of q and always positive, without any discontinuity"
+    },
+    {
+      "claim": "Context: the paper lists the extensions of Axelrod's model in the literature, including complex networks, noise, mass media, mobility/segregation, tolerance, confidence thresholds and dynamic networks. It notes that polarization models with many absorbing states are uncommon.",
+      "evidence_quote": "including complex networks [5, 6], clustering [7], social pressure [8], noise [9, 10], external fields [11, 12], dynamic features [13], mobility and segregation [14, 15], tolerance [16], confidence thresholds [17], and dynamic networks [18]."
+    }
+  ],
+  "reliability_notes": "Full text was available. It is an arXiv preprint dated Feb 2021 and may not be peer-reviewed in this form. It is a statistical-physics study of one abstract cultural-dynamics ABM (Axelrod's model). It covers culture, polarization and network topology, and it does not cover the broader design of artificial societies. Results come from simulations plus mean-field analysis, on small systems (N=1600 in several figures)."
+}

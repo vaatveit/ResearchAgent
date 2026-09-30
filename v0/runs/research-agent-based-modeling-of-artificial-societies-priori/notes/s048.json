@@ -1,0 +1,58 @@
+{
+  "id": "s048",
+  "url": "https://www.nature.com/articles/s41599-024-03611-3",
+  "subtopic": "Agent cognition and LLM-based agents",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Large language models empowered agent-based modeling and simulation: a survey and perspectives",
+  "publisher": "Humanities and Social Sciences Communications (Palgrave/Nature Portfolio)",
+  "published_date": "2024-09-27",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Survey organizes LLM-empowered ABMS by domain (cyber, physical, social, hybrid) and by four challenges: environment perception, human alignment, action generation, evaluation.",
+      "evidence_quote": "challenges in environment perception, human alignment, action generation, and evaluation"
+    },
+    {
+      "claim": "Traditional ABMS methodology moved from knowledge-driven (predefined rules such as cellular automata, symbolic equations such as social force model) to data-driven (stochastic, machine learning) approaches.",
+      "evidence_quote": "the former includes various approaches based on predefined rules or symbolic equations, and the latter includes stochastic models and machine learning models"
+    },
+    {
+      "claim": "Social-domain ABMS covers social interaction (networks, communities, organizations, opinion dynamics, crowds) and economic systems (markets, financial interactions).",
+      "evidence_quote": "social interaction that focuses on social networks, community interactions, or organizational behavior"
+    },
+    {
+      "claim": "Limitation of traditional ABM: reactive architectures dominate because deliberative symbolic models are intractable; agents are weak at long-term planning and do not generalize across environments.",
+      "evidence_quote": "optimizing the internal world model and planning-reasoning module based on symbolical AI approaches are generally intractable in practice"
+    },
+    {
+      "claim": "No single traditional method supports description, explanation, prediction and scenario exploration together (rules descriptive, symbolic/stochastic explanatory, ML predictive but less interpretable).",
+      "evidence_quote": "existing methods cannot support the above tasks simultaneously"
+    },
+    {
+      "claim": "Heterogeneity in traditional ABM is hard: parameter calibration is complex, data scarce, and rules cannot cover all dimensions, leading to oversimplification. LLM agents offer human-like internal complexity and customization via prompting, in-context learning, fine-tuning.",
+      "evidence_quote": "specialized and customized characteristics with prompting, in-context learning, or fine-tuning"
+    },
+    {
+      "claim": "Environments for LLM agent societies are virtual (sandboxes like Smallville in Generative Agents, virtual software company, RecAgent) or real (EconAgent macroeconomics, WebAgent, Urban Generative Intelligence). Interfaces are mostly text-based.",
+      "evidence_quote": "builds a Smallville sandbox world in which large language model-empowered agents plan their days, share news, form relationships, and coordinate group activities"
+    },
+    {
+      "claim": "Agent communication is mainly textual (direct) or indirect via rules (e.g., economic rules linking workers in a factory); multimodality and tools are expanding interfaces.",
+      "evidence_quote": "the agents can indirectly interact with others through predefined rules"
+    },
+    {
+      "claim": "Alignment/personalization done via prompt engineering (personas, professions, preferences such as cooperative/selfish) or fine-tuning; LLM-generated feedback was reported as 45x cheaper than crowd workers for alignment.",
+      "evidence_quote": "achieve high human alignment 45\u00d7 cheaper than hiring crowd workers"
+    },
+    {
+      "claim": "LLM agents still lack domain knowledge and can make irrational decisions; controllable heterogeneity is a key challenge.",
+      "evidence_quote": "agents based on LLMs still lack the necessary domain knowledge in specific areas, leading to irrational decisions"
+    },
+    {
+      "claim": "Action generation relies on planning (task decomposition, e.g. GITM, Voyager, AdaPlanner), memory (external store beyond context window) and reflection.",
+      "evidence_quote": "a memory system that functions as an external database for LLM agents"
+    }
+  ],
+  "reliability_notes": "Full text fetched but the extracted content truncated around the Memory section (~ before the domain-specific survey sections and open problems/evaluation). Peer-reviewed open-access survey (Li et al., Tsinghua), 2024. Focuses on LLM-based ABMS, not the whole artificial-societies field."
+}

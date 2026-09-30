@@ -1,0 +1,66 @@
+{
+  "id": "s061",
+  "url": "https://www.jasss.org/25/2/6/6.pdf",
+  "subtopic": "Foundations and frameworks",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Generation of Synthetic Populations in Social Simulations: A Review of Methods and Practices",
+  "publisher": "Journal of Artificial Societies and Social Simulation 25(2) 6 (Chapuis, Taillandier, Drogoul)",
+  "published_date": "2022-03-31",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Scope: agent population/attribute generation (not spatial placement or social network generation). Trend from simple KISS models toward data-driven KIDS models.",
+      "evidence_quote": "does not consider the spatialization of those entities or generation of the social networks that connect them"
+    },
+    {
+      "claim": "Definition and core challenge: a synthetic population is a simplified microscopic representation of the target population, matched to aggregate statistics. Problems are data incompleteness, inconsistency, and choosing indicators.",
+      "evidence_quote": "a synthetic population is never identical to the target population, but designed to match various aggregate statistical measures of the target population"
+    },
+    {
+      "claim": "Methods are classified into two paradigms: synthetic reconstruction (SR: draw attributes from estimated distributions, e.g. IPF, MCMC, copulas, Bayesian networks) and combinatorial optimization (CO: reweight or replicate real records). Hybrids are common.",
+      "evidence_quote": "we set the distinguishing criterion as the synthesis technique to either create the properties of the entities or reproduce known real entities, termed as synthetic reconstruction (SR) and combinatorial optimization (CO)"
+    },
+    {
+      "claim": "Hybrid and recent techniques: SR combined with CO, re-weighting, copula functions, hierarchical mixtures. Multilevel populations (individuals in households) are also supported.",
+      "evidence_quote": "use CO techniques to mix SR-based synthetic populations at several scales"
+    },
+    {
+      "claim": "Input data types: aggregate tables, microdata samples (typically 1\u201310% of the population), surveys and others. Samples are limited in scope.",
+      "evidence_quote": "individual records of 1%, 2%, 5%, and in rare cases, 10% or more of the population"
+    },
+    {
+      "claim": "Validation: quality is usually assessed against the same dataset used for generation, using distance indicators (TAE, SRMSE, RSSZ, etc.). This is a weakness.",
+      "evidence_quote": "the quality of the synthetic population is assessed using the same dataset that has been used for the generation process"
+    },
+    {
+      "claim": "Corpus: 478 JASSS articles from 2011 to 2021, of which 342 featured a simulation model.",
+      "evidence_quote": "This range involved 478 articles spread over 40 issues, among which 342 featured a simulation model."
+    },
+    {
+      "claim": "Practice: most models use generic initialization. Random functions are used in 62%, constants in 33%, SR in about 12.6%, raw data in 9%, calibration in 3.8%, CO in 0.6%.",
+      "evidence_quote": "2 of 3 models relied on a generic random function, such as uniform or normal distribution, and 1 inn 3 models relied on a constant value. SR techniques were used in more than 12% of the models"
+    },
+    {
+      "claim": "Most models use no empirical data for agent attributes.",
+      "evidence_quote": "191 models (55.85%) did not use any source of data to inform agent attribute generation"
+    },
+    {
+      "claim": "Models tied to real-world applications or GIS data use SR more often (21.7% and 25%). Only about 22% of models use dedicated generation algorithms.",
+      "evidence_quote": "On average 29.17% of the published models used conventional data regarding the target population, and only 22% relied on dedicated algorithm"
+    },
+    {
+      "claim": "Reporting: the ODD protocol is insufficient to document how populations are initialized. The authors recommend ODD plus source code as a minimum standard.",
+      "evidence_quote": "the ODD is generally not enough to be able to understand how agent populations are initialized in the models"
+    },
+    {
+      "claim": "Explanations for low uptake: tools are hard to find and adapt, are not integrated into modelling platforms, and there is a lack of data on abstract attributes such as attitudes and mental states.",
+      "evidence_quote": "the abstract attributes related to social attitudes and mental states render it impossible to consider all agent attributes using the current synthetic population generation procedure"
+    },
+    {
+      "claim": "Limitation: the review covers JASSS only. Transport modelling, which strongly influences population synthesis, is under-represented, so results may not generalize.",
+      "evidence_quote": "outcomes from practices in JASSS cannot be generalized to ABM"
+    }
+  ],
+  "reliability_notes": "Full text obtained (23-page peer-reviewed PDF). Review of methods and of practice within JASSS 2011\u20132021 only, and not a fully systematic review. Covers only the population/attribute aspect, not networks, space, or cognition."
+}

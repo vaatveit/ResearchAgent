@@ -1,0 +1,38 @@
+{
+  "id": "s083",
+  "url": "https://academic.oup.com/pnasnexus/article/4/12/pgaf317/8361967",
+  "subtopic": "Social networks and structure",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Network formation and dynamics among multi-LLMs",
+  "publisher": "PNAS Nexus (Oxford Academic)",
+  "published_date": "2025-12-02",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Framework studies network formation by multiple LLM agents and benchmarks against humans; LLMs reproduce micro-level principles (preferential attachment, triadic closure, homophily) and macro-level properties (community structure, small-world).",
+      "evidence_quote": "LLMs reproduce core microlevel principles (preferential attachment, triadic closure, and homophily), and macrolevel properties (community structure, small-world effects)."
+    },
+    {
+      "claim": "LLM link preferences are context-dependent: homophily in friendship networks, heterophily in organizational settings.",
+      "evidence_quote": "LLMs favor homophily in friendship networks but heterophily in organizational settings, mirroring patterns of social mobility."
+    },
+    {
+      "claim": "A controlled survey shows strong alignment between LLM and human link-formation decisions; suggested use for social simulation and synthetic data, with bias/fairness risks.",
+      "evidence_quote": "A controlled survey shows strong alignment between LLM and human link-formation decisions."
+    },
+    {
+      "claim": "Method: independent LLM agents in separate conversational threads, sequentially adding nodes (n=200) with full network info in the prompt; varied models, temperature, and prompting; extended to real friendship, telecom, and company collaboration networks.",
+      "evidence_quote": "By simulating multiple LLM agents acting independently within separate conversational threads, we examined their behaviors in decision-making scenarios involving network connections."
+    },
+    {
+      "claim": "Preferential attachment tested against a random-connection null model, with power-law exponents estimated across model, temperature, and environment.",
+      "evidence_quote": "we compare these probabilities to a null model assuming random connections"
+    },
+    {
+      "claim": "Context: prior work shows LLM collectives can exhibit linguistic conventions and the friendship paradox; ABM with LLMs is an emerging approach.",
+      "evidence_quote": "collectives of LLMs can exhibit linguistic conventions ([26], [27]) and even the friendship paradox ([28])"
+    }
+  ],
+  "reliability_notes": "Full text fetched from peer-reviewed journal (PNAS Nexus, 2025). I read the abstract, introduction and start of the results. I did not read the later results, the discussion or the methods in detail. Findings rely mainly on GPT-family models, and the paper does not claim that its results generalize to every LLM."
+}

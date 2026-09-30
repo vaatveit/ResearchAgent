@@ -1,0 +1,41 @@
+{
+  "stages": {
+    "1_plan": {
+      "input_tokens": 576,
+      "est_cost_usd": 0.02,
+      "output_tokens": 1011,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "api_calls": 1
+    },
+    "1_search": {
+      "input_tokens": 284660,
+      "est_cost_usd": 1.27,
+      "output_tokens": 6787,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "api_calls": 10,
+      "web_search_requests": 50,
+      "web_fetch_requests": 0
+    },
+    "2_extract": {
+      "input_tokens": 11741,
+      "est_cost_usd": 0.03,
+      "output_tokens": 838,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "api_calls": 1,
+      "web_search_requests": 0,
+      "web_fetch_requests": 1
+    },
+    "3_summarize": {
+      "input_tokens": 844,
+      "est_cost_usd": 0.05,
+      "output_tokens": 2092,
+      "cache_read_input_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "api_calls": 1
+    }
+  },
+  "est_token_cost_usd": 1.37
+}

@@ -1,0 +1,13 @@
+{
+  "id": "s021",
+  "url": "https://arxiv.org/pdf/1505.06012",
+  "subtopic": "Foundations and frameworks",
+  "fetched_ok": false,
+  "failure_reason": "The fetch result could not be read. The code that parsed it raised a TypeError, and the follow-up call to inspect the result was refused because the tool-call limit was reached. No content from the page was seen.",
+  "title": "",
+  "publisher": "",
+  "published_date": "",
+  "relevance": "none",
+  "key_points": [],
+  "reliability_notes": "No content was extracted, so there are no claims to report."
+}

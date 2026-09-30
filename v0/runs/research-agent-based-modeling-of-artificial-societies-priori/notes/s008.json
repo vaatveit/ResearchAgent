@@ -1,0 +1,54 @@
+{
+  "id": "s008",
+  "url": "https://arxiv.org/pdf/2304.03442",
+  "subtopic": "Agent cognition and LLM-based agents",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Generative Agents: Interactive Simulacra of Human Behavior",
+  "publisher": "arXiv (UIST '23, ACM); Park, O'Brien, Cai, Morris, Liang, Bernstein (Stanford/Google)",
+  "published_date": "2023-04 (v2 Aug 2023)",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Agent cognition: LLM-based architecture with memory stream, reflection, and planning yields believable agents in a 25-agent sandbox town (Smallville).",
+      "evidence_quote": "an architecture that extends a large language model to store a complete record of the agent\u2019s experiences using natural language, synthesize those memories over time into higher-level reflections, and retrieve them dynamically to plan behavior"
+    },
+    {
+      "claim": "Memory retrieval scores memories by relevance, recency (exponential decay 0.995) and importance (LLM-rated 1\u201310 poignancy).",
+      "evidence_quote": "A memory retrieval model combines relevance, recency, and importance to surface the records needed to inform the agent\u2019s moment-to-moment behavior."
+    },
+    {
+      "claim": "Agent population and environment: 25 agents, each seeded with a one-paragraph natural-language identity, in a Sims-like world where users can talk to and intervene on agents.",
+      "evidence_quote": "A community of 25 unique agents inhabits Smallville."
+    },
+    {
+      "claim": "Ablation with 100 human evaluators shows every component (observation, planning, reflection) improves believability. Full architecture TrueSkill \u03bc=29.89 versus 21.21 for the prior-work baseline (d=8.16). It also beat human crowdworker-authored behavior (\u03bc=22.95).",
+      "evidence_quote": "the full generative agent architecture produced the most believable behavior (\ud835\udf07 = 29.89; \ud835\udf0e = 0.72)... \ud835\udc51 = 8.16, or eight standard deviations"
+    },
+    {
+      "claim": "Emergent information diffusion without user intervention over two game days.",
+      "evidence_quote": "the number of agents who knew about Sam\u2019s mayoral candidacy increased from one (4%) to eight (32%), and the number of agents who knew about Isabella\u2019s party increased from one (4%) to thirteen (52%)"
+    },
+    {
+      "claim": "Social network / relationship formation: network density rose, with few hallucinated acquaintances.",
+      "evidence_quote": "the network density increasing from 0.167 to 0.74. Out of the 453 agent responses regarding their awareness of other agents, 1.3% (n=6) were found to be hallucinated."
+    },
+    {
+      "claim": "Coordination: a party seeded by a single agent intention led to partial attendance.",
+      "evidence_quote": "On Valentine\u2019s Day, five out of the twelve invited agents showed up at Hobbs cafe to join the party."
+    },
+    {
+      "claim": "Failure modes: agents hallucinate embellishments to their knowledge, though they rarely fabricate it entirely.",
+      "evidence_quote": "At times, the agents hallucinated embellishments to their knowledge. It was rare for the agents to completely fabricate their knowledge"
+    },
+    {
+      "claim": "Limitations: high cost, short timescale, and a non-gold-standard human baseline.",
+      "evidence_quote": "The present study required substantial time and resources to simulate 25 agents for two days, costing thousands of dollars in token credits and taking multiple days to complete."
+    },
+    {
+      "claim": "Intended uses: social-science theory testing, populating virtual communities, training for interpersonal situations, prototyping.",
+      "evidence_quote": "Such simulations of human behavior could populate virtual spaces and communities with realistic social phenomena"
+    }
+  ],
+  "reliability_notes": "Full text was read (peer-reviewed UIST '23 paper, arXiv v2). Evaluation is the authors' own, covers only two game days and 25 agents, and uses a crowdworker baseline. Cost and scale limits are acknowledged by the authors."
+}

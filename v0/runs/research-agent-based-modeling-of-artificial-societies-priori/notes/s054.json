@@ -1,0 +1,54 @@
+{
+  "id": "s054",
+  "url": "https://arxiv.org/pdf/2004.05286",
+  "subtopic": "Culture and opinion dynamics",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Recent advances in opinion propagation dynamics: A 2020 Survey",
+  "publisher": "arXiv (Hossein Noorazar, Washington State University)",
+  "published_date": "2020",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Survey scope: opinion dynamics models; at least 50 new papers in Q1 2020 alone, showing rapid field growth.",
+      "evidence_quote": "In the first quarter of 2020, at least 50 research papers have emerged"
+    },
+    {
+      "claim": "Generic opinion-dynamics ABM structure: agents on a network with initial opinions, local update rules, and a termination criterion such as steady state.",
+      "evidence_quote": "Agents start with an initial opinion. Connected agents interact and update their opinion by a given clear update rule."
+    },
+    {
+      "claim": "Possible end states are consensus, polarization (two clusters) or fragmentation (more than two clusters).",
+      "evidence_quote": "The convergence state may be consensus, polarization, or fragmentation."
+    },
+    {
+      "claim": "Terminology is inconsistent across the literature, e.g. for non-changing agents (leader, media, stubborn, inflexible).",
+      "evidence_quote": "there is no convergence on terminology in the literature."
+    },
+    {
+      "claim": "DeGroot model is linear iterative averaging; consensus iff some power of W has a strictly positive column (Berger).",
+      "evidence_quote": "The DeGroot model is an iterative averaging model."
+    },
+    {
+      "claim": "Friedkin-Johnsen extends DeGroot with stubborn agents via a susceptibility matrix D.",
+      "evidence_quote": "In the FJ model, the idea of stubborn-agents is added to the DeGroot model"
+    },
+    {
+      "claim": "Bounded confidence models (Deffuant-Weisbuch pairwise, Hegselmann-Krause synchronous): agents ignore opinions too distant. Confidence radius determines cluster count, with a critical value of about 0.5 and about 1/(2r) clusters.",
+      "evidence_quote": "Fortunato [28] claims r = 0.5 is the critical confidence radius above which the agents come to a consensus. Moreover, the number of clusters at equilibrium is approximately 1/2r [29]."
+    },
+    {
+      "claim": "Heterogeneous confidence radii (Lorenz) help consensus be reached.",
+      "evidence_quote": "heterogeneity of confidence radius helps consensus to be reached"
+    },
+    {
+      "claim": "Variants include edge-specific confidence radii (Shang), asymmetric DW, and opinion-difference-dependent learning rates.",
+      "evidence_quote": "confidence radiuses are assigned to edges, as opposed to agents."
+    },
+    {
+      "claim": "Discrete/binary opinion models (Ising-like, Galam, Sznajd, voter) have real-world application, e.g. used to explain Trump's 2016 victory. The survey's extension topics include stubborn/biased agents, opinion manipulation, power evolution, repulsion, noise, interrelated topics, and expressed vs. private opinions.",
+      "evidence_quote": "At least two studies used binary opinion models to explain Trump's 2016 victory [36, 37]."
+    }
+  ],
+  "reliability_notes": "Full text was fetched, but I read only roughly the first 14,000 characters (intro, preliminaries, DeGroot/FJ/bounded-confidence models, start of discrete models). I did not read the extensions sections 4-7. This is a short arXiv survey by a single author, with no peer-review status stated. It covers opinion dynamics only, a narrow slice of artificial societies, and it is mostly mathematical and network-based rather than a broader ABM treatment."
+}

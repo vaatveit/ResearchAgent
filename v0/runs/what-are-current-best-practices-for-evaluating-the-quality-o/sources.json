@@ -1,0 +1,51 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2506.11763",
+    "title": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
+    "why_relevant": "Primary paper: 100 PhD-level research tasks across 22 domains; introduces RACE (reference-based adaptive criteria report quality scoring) and FACT (citation accuracy/effective citation count) frameworks for evaluating open-ended deep-research reports, and discusses limits of prior QA-style benchmarks.",
+    "subtopic": "Benchmarks for deep research agents",
+    "id": "s001"
+  },
+  {
+    "url": "https://arxiv.org/abs/2305.14251",
+    "title": "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation (Min et al., EMNLP 2023)",
+    "why_relevant": "The standard method for checking facts claim by claim: it splits long-form output into atomic facts and reports the share that a knowledge source supports. It also comes with an automated estimator. Many deep-research factuality metrics build on it.",
+    "subtopic": "Factuality, citation and attribution evaluation",
+    "id": "s002"
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+    "title": "Demystifying evals for AI agents (Anthropic Engineering)",
+    "why_relevant": "Authoritative industry guidance from Anthropic on agent evaluation: grading outcomes vs. transcripts/trajectories, code/model/human graders, handling non-determinism (pass@k, pass^k), multi-trial reproducibility, and tracking cost/latency/turns for agentic systems including research agents.",
+    "subtopic": "Process, trajectory and efficiency metrics",
+    "id": "s003"
+  },
+  {
+    "url": "https://arxiv.org/abs/2504.12516",
+    "title": "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents (OpenAI)",
+    "why_relevant": "Primary paper for BrowseComp: 1,266 hard-to-find, short verifiable-answer questions; explains inverted question construction, exact-answer scoring, calibration, test-time compute scaling, and explicitly notes limitations (doesn't measure long-form answers or user-intent ambiguity).",
+    "subtopic": "Benchmarks for deep research agents",
+    "id": "s004"
+  },
+  {
+    "url": "https://arxiv.org/html/2605.06635v1",
+    "title": "Cited but Not Verified: Parsing and Evaluating Source Attribution in LLM Deep Research Agents",
+    "why_relevant": "A recent framework made specifically for deep research agent reports. It parses inline citations and scores them on several dimensions: whether links work, whether the source is relevant, and whether the claim is factually consistent with its source. It reports results for frontier agents, so it covers citation correctness and source faithfulness directly.",
+    "subtopic": "Factuality, citation and attribution evaluation",
+    "id": "s005"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2511.07685",
+    "title": "ResearchRubrics: A Benchmark of Prompts and Rubrics For Evaluating Deep Research Agents (ICLR 2026)",
+    "why_relevant": "Expert-written rubrics (thousands of criteria) for deep research outputs; reports human\u2013LLM judge alignment (binary vs ternary grading, Macro F1 ~0.72\u20130.76) and expert annotation protocol \u2014 directly addresses rubric-based grading best practices and inter-rater reliability.",
+    "subtopic": "LLM-as-judge and human evaluation protocols",
+    "id": "s006"
+  },
+  {
+    "url": "https://arxiv.org/abs/2602.21230",
+    "title": "TRACE: Trajectory-Aware Comprehensive Evaluation for Deep Research Agents (arXiv 2602.21230)",
+    "why_relevant": "Recent paper arguing outcome-only metrics are insufficient for deep research agents and proposing a trajectory-level framework evaluating process quality, efficiency, and robustness of the full problem-solving path.",
+    "subtopic": "Process, trajectory and efficiency metrics",
+    "id": "s007"
+  }
+]

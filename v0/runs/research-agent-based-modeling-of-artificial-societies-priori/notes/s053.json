@@ -1,0 +1,54 @@
+{
+  "id": "s053",
+  "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0104207",
+  "subtopic": "Cooperation, norms and institutions",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Conditions for the Emergence of Shared Norms in Populations with Incompatible Preferences",
+  "publisher": "PLOS ONE (Helbing, Yu, Opp, Rauhut)",
+  "published_date": "2014-08-28",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "The model integrates game-theoretic and social-influence approaches. Agents have heterogeneous, incompatible preferences, and the authors study the dynamics of norm selection through spatial interaction.",
+      "evidence_quote": "we integrate these two perspectives, by modeling explicitly that individuals often have preferences for different behavior and by analyzing the dynamics resulting from social interactions."
+    },
+    {
+      "claim": "Model design: agents sit on a fully occupied 2D torus grid and do not move. Each step has interaction with payoff, in-group proportional imitation, and random strategy flips at rate r. The paper reports this as a stag hunt within a population and a battle of the sexes across populations.",
+      "evidence_quote": "individuals are distributed on a checkerboard-like, two-dimensional spatial grid with periodic boundary conditions"
+    },
+    {
+      "claim": "Path dependence. With no punishment, the outcome depends on initial commitment and relative population strength S. It can be a norm set by either population, or coexistence. A committed minority can impose an unpopular norm on the majority.",
+      "evidence_quote": "the minority may succeed in establishing their preferred behavior as a commonly shared behavior, if they are more committed to it in the beginning than the majority."
+    },
+    {
+      "claim": "Emergent norms are not necessarily welfare-optimal.",
+      "evidence_quote": "emergent norms are not necessarily beneficial, or at least not the most beneficial solution for a social or economic system."
+    },
+    {
+      "claim": "Local cultures. A small interaction range R gives local conformity with global diversity, and the boundaries between cultures keep moving. Coexistence is a separate outcome that occurs for large B/A.",
+      "evidence_quote": "The phenomenon of global diversity despite of local conformity is an interesting puzzle in the social sciences"
+    },
+    {
+      "claim": "Punishment typology. Behavior-based punishment establishes norms much more effectively than preference-based punishment. Preference-based punishment can fail when the populations are of similar strength. Hypocritical punishment persists under preference-based punishment but vanishes under behavior-based punishment.",
+      "evidence_quote": "Surprisingly, preference-based punishment is much less effective than behavior-based punishment."
+    },
+    {
+      "claim": "Analytically, behavior-based punishment acts like a larger conformity advantage: the effective A rises by (k+1)C, where C is the punishment cost and F = kC is the fine.",
+      "evidence_quote": "the experienced advantage A of conformity is increased by an average value of F+C = (k+1)C."
+    },
+    {
+      "claim": "Adaptive group pressure, where local majorities punish minorities, creates norms spontaneously from random local clusters. This needs noise, a small interaction range and non-linearity, so a representative-agent model cannot capture it. Threshold dynamics: a super-critical cluster spreads.",
+      "evidence_quote": "spontaneous norm emergence would neither be possible for interactions of everybody with everyone else nor for randomly chosen interaction partners from arbitrary locations"
+    },
+    {
+      "claim": "Persistence and hysteresis. Once established, a norm persists after sanctioning is reduced, and it decays only gradually. The norm is maintained by internalized 'normative thinking' (a metanorm), not by internalizing its content.",
+      "evidence_quote": "an established norm persists over a long time, even if the punishment efforts are suddenly reduced."
+    },
+    {
+      "claim": "Limitations and extensions. The authors treat punishment as unconditional and normative. They restrict imitation to in-group neighbors and leave for future work faster, non-spatial (online) communication, pooled punishment, and changing preferences.",
+      "evidence_quote": "One possible extension may be a specification, where imitation is allowed in larger groups and among agents who are not in spatial proximity."
+    }
+  ],
+  "reliability_notes": "Full text was read (peer-reviewed, open-access PLOS ONE, 2014). It is one stylized model with simulations only. It has no empirical validation, and the authors use phase diagrams and figures instead of statistical tests. Useful for the norms, sanctioning, and spatial-interaction aspects of artificial societies."
+}

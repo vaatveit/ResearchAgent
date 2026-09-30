@@ -1,0 +1,50 @@
+{
+  "id": "s047",
+  "url": "https://arxiv.org/pdf/2104.01650",
+  "subtopic": "Demography, migration and epidemics",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "City-Scale Simulation of COVID-19 Pandemic & Intervention Policies using Agent-Based Modelling",
+  "publisher": "arXiv (IIT Kharagpur; Suryawanshi, Madhavan, Mitra, Chakrabarti)",
+  "published_date": "2021-04 (v dated Sept 10, 2021)",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Detailed city-scale ABM of Kolkata: residents plus homes, markets, workplaces, schools, healthcare, and public transport. It is parameterized with ward-level data and reproduces observed COVID-19 case dynamics.",
+      "evidence_quote": "We develop a very detailed agent-based model for a city, including its residents, physical and social spaces like homes, marketplaces, workplaces, schools/colleges etc."
+    },
+    {
+      "claim": "Historical framing: ABM emerged in the 1990s in computational social science as a testbed for artificial societies. It was later applied to economics, ecology, population biology and urban systems.",
+      "evidence_quote": "Agent-based modeling (ABM), as a computational technique, emerged in the 1990s, primarily in the domain of computational social science [8, 4] as a testbed for artificial societies."
+    },
+    {
+      "claim": "Urban ABM software and topics: MATSim and UrbanSim for long-term city trends. More recent models focus on residential areas and transport.",
+      "evidence_quote": "MAT-SIM [16] and UrbanSim [30] are ABM-based software packages to simulate long-term trends in a city related to traffic management, electricity/water usage and gas emissions"
+    },
+    {
+      "claim": "Epidemic ABMs need three ingredients: a synthetic population, a geo-located social network, and a disease progression model. ABMs are favored over compartmental (SIR) models because those model only aggregate statistics.",
+      "evidence_quote": "Such models need i) a synthetic population with realistic demographic attributes, ii) a geo-located social network of the population, and iii) a disease progression and infection model."
+    },
+    {
+      "claim": "The survey compares COVID ABMs (Silva et al, Hoertel et al, Truszkowska et al, Shamil et al, Kerr et al) on features such as daily schedules, city structure, transport, medical facilities, economics, vaccination and validation. Most omit some of these. The economic-impact and vaccination gaps also remain in this work.",
+      "evidence_quote": "Each of the studies takes into account a subset of these features. In Table 1, we list out these features"
+    },
+    {
+      "claim": "Agents and institutions are modeled with structured attributes: age group, family, workplace, comorbidity, income, and visiting places. Workplaces are grouped by sector and sub-sector with essential/non-essential status. Education and healthcare are modeled separately. Private transport is ignored.",
+      "evidence_quote": "The economic sphere is divided into sectors, which are further divided into sub-sectors. Each sub-sector then contains a number of workplaces under it."
+    },
+    {
+      "claim": "Behavioral aspect: agents have compliance rates, the probability of obeying an NPI. The model adds this to features of earlier models.",
+      "evidence_quote": "We also have additional features such as compliance rates, i.e. the probability that any individual will obey the operational NPI."
+    },
+    {
+      "claim": "Counterfactual results: prolonged lockdowns did not help because cases rose later. Weekend lockdowns were effective. No lockdown gave more than 10 times as many cases. High contact tracing, compliance and distancing control case counts.",
+      "evidence_quote": "Prolonged lockdowns are unlikely to help, though lockdown on every weekend seems to be quite effective."
+    },
+    {
+      "claim": "Granular spatial and demographic detail improves validation. Simulations using true ward population distributions were compared against equal distribution. Future work: vaccination, economics, ML parameter estimation, and reinforcement learning for policy search.",
+      "evidence_quote": "We also show that such granular representations are necessary for successful simulation. This model can work as a digital twin of a city"
+    }
+  ],
+  "reliability_notes": "Full text was fetched. It is an arXiv preprint and may not be peer reviewed. Its scope is epidemic ABM for one city (Kolkata), not general artificial societies. The counterfactual results cannot be verified, and the authors say so. The literature review is brief."
+}

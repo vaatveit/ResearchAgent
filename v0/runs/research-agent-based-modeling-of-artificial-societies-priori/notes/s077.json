@@ -1,0 +1,46 @@
+{
+  "id": "s077",
+  "url": "https://jasss.soc.surrey.ac.uk/21/4/4.html",
+  "subtopic": "Environment, resources and socio-ecological systems",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "An Agent-Based Model of Rural Households' Adaptation to Climate Change",
+  "publisher": "Journal of Artificial Societies and Social Simulation (JASSS) 21(4) 4; Hailegiorgis, Crooks, Cioffi-Revilla",
+  "published_date": "2018-10-31",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "OMOLAND-CA is an ABM of rural household adaptation to climate change in South Omo Zone, Ethiopia. It explicitly represents agents' socio-cognitive behavior and resource flows.",
+      "evidence_quote": "Our model explicitly represents the socio-cognitive behavior of rural households toward climate change and resource flows that prompt agents to diversify their production strategy"
+    },
+    {
+      "claim": "Agent cognition and decision-making are built on the MPPACC framework, which the authors say has been largely neglected in adaptation research.",
+      "evidence_quote": "the role of cognition in adaptation to climate change has so far been largely neglected"
+    },
+    {
+      "claim": "Implementation and reproducibility: the model was built in MASON with GeoMASON (GIS), with code, data and an ODD+D description published on CoMSES.",
+      "evidence_quote": "The model was implemented in the MASON simulation system, including its geographical information system (GIS) extension, GeoMASON"
+    },
+    {
+      "claim": "Environment and population: the model uses spatial datasets and covers roughly 570,000 people in 125,000 households. Births and deaths are modeled at household level and affect labor allocation.",
+      "evidence_quote": "570,000 inhabitants in 125,000 households"
+    },
+    {
+      "claim": "Results on resilience and migration: successive extreme events erode assets and adaptive capacity and push households to migrate. Mixed herding-farming strategies survive best. Accurate drought prediction matters a great deal but is hard to achieve.",
+      "evidence_quote": "mixed strategies provide a superior survival advantage for households facing the harsh challenges of climate change"
+    },
+    {
+      "claim": "Validation is a limitation. The model passes face-validity tests only. Data scarcity, especially in developing countries, hampers empirical validation.",
+      "evidence_quote": "more rigorous empirical validation is necessary to ensure the robustness of the emerging patterns"
+    },
+    {
+      "claim": "Future work: agent behavior around technology adoption, trust in climate forecasts, and family cohesion or cooperation.",
+      "evidence_quote": "explore the willingness of rural households to adopt new agricultural technology and climate adaptation measures"
+    },
+    {
+      "claim": "The authors argue that ABM suits representing human decision-making and human-environment interaction, and that ABMs work as computational laboratories.",
+      "evidence_quote": "Agent-Based Modeling (ABM) is a natural way of representing socio-cognitive behavior of individuals and simulating complex interactions between individuals and their environment"
+    }
+  ],
+  "reliability_notes": "Full text of a peer-reviewed, open-access JASSS article. It is a domain-specific case study (climate adaptation) rather than a general review of artificial societies. Quotes come from the introduction, background, and discussion sections. I did not read the results section in detail."
+}

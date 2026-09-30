@@ -1,0 +1,590 @@
+[
+  {
+    "url": "https://www.brookings.edu/books/growing-artificial-societies/",
+    "title": "Growing Artificial Societies (Epstein & Axtell, 1996) \u2013 Brookings",
+    "why_relevant": "Authoritative publisher description of the foundational Sugarscape book: agent attributes such as vision and metabolism, the local movement rule, and emergent migration, wealth distribution, tribes, combat, and population dynamics.",
+    "subtopic": "Foundations and frameworks",
+    "id": "s001"
+  },
+  {
+    "url": "https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/blake.sfisum.pdf",
+    "title": "Building the Santa Fe Artificial Stock Market (LeBaron)",
+    "why_relevant": "Full-text account by one of the model's builders. Covers the history of agent-based financial markets and how the SFI-ASM was designed: open-ended agent learning inside a conservative economic structure.",
+    "subtopic": "Economy and markets",
+    "id": "s002"
+  },
+  {
+    "url": "https://arxiv.org/pdf/cond-mat/0607344",
+    "title": "Szab\u00f3 & F\u00e1th (2007) Evolutionary games on graphs (Physics Reports; arXiv full text)",
+    "why_relevant": "Canonical full-text review of evolutionary game theory on lattices and networks: how spatial and network structure, update rules and learning drive the emergence of cooperation in agent populations.",
+    "subtopic": "Cooperation, norms and institutions",
+    "id": "s003"
+  },
+  {
+    "url": "https://www.jasss.org/20/4/2/2.pdf",
+    "title": "Models of Social Influence: Towards the Next Frontiers (Flache et al., JASSS 2017)",
+    "why_relevant": "This full-text review is the standard reference on social influence models. It starts from Axelrod's question about why cultural differences persist and compares three families of models (assimilative, similarity-biased/bounded confidence, and repulsive influence). It also sets out an agenda for empirical validation.",
+    "subtopic": "Culture and opinion dynamics",
+    "id": "s004"
+  },
+  {
+    "url": "https://arxiv.org/abs/physics/0603023",
+    "title": "Nonequilibrium phase transition in the coevolution of networks and opinions (Holme & Newman, PRE 2006)",
+    "why_relevant": "Foundational co-evolution model (adaptive voter model): one parameter balances opinion adoption vs. homophilous rewiring, producing a continuous phase transition between fragmented diverse-opinion communities and consensus. Full text on arXiv.",
+    "subtopic": "Social networks and structure",
+    "id": "s005"
+  },
+  {
+    "url": "https://www.pnas.org/doi/10.1073/pnas.092080199",
+    "title": "Modeling civil violence: An agent-based computational approach (Epstein 2002, PNAS)",
+    "why_relevant": "Foundational civil violence ABM (full text open): Model I, a central authority (cops) putting down decentralized rebellion driven by grievance vs. perceived arrest risk; Model II, suppressing communal violence between two ethnic groups. It's the basis for most later rebellion/protest ABMs.",
+    "subtopic": "Politics, conflict and governance",
+    "id": "s006"
+  },
+  {
+    "url": "https://www.pnas.org/doi/10.1073/pnas.092080799",
+    "title": "Population growth and collapse in a multiagent model of the Kayenta Anasazi in Long House Valley (Axtell et al., PNAS 2002)",
+    "why_relevant": "Key original archaeology ABM: household agents on a reconstructed paleo-environment of maize productivity reproduce population growth, settlement patterns and collapse in Long House Valley, AD 800\u20131350. Open-access PNAS paper.",
+    "subtopic": "Demography, migration and epidemics",
+    "id": "s007"
+  },
+  {
+    "url": "https://arxiv.org/html/2304.03442v2",
+    "title": "Generative Agents: Interactive Simulacra of Human Behavior (Park et al., UIST 2023), full text",
+    "why_relevant": "The foundational LLM-agent architecture (memory stream, reflection, planning, retrieval). 25 agents in a Sims-like town show believable behavior for individuals and emerging groups. It sets the template most later LLM artificial societies build on.",
+    "subtopic": "Agent cognition and LLM-based agents",
+    "id": "s008"
+  },
+  {
+    "url": "https://www.jasss.org/20/2/8.html",
+    "title": "Agent-Based Modelling of Social-Ecological Systems: Achievements, Challenges, and a Way Forward (Schulze et al., JASSS 2017)",
+    "why_relevant": "Open-access review of agent-based models of social-ecological systems: what the field has achieved, the trade-off between toy models and realistic ones, whether models can support decisions, and how to ground them in data. A core state-of-the-art reference.",
+    "subtopic": "Environment, resources and socio-ecological systems",
+    "id": "s009"
+  },
+  {
+    "url": "https://www.jasss.org/23/2/7.html",
+    "title": "The ODD Protocol for Describing Agent-Based and Other Simulation Models: A Second Update to Improve Clarity, Replication, and Structural Realism (Grimm et al., JASSS 2020)",
+    "why_relevant": "Open-access primary reference for the ODD documentation standard. It frames ODD as a response to the replication crisis, adds sections on model rationale and evaluation, and argues for standard descriptions of simulation experiments. Covers use in the social sciences (Polhill) and the ODD+D extension for human decision-making.",
+    "subtopic": "Methodology: calibration, validation and platforms",
+    "id": "s010"
+  },
+  {
+    "url": "https://jasss.soc.surrey.ac.uk/12/1/6/appendixB/EpsteinAxtell1996.html",
+    "title": "Epstein and Axtell's Sugarscape \u2013 JASSS appendix (full text)",
+    "why_relevant": "Full-text technical specification of the core Sugarscape model: a 50\u00d750 torus, sugar capacity, 250 agents and their attributes, plus later extensions to norm formation and the emergence of cooperation.",
+    "subtopic": "Foundations and frameworks",
+    "id": "s011"
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167268106001545",
+    "title": "Technical trading in the Santa Fe Institute Artificial Stock Market revisited (Ehrentreich, JEBO 2006)",
+    "why_relevant": "Key critique (abstract only). Finds that the SFI-ASM's 'emergent technical trading' result may come from a biased mutation operator, which bears on the Marimon\u2013Sargent rational-expectations debate. Links to open RePEc working paper at ideas.repec.org/p/wpa/wuwpco/0209001.html.",
+    "subtopic": "Economy and markets",
+    "id": "s012"
+  },
+  {
+    "url": "https://arxiv.org/abs/1705.07161",
+    "title": "Perc et al. (2017) Statistical physics of human cooperation (Physics Reports; arXiv full text)",
+    "why_relevant": "Full-text review bringing together agent-based and Monte Carlo models of cooperation (spatial patterns, punishment, reward, group interactions) with results from human experiments, including where models and experiments disagree.",
+    "subtopic": "Cooperation, norms and institutions",
+    "id": "s013"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2507.11521",
+    "title": "Opinion dynamics: Statistical physics and beyond (2025 review)",
+    "why_relevant": "A recent, broad full-text review of opinion dynamics models. It covers bounded confidence (Hegselmann-Krause and Deffuant-Weisbuch) and their extensions, from statistical physics through to newer approaches.",
+    "subtopic": "Culture and opinion dynamics",
+    "id": "s014"
+  },
+  {
+    "url": "https://www.science.org/doi/10.1126/sciadv.aax7310",
+    "title": "Cumulative effects of triadic closure and homophily in social networks (Asikainen et al., Science Advances 2020)",
+    "why_relevant": "Dynamic ABM showing that choice homophily plus triadic closure amplifies homophily, produces core-periphery structure and hysteresis; small individual biases can cause network-level segregation. Full text open access (also on PMC).",
+    "subtopic": "Social networks and structure",
+    "id": "s015"
+  },
+  {
+    "url": "https://www.pnas.org/content/99/suppl_3/7296",
+    "title": "Endogenizing geopolitical boundaries with agent-based modeling (Cederman 2002, PNAS)",
+    "why_relevant": "Open-access full text. States form endogenously on a grid through conquest, becoming hierarchical capital\u2013province organizations, and a multipolar balance of power emerges. Also looks at nationalism and at power-law war sizes.",
+    "subtopic": "Politics, conflict and governance",
+    "id": "s016"
+  },
+  {
+    "url": "https://jasss.soc.surrey.ac.uk/12/4/13.html",
+    "title": "Understanding Artificial Anasazi (Janssen, JASSS 2009)",
+    "why_relevant": "Full-text replication and ODD description of the Anasazi model. It found the released Ascape code did not reproduce the published results, which matters for reproducibility and validation in archaeological ABMs. Code is on CoMSES.",
+    "subtopic": "Demography, migration and epidemics",
+    "id": "s017"
+  },
+  {
+    "url": "https://arxiv.org/html/2502.08691v1",
+    "title": "AgentSociety: Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society (Piao et al., 2025), full text",
+    "why_relevant": "A simulator with 10k+ agents and 5M interactions. Agent 'minds' (emotions, needs, motivations, cognition) are grounded in psychology and economics theory. It was tested on polarization, inflammatory messages, UBI and hurricane shocks, with results checked against real-world findings.",
+    "subtopic": "Agent cognition and LLM-based agents",
+    "id": "s018"
+  },
+  {
+    "url": "https://www.ecologyandsociety.org/vol26/iss2/art38/",
+    "title": "Governance in social-ecological agent-based models: a review (Ecology and Society 2021)",
+    "why_relevant": "Open-access review of how governance and human decision-making are built into social-ecological agent-based models. It finds that most models rely on rational choice or bounded rationality, often with no direct interaction between agents, and a narrow set of theories compared with the social sciences.",
+    "subtopic": "Environment, resources and socio-ecological systems",
+    "id": "s019"
+  },
+  {
+    "url": "https://jasss.soc.surrey.ac.uk/10/2/8.html",
+    "title": "Empirical Validation of Agent-Based Models: Alternatives and Prospects (Windrum, Fagiolo & Moneta, JASSS 2007)",
+    "why_relevant": "Foundational open-access survey of empirical validation. It gives a taxonomy of AB models and compares three approaches: indirect calibration, Werker-Brenner calibration, and history-friendly calibration. It also lists open problems that apply to all social ABMs.",
+    "subtopic": "Methodology: calibration, validation and platforms",
+    "id": "s020"
+  },
+  {
+    "url": "https://arxiv.org/pdf/1505.06012",
+    "title": "The Specification of Sugarscape (arXiv)",
+    "why_relevant": "Full-text formal specification describing Sugarscape as the first large-scale agent-based social simulation (ABSS), with a partial implementation included in every major toolkit (Swarm, Repast, MASON, NetLogo).",
+    "subtopic": "Foundations and frameworks",
+    "id": "s021"
+  },
+  {
+    "url": "https://jasss.soc.surrey.ac.uk/12/2/reviews/lebaron.html",
+    "title": "LeBaron review of Ehrentreich, Agent-Based Modeling: The SFI Artificial Stock Market Revisited (JASSS)",
+    "why_relevant": "Open-access review that places the SFI-ASM as a benchmark model and sums up the robustness debate over its results.",
+    "subtopic": "Economy and markets",
+    "id": "s022"
+  },
+  {
+    "url": "https://arxiv.org/pdf/0910.0826",
+    "title": "Perc & Szolnoki (2010) Coevolutionary games \u2013 a mini review (full text)",
+    "why_relevant": "Reviews coevolutionary models in which agents change their network ties, learning rules or teaching ability as well as their strategies. These are key mechanisms for sustaining cooperation in artificial societies.",
+    "subtopic": "Cooperation, norms and institutions",
+    "id": "s023"
+  },
+  {
+    "url": "https://arxiv.org/pdf/0707.1762",
+    "title": "Continuous Opinion Dynamics under Bounded Confidence: A Survey (Lorenz, 2007)",
+    "why_relevant": "The classic full-text survey of bounded confidence models, explaining how they lead to consensus, polarization or fragmentation.",
+    "subtopic": "Culture and opinion dynamics",
+    "id": "s024"
+  },
+  {
+    "url": "https://arxiv.org/pdf/1808.05035",
+    "title": "Structural transition in social networks: The role of homophily (Murase et al.)",
+    "why_relevant": "Extends the weighted social network (WSN) ABM with focal/cyclic closure and homophily, showing how community structure emerges; directly answers Kossinets & Watts' call for simulation. Full text.",
+    "subtopic": "Social networks and structure",
+    "id": "s025"
+  },
+  {
+    "url": "https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/LarsErikCederman.ModelingSizeOfWars.pdf",
+    "title": "Modeling the Size of Wars: From Billiard Balls to Sandpiles (Cederman 2003, APSR preprint)",
+    "why_relevant": "Full-text preprint of an ABM of war and state formation that reproduces Richardson's power-law distribution of war severity through technological change and self-organized criticality.",
+    "subtopic": "Politics, conflict and governance",
+    "id": "s026"
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8341708/",
+    "title": "Covasim: An agent-based model of COVID-19 dynamics and interventions (Kerr et al., PLOS Comp Biol 2021)",
+    "why_relevant": "Full-text, widely used open-source COVID-19 ABM. Uses SynthPops synthetic populations with household, school, work and community contact layers, and models physical, diagnostic and vaccination interventions. Also covers array-based implementation for scaling.",
+    "subtopic": "Demography, migration and epidemics",
+    "id": "s027"
+  },
+  {
+    "url": "https://arxiv.org/html/2411.00114v1",
+    "title": "Project Sid: Many-agent simulations toward AI civilization (Altera.AL, 2024), full text",
+    "why_relevant": "Introduces the PIANO concurrent cognitive architecture, which keeps agents coherent across parallel output streams. 10\u20131000+ agents in Minecraft specialize into roles, change collective rules, and pass on culture and religion. It also proposes civilizational benchmarks.",
+    "subtopic": "Agent cognition and LLM-based agents",
+    "id": "s028"
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S1364815224000598",
+    "title": "Modelling forests as social-ecological systems: A systematic comparison of agent-based approaches (Environmental Modelling & Software 2024)",
+    "why_relevant": "Recent systematic review of forest agent-based models. It shows that 'hybrid' models, where land cover changes over time and feeds back into social processes, are still found in only a few forerunner models, and that memory and learning are poorly represented.",
+    "subtopic": "Environment, resources and socio-ecological systems",
+    "id": "s029"
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S1574002118300030",
+    "title": "Empirical Validation of Agent-Based Models (Lux & Zwinkels, Handbook of Computational Economics 2018)",
+    "why_relevant": "Recent authoritative review of how ABMs are estimated and calibrated: simulated likelihood and method of moments, state-space methods, and validation against individual-level and aggregate data. It also notes that ABM likelihood surfaces are rugged, which makes finding a global optimum hard.",
+    "subtopic": "Methodology: calibration, validation and platforms",
+    "id": "s030"
+  },
+  {
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/(SICI)1099-0526(199905/06)4:5%3C41::AID-CPLX9%3E3.0.CO;2-F",
+    "title": "Epstein (1999) Agent-based computational models and generative social science \u2013 Complexity",
+    "why_relevant": "Foundational methodological paper defining 'generative' social science as distinct from inductive and deductive science, i.e. how micro rules 'map up' to macro regularities (abstract available).",
+    "subtopic": "Foundations and frameworks",
+    "id": "s031"
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1753514",
+    "title": "Credit Money and Macroeconomic Instability in the Agent-Based Model and Simulator Eurace (Cincotti, Raberto, Teglio 2010)",
+    "why_relevant": "Open-access (Economics E-Journal, CC license) paper on EURACE. The model has a full set of linked markets, balance-sheet-consistent agents, endogenous credit money, and quantitative easing experiments.",
+    "subtopic": "Economy and markets",
+    "id": "s032"
+  },
+  {
+    "url": "https://link.springer.com/article/10.1007/s10458-019-09422-0",
+    "title": "Norm emergence in multiagent systems: a viewpoint paper (Autonomous Agents and Multi-Agent Systems, 2019)",
+    "why_relevant": "Recent open-access overview of norm emergence in multi-agent systems and agent-based simulation: why agents adopt norms (payoff versus avoiding punishment), regimented versus freely chosen compliance, and open challenges.",
+    "subtopic": "Cooperation, norms and institutions",
+    "id": "s033"
+  },
+  {
+    "url": "https://www.jasss.org/24/4/5.html",
+    "title": "Cultural Dissemination: An Agent-Based Model with Social Influence (JASSS 2021)",
+    "why_relevant": "A full-text Axelrod-model extension that includes a review of earlier extensions: mass media, cultural drift/noise, complex networks and neighborhood size. It also adds social influence from all neighbors, which makes the final cultural patterns more varied.",
+    "subtopic": "Culture and opinion dynamics",
+    "id": "s034"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8511694/",
+    "title": "Deep Learning Exploration of Agent-Based Social Network Model Parameters (Murase et al., Frontiers in Big Data 2021)",
+    "why_relevant": "Generalized weighted social network ABM combining triadic closure, homophily and link termination; uses supercomputer simulations + deep learning surrogate for global sensitivity analysis. Methodological state of the art. Full text on PMC.",
+    "subtopic": "Social networks and structure",
+    "id": "s035"
+  },
+  {
+    "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0020851",
+    "title": "Fortune Favours the Bold: An Agent-Based Model Reveals Adaptive Advantages of Overconfidence in War (Johnson, Weidmann, Cederman 2011, PLOS One)",
+    "why_relevant": "Open-access ABM of conflict between states. Overconfident states end up dominating the population, which ties decision-making psychology to evolutionary selection among states.",
+    "subtopic": "Politics, conflict and governance",
+    "id": "s036"
+  },
+  {
+    "url": "https://www.medrxiv.org/content/10.1101/2020.11.07.20227462.full.pdf",
+    "title": "Synthetic Reproduction and Augmentation of COVID-19 Case Reporting Data by Agent-Based Simulation (Austria; Data Science Journal 2021)",
+    "why_relevant": "Full-text national-scale ABM (about 9 million agents) that statistically replicates the Austrian population. Shows ABMs producing privacy-free synthetic epidemiological data aligned with official case reports.",
+    "subtopic": "Demography, migration and epidemics",
+    "id": "s037"
+  },
+  {
+    "url": "https://arxiv.org/html/2312.11970v1",
+    "title": "Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives (Gao et al., 2024, HSSC), full text",
+    "why_relevant": "A PRISMA-based survey of LLM-powered ABM across cyber, physical, social and hybrid domains. It sets out the main problems: environment perception, human alignment, action generation and evaluation.",
+    "subtopic": "Agent cognition and LLM-based agents",
+    "id": "s038"
+  },
+  {
+    "url": "https://link.springer.com/article/10.1007/s10980-007-9135-1",
+    "title": "Agent-based land-use models: a review of applications (Matthews et al., Landscape Ecology 2007)",
+    "why_relevant": "Foundational review of agent-based land-use models, covering their uses (policy analysis, participatory modelling, explaining land-use patterns) and their limited value as operational decision-support tools.",
+    "subtopic": "Environment, resources and socio-ecological systems",
+    "id": "s039"
+  },
+  {
+    "url": "https://arxiv.org/pdf/1703.10639",
+    "title": "Agent-Based Model Calibration using Machine Learning Surrogates (Lamperti, Roventini & Sani)",
+    "why_relevant": "Full-text paper on current calibration practice: machine-learning surrogate models (meta-models) make parameter-space exploration and calibration of expensive ABMs computationally feasible.",
+    "subtopic": "Methodology: calibration, validation and platforms",
+    "id": "s040"
+  },
+  {
+    "url": "https://jasss.soc.surrey.ac.uk/10/4/reviews/conte.html",
+    "title": "Conte \u2013 JASSS review of Epstein's Generative Social Science",
+    "why_relevant": "Full-text critical review from within the simulation community that engages with the generative-explanation standard and its limits.",
+    "subtopic": "Foundations and frameworks",
+    "id": "s041"
+  },
+  {
+    "url": "https://www.jasss.org/20/1/1.html",
+    "title": "Macroeconomic Policy in DSGE and Agent-Based Models Redux (Fagiolo & Roventini, JASSS 2017)",
+    "why_relevant": "Open-access full-text survey of macroeconomic agent-based models (K+S, EURACE, CATS, etc.) used for fiscal, monetary, banking-regulation, labour-market and climate policy. Also covers methodological problems such as validation.",
+    "subtopic": "Economy and markets",
+    "id": "s042"
+  },
+  {
+    "url": "https://www.researchgate.net/publication/220535390_Norm_creation_spreading_and_emergence_A_survey_of_simulation_models_of_norms_in_multi-agent_systems",
+    "title": "Savarimuthu & Cranefield (2011) Norm creation, spreading and emergence: A survey of simulation models of norms in multi-agent systems",
+    "why_relevant": "Widely cited survey that sorts simulation models of norms by life-cycle phase (creation, spreading, enforcement, emergence) and by mechanism (sanctions, rewards, imitation, personalities).",
+    "subtopic": "Cooperation, norms and institutions",
+    "id": "s043"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2102.06921",
+    "title": "Polarization inhibits the phase transition of Axelrod's model",
+    "why_relevant": "A statistical-physics study of the Axelrod model showing how polarization changes its phase transition. Its references cover coevolving networks and intolerance variants.",
+    "subtopic": "Culture and opinion dynamics",
+    "id": "s044"
+  },
+  {
+    "url": "https://arxiv.org/abs/2408.05623",
+    "title": "Behavioral and Topological Heterogeneities in Network Versions of Schelling's Segregation Model (Deter & Sayama)",
+    "why_relevant": "Recent network Schelling model with a review of the lineage (Sakoda, Schelling, Fossett); tests how heterogeneous preferences and heterogeneous network topologies together affect segregation. Full text on arXiv.",
+    "subtopic": "Social networks and structure",
+    "id": "s045"
+  },
+  {
+    "url": "https://www.sociostudies.org/almanac/articles/cycling_in_the_complexity_of_early_societies/",
+    "title": "Cycling in the Complexity of Early Societies (Gavrilets, Anderson, Turchin 2010)",
+    "why_relevant": "Spatially explicit ABM of early chiefdoms/states arising through warfare (Carneiro), with polities modeled as hierarchical village networks. Predicts stochastic rise-and-collapse cycles. Full text downloadable.",
+    "subtopic": "Politics, conflict and governance",
+    "id": "s046"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2104.01650",
+    "title": "City-scale Simulation of Covid-19 Pandemic and Intervention Policies using Agent-based Modelling",
+    "why_relevant": "Full-text arXiv paper setting out the three standard parts of an epidemic ABM (synthetic population, geo-located social network, disease model). Reviews related transport-coupled (MATSim) and economic (COVID-ABS) ABMs.",
+    "subtopic": "Demography, migration and epidemics",
+    "id": "s047"
+  },
+  {
+    "url": "https://www.nature.com/articles/s41599-024-03611-3",
+    "title": "Large language models empowered agent-based modeling and simulation: a survey and perspectives (Humanities and Social Sciences Communications, peer-reviewed version)",
+    "why_relevant": "Peer-reviewed open-access version of the key LLM-ABM survey.",
+    "subtopic": "Agent cognition and LLM-based agents",
+    "id": "s048"
+  },
+  {
+    "url": "https://www.jasss.org/25/4/3.html",
+    "title": "An Agent-Based Model of the Interaction Between Inequality, Trust, and Communication in Common Pool Experiments (JASSS 2022)",
+    "why_relevant": "Open-access common-pool resource model calibrated on lab experiments, in which agents' trust changes with communication and inequality. It reproduces the harvesting patterns seen in the experiments and puts Ostrom's behavioural theory into code.",
+    "subtopic": "Environment, resources and socio-ecological systems",
+    "id": "s049"
+  },
+  {
+    "url": "https://www.jasss.org/19/1/5.html",
+    "title": "Which Sensitivity Analysis Method Should I Use for My Agent-Based Model? (ten Broeke, van Voorn & Ligtenberg, JASSS 2016)",
+    "why_relevant": "Open-access evaluation of three common sensitivity analysis methods (OFAT, regression-based, and Sobol variance decomposition) applied to ABMs with multiple levels, nonlinear interactions and emergent behaviour. Widely cited guidance on choosing a method.",
+    "subtopic": "Methodology: calibration, validation and platforms",
+    "id": "s050"
+  },
+  {
+    "url": "https://www.jasss.org/12/4/9.html",
+    "title": "Heath, Hill & Ciarallo (2009) A Survey of Agent-Based Modeling Practices 1998\u20132008 \u2013 JASSS",
+    "why_relevant": "Full-text systematic review of 279 ABM articles assessing the state of ABM practice across fields.",
+    "subtopic": "Foundations and frameworks",
+    "id": "s051"
+  },
+  {
+    "url": "https://d-nb.info/1151638439/34",
+    "title": "Agent-Based Macroeconomics (Dawid & Delli Gatti, Handbook of Computational Economics vol. 4, preprint)",
+    "why_relevant": "Full-text handbook chapter surveying agent-based macroeconomic model families (EURACE@Unibi, Mark I/CATS, K+S) and their shared design choices, including behavioural rules grounded in experiments.",
+    "subtopic": "Economy and markets",
+    "id": "s052"
+  },
+  {
+    "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0104207",
+    "title": "Conditions for the Emergence of Shared Norms in Populations with Incompatible Preferences (PLOS ONE, 2014)",
+    "why_relevant": "Open-access agent-based model showing when shared norms, coexisting behaviours or unpopular norms emerge in heterogeneous populations. It also compares punishment based on others' behaviour with punishment based on private preferences.",
+    "subtopic": "Cooperation, norms and institutions",
+    "id": "s053"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2004.05286",
+    "title": "Recent advances in opinion propagation dynamics: A 2020 Survey",
+    "why_relevant": "A full-text survey covering discrete models, continuous/bounded confidence models and propagation models of opinion diffusion.",
+    "subtopic": "Culture and opinion dynamics",
+    "id": "s054"
+  },
+  {
+    "url": "https://arxiv.org/abs/2504.16307",
+    "title": "Schelling segregation dynamics in densely-connected social network graphs (Anastasi & Dalla Riva, 2025)",
+    "why_relevant": "Schelling model on dense, non-spatial social networks: dense networks segregate less than sparse ones, links segregation to polarisation, and re-tests Fossett's paradox of weak minority preferences. Full text available.",
+    "subtopic": "Social networks and structure",
+    "id": "s055"
+  },
+  {
+    "url": "https://www.alexmesoudi.com/publication/williams-formal-2024/Williams_Mesoudi_JAS_2024.pdf",
+    "title": "A formal test using agent-based models of the circumscription theory for the evolution of social complexity (Williams & Mesoudi 2024, J. Archaeological Science)",
+    "why_relevant": "Recent full-text ABM testing circumscription theory of state formation. Social circumscription turns out to be the biggest driver of hierarchy formation. Reviews related models (Turchin 2013, Gavrilets).",
+    "subtopic": "Politics, conflict and governance",
+    "id": "s056"
+  },
+  {
+    "url": "https://link.springer.com/article/10.1007/s10680-015-9362-0",
+    "title": "Decision-Making in Agent-Based Models of Migration: State of the Art and Challenges (Klabunde & Willekens, Eur J Population 2016)",
+    "why_relevant": "Authoritative open-access review of migration ABMs. Covers decision rules (random utility/discrete choice, theory of planned behaviour), social networks, and validation challenges in demographic ABMs.",
+    "subtopic": "Demography, migration and epidemics",
+    "id": "s057"
+  },
+  {
+    "url": "http://rr.liglab.fr/research_report/RR-LIG-050_orig.pdf",
+    "title": "BDI agents in social simulations: a survey (Adam & Gaudou), full-text report",
+    "why_relevant": "Authoritative survey of classical cognitive architectures in social simulation. Covers the KISS vs KIDS debate, BDI vs reactive/particle vs cognitive architectures (e.g. CLARION in Sun et al.), emotions, norms, learning, and methodology/tools.",
+    "subtopic": "Agent cognition and LLM-based agents",
+    "id": "s058"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12226385/",
+    "title": "Majority illusion drives the spontaneous emergence of alternative states in common-pool resource games with network-based information (PMC)",
+    "why_relevant": "Recent open-access agent-based model showing how the shape of an information network can push a commons toward either an abundant or a depleted state, and pointing to network-based policies as a remedy.",
+    "subtopic": "Environment, resources and socio-ecological systems",
+    "id": "s059"
+  },
+  {
+    "url": "https://jasss.soc.surrey.ac.uk/23/1/6.html",
+    "title": "'One Size Does Not Fit All': A Roadmap of Purpose-Driven Mixed-Method Pathways for Sensitivity Analysis of Agent-Based Models (JASSS 2020)",
+    "why_relevant": "Open-access roadmap for matching sensitivity analysis methods (OAT, global variance-based, and others) to the purpose of the model. Covers practical issues such as how many runs are needed, confidence intervals on Sobol indices, and non-normal outputs.",
+    "subtopic": "Methodology: calibration, validation and platforms",
+    "id": "s060"
+  },
+  {
+    "url": "https://www.jasss.org/25/2/6/6.pdf",
+    "title": "Generation of Synthetic Populations in Social Simulations: A Review \u2013 JASSS 2022",
+    "why_relevant": "Full-text state-of-the-art review of methods for building synthetic agent populations, plus a systematic review of ten years of JASSS models showing that few are grounded in empirical data.",
+    "subtopic": "Foundations and frameworks",
+    "id": "s061"
+  },
+  {
+    "url": "https://thecommonsjournal.org/articles/10.18352/ijc.606",
+    "title": "Ghorbani & Bravo (2016) Managing the commons: a simple model of the emergence of institutions through collective action (Int. J. Commons)",
+    "why_relevant": "Open-access agent-based model of institutions emerging for common-pool resources, with rules written in Ostrom's ADICO grammar. It reviews earlier ABMs of the commons (Janssen & Ostrom, Deadman, Jager & Janssen) and finds that institutions can emerge even when agents have simple cognition.",
+    "subtopic": "Cooperation, norms and institutions",
+    "id": "s062"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2212.10143",
+    "title": "Validating argument-based opinion dynamics with survey experiments",
+    "why_relevant": "Deals with the key problem of empirical validation: it tests argument-based opinion dynamics ABMs against survey experiments, building on the 'puzzle of polarization' literature.",
+    "subtopic": "Culture and opinion dynamics",
+    "id": "s063"
+  },
+  {
+    "url": "https://arxiv.org/html/2407.00145v1",
+    "title": "Co-evolving networks for opinion and social dynamics in agent-based models (2024)",
+    "why_relevant": "Stochastic ABM (SDE) in which mobility in social space and opinion dynamics feed back on each other, producing echo chambers or consensus; compared against General Social Survey data. Full text.",
+    "subtopic": "Social networks and structure",
+    "id": "s064"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5796695/",
+    "title": "Governator vs. Hunter and Aggregator: A simulation of party competition with vote-seeking and office-seeking rules (PLOS One, open access)",
+    "why_relevant": "Open-access extension of the Laver\u2013Sergenti party competition ABM (Hunter/Aggregator/Sticker heuristics) that adds coalition government formation. Covers voting and governance.",
+    "subtopic": "Politics, conflict and governance",
+    "id": "s065"
+  },
+  {
+    "url": "https://www.ecologyandsociety.org/vol23/iss2/art41/",
+    "title": "Agent-based modeling of environment-migration linkages: a review (Thober et al., Ecology and Society 2018)",
+    "why_relevant": "Full-text systematic review of ABMs where environmental factors drive rural migration, with the social-ecological feedbacks that such ABMs can capture.",
+    "subtopic": "Demography, migration and epidemics",
+    "id": "s066"
+  },
+  {
+    "url": "https://www.cambridge.org/core/journals/knowledge-engineering-review/article/abs/bdi-agents-in-social-simulations-a-survey/ADBACF4B23F625D42A7DB45E0D7556C4",
+    "title": "BDI agents in social simulations: a survey (Knowledge Engineering Review, 2016)",
+    "why_relevant": "Published peer-reviewed version of the BDI survey (abstract page).",
+    "subtopic": "Agent cognition and LLM-based agents",
+    "id": "s067"
+  },
+  {
+    "url": "https://sesmo.org/article/view/17894",
+    "title": "An agent-based model to support community forest management and NTFP harvesting in northern Thailand (SESMO 2021)",
+    "why_relevant": "Open-access companion-modelling / CORMAS example in which participatory simulation with stakeholders tests scenarios such as firebreaks and intensive harvesting by outsiders, for community management of a common resource.",
+    "subtopic": "Environment, resources and socio-ecological systems",
+    "id": "s068"
+  },
+  {
+    "url": "https://arxiv.org/pdf/1608.08517",
+    "title": "Empirically Grounded Agent-Based Models of Innovation Diffusion: A Critical Review (Zhang & Vorobeychik)",
+    "why_relevant": "Full-text critical review of how social ABMs are grounded in data. It summarises validation frameworks: Carley's grounding/calibration/verification/harmonization levels, Xiang et al.'s verification and validation (V&V) techniques, model-to-model comparison, and Rand & Rust's guidelines.",
+    "subtopic": "Methodology: calibration, validation and platforms",
+    "id": "s069"
+  },
+  {
+    "url": "https://arxiv.org/pdf/physics/0701140",
+    "title": "Agent-based Models of Financial Markets (Samanidou, Zschischang, Stauffer, Lux)",
+    "why_relevant": "Full-text review of financial-market agent-based models (Kim-Markowitz, Levy-Levy-Solomon, Lux-Marchesi, etc.) and random-exchange models that produce inequality in populations that start out equal.",
+    "subtopic": "Economy and markets",
+    "id": "s070"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9372633/",
+    "title": "Institutional modelling: Adding social backbone to agent-based models (MethodsX 2022, PMC full text)",
+    "why_relevant": "Full-text methods paper describing institutional modelling as a branch of agent-based modelling that links bottom-up agent behaviour with top-down institutional structures and institutional change.",
+    "subtopic": "Cooperation, norms and institutions",
+    "id": "s071"
+  },
+  {
+    "url": "https://www.researchgate.net/publication/345364436_An_agent-based_model_of_multi-dimensional_opinion_dynamics_and_opinion_alignment",
+    "title": "An agent-based model of multi-dimensional opinion dynamics and opinion alignment (Chaos, 2020)",
+    "why_relevant": "Uses cognitive dissonance and structural balance theory to model how opinions on different issues become aligned and polarized across multiple dimensions, a frontier in the polarization literature.",
+    "subtopic": "Culture and opinion dynamics",
+    "id": "s072"
+  },
+  {
+    "url": "https://arxiv.org/pdf/1107.5354",
+    "title": "Replicator Dynamics of Co-Evolving Networks (Galstyan, Kianercy, Allahverdyan)",
+    "why_relevant": "Game-theoretic co-evolution: reinforcement-learning agents adapt both their strategies and their links, and the dynamics reduce to coupled replicator equations. Represents the co-evolution of network and behavior strand. Full text.",
+    "subtopic": "Social networks and structure",
+    "id": "s073"
+  },
+  {
+    "url": "https://press.princeton.edu/books/paperback/9780691139043/party-competition",
+    "title": "Party Competition: An Agent-Based Model (Laver & Sergenti 2011, Princeton UP)",
+    "why_relevant": "The standard book-length treatment of multiparty electoral competition as a dynamic ABM, in which parties use adaptive heuristics, new parties enter, and valence plays a role. Only the abstract is available.",
+    "subtopic": "Politics, conflict and governance",
+    "id": "s074"
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S1877750324001649",
+    "title": "Flee 3: Flexible agent-based simulation for forced migration (Ghorbani et al., J Comput Sci 2024)",
+    "why_relevant": "Current state of the art in refugee/forced-displacement ABMs. Validated against UNHCR data for 10 conflicts, runs on HPC (e.g., Ukraine), and is used by NGOs. It builds on Suleimenova et al., Sci Rep 2017 (https://www.nature.com/articles/s41598-017-13828-9).",
+    "subtopic": "Demography, migration and epidemics",
+    "id": "s075"
+  },
+  {
+    "url": "https://link.springer.com/chapter/10.1007/978-3-319-47253-9_2",
+    "title": "A Simple-to-Use BDI Architecture for Agent-Based Modeling and Simulation (GAMA BDI)",
+    "why_relevant": "A practical BDI architecture built into the GAMA platform. It targets the two main barriers to cognitive agents in ABM: complexity for modelers and computational cost.",
+    "subtopic": "Agent cognition and LLM-based agents",
+    "id": "s076"
+  },
+  {
+    "url": "https://jasss.soc.surrey.ac.uk/21/4/4.html",
+    "title": "An Agent-Based Model of Rural Households' Adaptation to Climate Change (OMOLAND-CA, JASSS 2018)",
+    "why_relevant": "Open-access, empirically grounded climate adaptation model of rural Ethiopian households in which repeated droughts wear down adaptive capacity and trigger migration. Couples land use, socio-cognitive behaviour and climate.",
+    "subtopic": "Environment, resources and socio-ecological systems",
+    "id": "s077"
+  },
+  {
+    "url": "https://www.theoj.org/joss-papers/joss.07668/10.21105.joss.07668.pdf",
+    "title": "Mesa 3: Agent-based modeling with Python in 2025 (ter Hoeven et al., JOSS 2025)",
+    "why_relevant": "Full-text, peer-reviewed description of the current Mesa Python framework. It places Mesa relative to NetLogo (accessible but limited to small models) and MASON (scalable, Java-based) and describes reproducibility features such as seeded random number generation.",
+    "subtopic": "Methodology: calibration, validation and platforms",
+    "id": "s078"
+  },
+  {
+    "url": "https://arxiv.org/html/2507.19364v1",
+    "title": "Integrating LLM in Agent-Based Social Simulation: Opportunities and Challenges (arXiv 2025)",
+    "why_relevant": "Full-text position paper and survey of LLM-based generative agents in artificial societies: platforms, architectures, validation, and the micro-macro validity gap. Covers the newest frontier building on generative social science.",
+    "subtopic": "Foundations and frameworks",
+    "id": "s079"
+  },
+  {
+    "url": "https://aclanthology.org/2024.acl-long.829/",
+    "title": "EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities (ACL 2024)",
+    "why_relevant": "Recent open-access frontier work: LLM household agents with perception and memory modules reproduce inflation and unemployment patterns more plausibly than rule-based or learning-based agents. Code is released.",
+    "subtopic": "Economy and markets",
+    "id": "s080"
+  },
+  {
+    "url": "https://arxiv.org/html/2410.08948v2",
+    "title": "Flint Ashery, Aiello & Baronchelli (2025) Emergent social conventions and collective bias in LLM populations (Science Advances; arXiv full text)",
+    "why_relevant": "Current work using LLM agents in a naming-game ABM: conventions emerge spontaneously, collective biases arise that no individual agent shows, and committed minorities trigger tipping points. This links classic convention models to generative-agent societies.",
+    "subtopic": "Cooperation, norms and institutions",
+    "id": "s081"
+  },
+  {
+    "url": "https://aclanthology.org/2025.coling-main.264/",
+    "title": "Decoding Echo Chambers: LLM-Powered Simulations Revealing Polarization in Social Networks (COLING 2025)",
+    "why_relevant": "Represents the newest paradigm: networks of LLM-based agents are benchmarked against the classic bounded confidence and Friedkin-Johnsen models, reproduce echo chambers and polarization, and are used to test nudge-based mitigation.",
+    "subtopic": "Culture and opinion dynamics",
+    "id": "s082"
+  },
+  {
+    "url": "https://academic.oup.com/pnasnexus/article/4/12/pgaf317/8361967",
+    "title": "Network formation and dynamics among multi-LLMs (Papachristou & Yuan, PNAS Nexus 2025)",
+    "why_relevant": "Frontier of generative ABMs: LLM agents reproduce preferential attachment, triadic closure, homophily, community structure and small-world properties; discrete choice modeling finds homophily dominates, and results are compared with a human baseline. Full text (also arXiv 2402.10659).",
+    "subtopic": "Social networks and structure",
+    "id": "s083"
+  },
+  {
+    "url": "https://www.jasss.org/11/4/7.html",
+    "title": "Governments, Civilians, and the Evolution of Insurgency (Bennett 2008, JASSS)",
+    "why_relevant": "Open-access JASSS ABM of early insurgency dynamics with a literature review of internal-conflict ABMs (Cederman, Bhavnani, Epstein et al., citizen loyalty models).",
+    "subtopic": "Politics, conflict and governance",
+    "id": "s084"
+  }
+]

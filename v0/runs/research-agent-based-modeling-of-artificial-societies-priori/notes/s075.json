@@ -1,0 +1,34 @@
+{
+  "id": "s075",
+  "url": "https://www.sciencedirect.com/science/article/pii/S1877750324001649",
+  "subtopic": "Demography, migration and epidemics",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Flee 3: Flexible agent-based simulation for forced migration",
+  "publisher": "Journal of Computational Science (Elsevier), vol. 81, 102371",
+  "published_date": "2024-09-01",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Flee 3 is an ABM for forced migration that supports group-specific forecasts (children, ethnicity, religion) rather than only headline arrival numbers.",
+      "evidence_quote": "lack the flexibility to explore migration patterns for specific groups, such as children or persons of a specific ethnicity or religion"
+    },
+    {
+      "claim": "Agent rules for movement and creation are adaptable. The model includes food security, ethnicity, religion, gender and age. This enables models of internal displacement and non-conflict migration.",
+      "evidence_quote": "introduces adaptable rules for agent movement and creation, along with a more refined model that flexibly supports factors like food security, ethnicity, religion, gender and/or age"
+    },
+    {
+      "claim": "Validation on ten historical conflicts in Asia and Africa against UNHCR data gave an error below 0.6, i.e. over 70% of refugee arrivals forecast correctly. It beat the predecessor in all but one case.",
+      "evidence_quote": "validation error (averaged relative difference) of less than 0.6 in all cases, i.e. correctly forecasting over 70% of refugee arrivals"
+    },
+    {
+      "claim": "Scalability: the parallel code simulates the Ukraine 2022 conflict in under an hour with 80% parallel efficiency on 512 cores.",
+      "evidence_quote": "simulate migration from a large scale conflict (Ukraine 2022) in less than an hour and with 80% parallel efficiency using 512 cores per run"
+    },
+    {
+      "claim": "Two practitioner use cases (a research project and an NGO). The code is open source.",
+      "evidence_quote": "we present two use cases: one involving an international migration research project and one involving an international NGO"
+    }
+  ],
+  "reliability_notes": "Abstract only. The fetched page gave metadata and abstract, and I saw no full text. Peer-reviewed software paper. It is a domain-specific ABM (migration), not a general artificial-society paper."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "s041",
+  "url": "https://jasss.soc.surrey.ac.uk/10/4/reviews/conte.html",
+  "subtopic": "Foundations and frameworks",
+  "fetched_ok": false,
+  "failure_reason": "The code execution tool returned an error saying no calls remained, so web_fetch never ran and the page was not retrieved.",
+  "title": "",
+  "publisher": "",
+  "published_date": "",
+  "relevance": "none",
+  "key_points": [],
+  "reliability_notes": "No content was fetched, so there is nothing to assess."
+}

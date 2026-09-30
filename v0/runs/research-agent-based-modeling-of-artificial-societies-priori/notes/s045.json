@@ -1,0 +1,34 @@
+{
+  "id": "s045",
+  "url": "https://arxiv.org/pdf/2408.05623",
+  "subtopic": "Social networks and structure",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Behavioral and Topological Heterogeneities in Network Versions of Schelling's Segregation Model",
+  "publisher": "arXiv (Deter & Sayama, Binghamton University)",
+  "published_date": "2024",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Combining heterogeneous preferences with heterogeneous network topology yields reduced segregation and richer outcomes.",
+      "evidence_quote": "with concurrent increased representations of heterogeneous preferences and heterogeneous topologies, reduced levels of segregation emerge."
+    },
+    {
+      "claim": "New dynamic: tolerant agents occupy dense areas and push intolerant agents to sparse areas, resembling an urban-rural divide.",
+      "evidence_quote": "highly tolerant nodes take residence in dense areas and push intolerant nodes to sparse areas mimicking the urban-rural divide."
+    },
+    {
+      "claim": "Prior work: heterogeneous preferences reduce segregation, but heterogeneous topology alone does not; no earlier study combined both.",
+      "evidence_quote": "No previous studies of combined dimensions of heterogeneity were identified."
+    },
+    {
+      "claim": "Method: simulations on 2D lattices with varying densification to create clusters and hubs, comparing homogeneous and heterogeneous preference models.",
+      "evidence_quote": "Simulations were conducted using both homogeneous and heterogeneous preference models on 2D lattices with varied levels of densification"
+    },
+    {
+      "claim": "Framing: segregation is treated as emerging from individual preferences (Schelling/Sakoda tradition), and is relevant to legal debate on de facto versus de jure segregation.",
+      "evidence_quote": "segregation is an emergent property arising from the collective dynamics of individuals and their choices in mostly-free housing markets."
+    }
+  ],
+  "reliability_notes": "Full text was fetched, but I only read the abstract and introduction (the first ~5,000 characters). The paper is an arXiv preprint and may not be peer reviewed. It covers one narrow topic, residential segregation ABMs on networks."
+}

@@ -1,0 +1,42 @@
+{
+  "id": "s014",
+  "url": "https://arxiv.org/pdf/2507.11521",
+  "subtopic": "Culture and opinion dynamics",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Opinion dynamics: Statistical physics and beyond",
+  "publisher": "arXiv (Starnini, Baumann, Galla, Garcia, I\u00f1iguez, Karsai, Lorenz, Sznajd-Weron)",
+  "published_date": "2025-07",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Review organizes opinion-dynamics models by macroscopic phenomena (consensus, fragmentation, polarization, echo chambers, network coevolution) and by microscopic mechanisms (assimilation, distancing, homophily, etc.).",
+      "evidence_quote": "We then categorize models by the macroscopic phenomena they describe (e.g., consensus, polarization, echo chambers) and the microscopic mechanisms of opinion change they encode (e.g., homophily, assimilation)."
+    },
+    {
+      "claim": "Frontier: LLM-based AI agents are being built as testbeds for novel social phenomena. This is covered in Sec. VI.B, which is missing from the fetched text.",
+      "evidence_quote": "the recent developments in building artificial intelligence agents as testbeds for novel social phenomena"
+    },
+    {
+      "claim": "LLM agents could let models handle rich textual opinions, which traditional opinion-dynamics models have largely not addressed.",
+      "evidence_quote": "with the increasing integration of large language models (LLMs) as agents, future models may begin to process and interact with opinions in this textual format"
+    },
+    {
+      "claim": "Feed-algorithm interventions change how people interact, so agent-based models are needed to predict their effects.",
+      "evidence_quote": "This calls for agent-based models that can better predict the effects of these interventions (Garcia, 2023)."
+    },
+    {
+      "claim": "Empirical grounding: experiments support bounded confidence. Perceived closeness to a peer predicted convergence, and extended discussion reduced polarization.",
+      "evidence_quote": "extended discussions, unlike short texts, can reduce polarization by narrowing opinion gaps. The study found that perceived closeness to a peer predicted opinion convergence, supporting the bounded confidence principle."
+    },
+    {
+      "claim": "Lab experiments on conformity closely mirror the q-voter model and can serve as a basis for developing it further.",
+      "evidence_quote": "This scheme is almost identical to the q-voter model of opinion dynamics (Castellano et al., 2009b)"
+    },
+    {
+      "claim": "The review scopes out cultural dynamics, language dynamics and human dynamics. It covers analytical and computational methods (stochastic processes, simulation, optimization).",
+      "evidence_quote": "Many fields are related to opinion dynamics but are not covered here, such as cultural dynamics"
+    }
+  ],
+  "reliability_notes": "Full-text PDF, but the fetched text was truncated at about 107k characters, in the empirical section (Sec. III). Sec. IV\u2013VI, including the LLM-agent discussion, were not retrieved. The paper is a review by well-known authors, not a primary study. It is about opinion dynamics, so it covers only one aspect of artificial societies."
+}

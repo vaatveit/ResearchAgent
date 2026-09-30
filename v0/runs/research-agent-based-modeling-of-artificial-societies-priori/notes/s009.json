@@ -1,0 +1,38 @@
+{
+  "id": "s009",
+  "url": "https://www.jasss.org/20/2/8.html",
+  "subtopic": "Environment, resources and socio-ecological systems",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Agent-Based Modelling of Social-Ecological Systems: Achievements, Challenges, and a Way Forward",
+  "publisher": "JASSS (Journal of Artificial Societies and Social Simulation)",
+  "published_date": "2017-03-31",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Review of ABMs of social-ecological systems using the TRACE good-modelling-practice framework (development, testing, analysis).",
+      "evidence_quote": "we used the TRACE framework, which encompasses elements of model development, testing and analysis."
+    },
+    {
+      "claim": "Two-part method: review of reviews/method papers plus a mini-review of specific ABM publications.",
+      "evidence_quote": "Results of the mini-review of 29 publications."
+    },
+    {
+      "claim": "Major gap: showing models represent real systems well enough (validation/realism).",
+      "evidence_quote": "only 11 publications mentioned a comparison of model output to observation and data, and a strong case for model realism was not presented in any of these models."
+    },
+    {
+      "claim": "Major gap: systematic, transparent model analysis so output is understood, not just observed.",
+      "evidence_quote": "analysing the models in a systematic and transparent way so that model output is not only observed but also understood."
+    },
+    {
+      "claim": "Recommended remedies: participatory approaches, standard communication protocols, code sharing, and tools for design and analysis.",
+      "evidence_quote": "strategies such as participatory approaches, standard protocols for communication, sharing of source code, and tools and strategies for model design and analysis."
+    },
+    {
+      "claim": "ABMs of SES are useful for representing organisms, humans and institutions but are complex and hard to parameterize and analyse.",
+      "evidence_quote": "ABMs of SES are by their very nature complex. They are therefore difficult to parameterize and analyse, which can limit their usefulness."
+    }
+  ],
+  "reliability_notes": "Full text fetched (peer-reviewed, JASSS 2017). The mini-review is small (29 publications) and focused on social-ecological ABMs, not all artificial societies. Quotes come from the abstract and the body. The page is about 100k characters, and I read only selected parts."
+}

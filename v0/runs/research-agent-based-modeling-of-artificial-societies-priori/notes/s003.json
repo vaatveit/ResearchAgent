@@ -1,0 +1,46 @@
+{
+  "id": "s003",
+  "url": "https://arxiv.org/pdf/cond-mat/0607344",
+  "subtopic": "Cooperation, norms and institutions",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Evolutionary games on graphs",
+  "publisher": "Physics Reports (arXiv cond-mat/0607344v3); Szab\u00f3 & F\u00e1th",
+  "published_date": "2007-09-24",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Review scope: evolutionary games with agents on social networks, using statistical-physics methods; covers Prisoner's Dilemma, Rock-Scissors-Paper, and Competing Associations models. Main theme is how interaction graph structure changes long-term behavior.",
+      "evidence_quote": "The major theme of the review is in what sense and how the graph structure of interactions can modify and enrich the picture of long term behavioral patterns emerging in evolutionary games."
+    },
+    {
+      "claim": "Network topology classes: lattices, small worlds, and scale-free graphs (power-law degree distribution). Real networks are intermediate.",
+      "evidence_quote": "f (z) \u221d z \u2212\u03b3 (typically 2 < \u03b3 < 3) for the so-called scale-free graphs. These latter exhibit sites with extremely large number of neighbors."
+    },
+    {
+      "claim": "Agent update rules are a central modeling choice: synchronized vs random sequential update, and microscopic rules such as imitation and logit/noisy best response. Choice of dynamics can change qualitative outcomes, e.g. a Hopf bifurcation under logit dynamics.",
+      "evidence_quote": "the Logit dynamics may produce rather different qualitative results than other dynamics."
+    },
+    {
+      "claim": "Strategies can be modelled as finite state machines, with implementation and perception noise.",
+      "evidence_quote": "It is customary to distinguish two kinds of errors: implementation (\u201ctrembling hand\u201d) errors and perception errors."
+    },
+    {
+      "claim": "The Nowak-May spatial PD is a cellular automaton with complex dynamics and long-range spatio-temporal correlations. Behavior depends on payoff parameters and can change class.",
+      "evidence_quote": "Killingback and Doebeli (1998) have shown that the game theoretical construction suggested by Nowak and May (1992) exhibits complex dynamics with long range correlations between states in both time and space."
+    },
+    {
+      "claim": "Neighborhood size matters for cooperation on regular structures: cooperators survive only within a range of neighbor counts, and the coexistence range of b shrinks as z grows.",
+      "evidence_quote": "cooperators can survive if 4 \u2264 z \u2264 zmax \u2248 64. More precisely, the range of b with coexisting C and D strategies decreases when z increases."
+    },
+    {
+      "claim": "Scale-free networks (Barab\u00e1si-Albert, Dorogovtsev-Mendes-Samukhin) markedly enhance cooperation compared with lattices.",
+      "evidence_quote": "Cooperation remains high in the whole re- gion of b, especially for the Dorogovtsev-Mendes-Samukhin network"
+    },
+    {
+      "claim": "Analytical toolkit: replicator dynamics, mean-field, pair approximation, mapping of potential games onto the kinetic Ising model, and stochastic stability. Games are also used as toy models for the emergence of living systems.",
+      "evidence_quote": "One of the principal goals was to demonstrate the applicability of concepts and approaches originally developed in statistical physics to study many-particle systems."
+    }
+  ],
+  "reliability_notes": "Full text was obtained (PDF, about 110 pages). It is a well-cited peer-reviewed review in Physics Reports, published 2007, so it does not cover later work. It is aimed at physicists and its focus is evolutionary games, not general artificial societies. I read only the abstract, the table of contents, and selected passages, not the whole text."
+}

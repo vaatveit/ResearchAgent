@@ -1,0 +1,34 @@
+{
+  "id": "s074",
+  "url": "https://press.princeton.edu/books/paperback/9780691139043/party-competition",
+  "subtopic": "Politics, conflict and governance",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Party Competition: An Agent-Based Model",
+  "publisher": "Princeton University Press",
+  "published_date": "2011-10-30",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Laver & Sergenti present a book-length ABM treatment of multiparty electoral competition (political domain of artificial societies).",
+      "evidence_quote": "the first comprehensive treatment of party competition using the computational techniques of agent-based modeling"
+    },
+    {
+      "claim": "Model treats party competition as a dynamic process with entry/exit of parties and adaptive agents with imperfect information.",
+      "evidence_quote": "political parties rise and fall... must constantly adapt their behavior to yesterday\u2019s political outcomes"
+    },
+    {
+      "claim": "Finding: satisficing party decision rules outperform relentless vote-maximizing search.",
+      "evidence_quote": "politicians who are satisfied with relatively modest vote shares often do better at winning votes than rivals who search ceaselessly"
+    },
+    {
+      "claim": "Finding: parties weighting leaders' own preferences can do better than purely voter-responsive ones; valence advantages matter.",
+      "evidence_quote": "politicians who pay close attention to their personal preferences when setting party policy often have more success"
+    },
+    {
+      "claim": "Voters are heterogeneous with preferences over many issues; politics framed as a complex non-equilibrium system.",
+      "evidence_quote": "politics is best viewed as a complex dynamical system that is neither random nor in equilibrium"
+    }
+  ],
+  "reliability_notes": "Publisher's catalog page (abstract/blurb and endorsements only; no full text). Abstract only. Claims are the publisher's summary of results, not verified; no model details or figures."
+}

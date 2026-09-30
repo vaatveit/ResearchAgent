@@ -1,0 +1,42 @@
+{
+  "id": "s062",
+  "url": "https://thecommonsjournal.org/articles/10.18352/ijc.606",
+  "subtopic": "Cooperation, norms and institutions",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Managing the commons: a simple model of the emergence of institutions through collective action",
+  "publisher": "International Journal of the Commons (Ubiquity Press)",
+  "published_date": "2016-02-01",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Bravo presents a NetLogo ABM that replicates institutional emergence in common-pool resource (CPR) problems. Institutions and agent strategies are both modelled with the ADICO grammar.",
+      "evidence_quote": "We used the ADICO grammar of institutions as the basic structure to model both agents\u2019 strategies and institutions."
+    },
+    {
+      "claim": "Institutions emerge without agents having advanced cognition. Imitation plus random exploration is enough, provided collective-choice arrangements exist.",
+      "evidence_quote": "simple micro-level behavioural mechanisms (imitation+random exploration of the strategy space) represent a sufficient condition to promote well adapted institutional arrangements leading to a sustainable management of the commons"
+    },
+    {
+      "claim": "Agents can emerge institutions that improve both resource stock and agent energy. OLS regressions on simulation output show this effect holds when the other parameters are controlled for.",
+      "evidence_quote": "The introduction of the institution positively affects both the amount of resource in the system and agents\u2019 energy."
+    },
+    {
+      "claim": "The harder it is for agents to change their institution (longer emergence time, higher change threshold), the worse the outcomes. The paper links this to Ostrom's collective-choice design principle.",
+      "evidence_quote": "both the institutional emergence time and the proportion of agents needed to change the institution negatively affect both indicators"
+    },
+    {
+      "claim": "The paper reviews earlier CPR ABMs, e.g. Deadman et al. 2000, Jager & Janssen 2003, Janssen & Ostrom 2006 and Smajgl et al. 2008. It differs from Smajgl et al. by aggregating agents' beliefs into rules, using cognitively simpler agents, and modelling resource dynamics with bio-economic models.",
+      "evidence_quote": "Smajgl et al. (2008) were the first to apply the ADICO framework to model rule changes in resource dilemmas."
+    },
+    {
+      "claim": "ABMs are argued to complement lab and field studies by allowing flexible virtual experiments and long-term dynamics. The planned research programme is to add cheating and sanctioning, validate against real CPR data, and apply the model to specific cases.",
+      "evidence_quote": "they allow to design virtual experiments using a more flexible set of conditions than what is feasible in the lab and to analyse their long term dynamics more easily than what is possible in the field"
+    },
+    {
+      "claim": "Agents adapted institutions to resource availability. For example, they chose rules that let them harvest only at long intervals, which resembles discussions in CPR lab experiments.",
+      "evidence_quote": "agents selected institutions allowing them to harvest only at distant intervals of time"
+    }
+  ],
+  "reliability_notes": "Full text was available. The article is open access and peer-reviewed. The model is explicitly preliminary and highly abstract, and it has not been validated against empirical data."
+}

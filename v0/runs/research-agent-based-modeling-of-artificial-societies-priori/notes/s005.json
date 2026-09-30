@@ -1,0 +1,26 @@
+{
+  "id": "s005",
+  "url": "https://arxiv.org/abs/physics/0603023",
+  "subtopic": "Social networks and structure",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Models of opinion formation combining network adaptation and opinion adoption (arXiv physics/0603023)",
+  "publisher": "arXiv",
+  "published_date": "2006-03",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Opinion-convergence models fall into two classes: opinions shaped by network neighbors, versus network ties forming between individuals with similar beliefs.",
+      "evidence_quote": "These models divide into two classes, those in which individuals form their beliefs based on the opinions of their neighbors in a social network of personal acquaintances, and those in which, conversely, network connections form between individuals of similar beliefs."
+    },
+    {
+      "claim": "The paper proposes a combined model with a single parameter balancing the two processes, arguing real opinion formation involves both.",
+      "evidence_quote": "Here we present a simple model of this combination, with a single parameter controlling the balance of the two processes."
+    },
+    {
+      "claim": "The model shows a continuous phase transition from diverse opinions to consensus-like majority agreement as the parameter varies.",
+      "evidence_quote": "the model undergoes a continuous phase transition as this parameter is varied, from a regime in which opinions are arbitrarily diverse to one in which most individuals hold the same opinion."
+    }
+  ],
+  "reliability_notes": "Abstract only. The arXiv preprint is from 2006 and its full text was not retrieved. The abstract does not name the authors or say whether the model is agent-based, although it is an agent-like network model."
+}

@@ -1,0 +1,46 @@
+{
+  "id": "s011",
+  "url": "https://jasss.soc.surrey.ac.uk/12/1/6/appendixB/EpsteinAxtell1996.html",
+  "subtopic": "Foundations and frameworks",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Epstein and Axtell's Sugarscape (Appendix B to Izquierdo et al., JASSS 12(1)6)",
+  "publisher": "JASSS (Journal of Artificial Societies and Social Simulation)",
+  "published_date": "2009",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Sugarscape is a paradigmatic example of the generative approach to social science; it uses heterogeneous autonomous agents competing for renewable resources.",
+      "evidence_quote": "a heterogeneous population of autonomous agents compete for renewable resources that are unequally distributed over a 2-dimensional environment"
+    },
+    {
+      "claim": "The model grows in complexity by adding agent activities (sex, culture, trade, combat, disease). Extensions cover norm formation and communication/cooperation.",
+      "evidence_quote": "agents are given the ability to engage in new activities such as sex, cultural exchange, trade, combat, disease transmission"
+    },
+    {
+      "claim": "Environment: a 50x50 torus grid with a fixed sugar capacity per cell (two peaks, max 4) and a growback rule at rate \u03b1.",
+      "evidence_quote": "The environment is a 50\u00d750 grid that wraps around forming a torus."
+    },
+    {
+      "claim": "Agents have vision, metabolism and max age. They follow a greedy movement rule and are replaced on death (rules M and R).",
+      "evidence_quote": "identify the one(s) with the greatest amount of sugar, select the nearest one (randomly if there is more than one), move there and collect all the sugar in it"
+    },
+    {
+      "claim": "Parameterisation for the wealth-distribution model (book p.33): N=250, \u03b1=1, vision U[1,6], metabolism U[1,4], initial wealth U[5,25], max age U[60,100].",
+      "evidence_quote": "Number of agents N | 250"
+    },
+    {
+      "claim": "The Sugarscape model can be formalised as a time-homogeneous Markov chain with a finite state space, so it can be analysed formally.",
+      "evidence_quote": "Sugarscape parameterised as indicated above can be represented as a time-homogeneous Markov chain (THMC)"
+    },
+    {
+      "claim": "The chain is proven irreducible and aperiodic (ergodic) using 'regenerating' and 'exterminating pristine' states.",
+      "evidence_quote": "This concludes the proof that the induced THMC is irreducible and aperiodic, i.e. ergodic."
+    },
+    {
+      "claim": "Methodological implication: the long-run distribution of statistics such as wealth is independent of initial conditions. It can be approximated with one long run.",
+      "evidence_quote": "we could approximate the limiting distribution of emergent wealth distributions in Sugarscape as much as we like by running just one simulation (with any initial conditions) for long enough"
+    }
+  ],
+  "reliability_notes": "Full text of a peer-reviewed journal appendix. It covers only chapter 2 of Sugarscape (the basic model), not the later extensions. It is a secondary analysis of the model, not the original book. The proofs are sketched here and are fully developed in the main paper."
+}

@@ -1,0 +1,54 @@
+{
+  "id": "s046",
+  "url": "https://www.sociostudies.org/almanac/articles/cycling_in_the_complexity_of_early_societies/",
+  "subtopic": "Politics, conflict and governance",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Cycling in the Complexity of Early Societies",
+  "publisher": "Social Studies (Uchitel Publishing), almanac History & Mathematics: Trends and Cycles (Gavrilets, Anderson, Turchin)",
+  "published_date": "c. 2010",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Spatially explicit ABM of early complex societies emerging via warfare (Carneiro-based); polities are hierarchical networks of villages changed by conquest, secession, promotion/linearization and resource dynamics.",
+      "evidence_quote": "polities are represented as hierarchically structured networks of villages whose size, power, and complexity change as a result of conquest, secession, internal reorganization (via promotion and linearization), and resource dynamics"
+    },
+    {
+      "claim": "Main result is continuous stochastic cycling: polities grow and then quickly collapse.",
+      "evidence_quote": "continuous stochastic cycling in which the growth of individual polities in size, wealth/power, and complexity is interrupted by their quick collapse"
+    },
+    {
+      "claim": "Space and agents: hexagonal grid of villages, each with a random baseline resource level. Tribute is a fixed fraction, and span of control is capped at L.",
+      "evidence_quote": "We consider a hexagonal array of initially autonomous local communities (villages)"
+    },
+    {
+      "claim": "Decision rules: each year chiefs decide whether to attack the weakest neighbor, and direct subordinates decide whether to secede. Win probability scales with power^\u03b1. A chief's death causes some subordinates to secede.",
+      "evidence_quote": "with quadratic scaling (*i.e.,* with *\\u03b1* = 2) this ratio becomes 4:1"
+    },
+    {
+      "claim": "Two parameters dominate: \u03b1 (determinism of conflict outcome by wealth/power) and \u03c4 (chief's time in power, a proxy for succession mechanisms). Stability of large polities is promoted by wealth-determined conflict outcomes, accepted succession, and internally specialized control.",
+      "evidence_quote": "the stability of large and complex polities is strongly promoted if the outcomes of the conflicts are mostly determined by the polities' wealth/power, if there exist well-defined and accepted means of succession, and if control mechanisms are internally specialized"
+    },
+    {
+      "claim": "Simulation design and equilibrium: full factorial over 6 parameters, with 37, 61 or 91 villages, run for 1,000 years. The system reaches a stochastic equilibrium within 50\u2013100 years.",
+      "evidence_quote": "The system quickly (within 50\\u2013100 years) reaches a kind of equilibrium"
+    },
+    {
+      "claim": "Polity lifetimes and complexity are limited. Mean complexity stays below about 2 (\u03b1=1) and 3.3 (\u03b1=2). Lifetimes of significant complex chiefdoms stay below 55 and 68 years. Whole-domain conquest occurs only with \u03b1=2 and is short-lived.",
+      "evidence_quote": "the average lifetime of the ten most significant complex chiefdoms stays below 55 and 68 years for *\\u03b1* = 1 and 2, respectively"
+    },
+    {
+      "claim": "Model outputs match archaeological evidence (Mississippian chiefdoms): chiefdoms are short-lived, and collapse can occur without environmental shocks. The model has no qualitative difference between simple and complex chiefdoms or states.",
+      "evidence_quote": "The model suggests that the rapid collapse of chiefdoms can occur even without environmental perturbations (*e.g.,* drought) or overpopulation."
+    },
+    {
+      "claim": "Limitations and future directions: the model has no internal specialization, no population dynamics, and no cultural similarity. Suggested extensions are coalitions, cooperation under external threat, and larger spatial scales.",
+      "evidence_quote": "the propensity for cooperation (and, conversely, conflict) should be allowed to depend on cultural similarity/dissimilarity between the agents"
+    },
+    {
+      "claim": "Prior modeling of polity evolution was limited, mostly about polity size and with few runs.",
+      "evidence_quote": "Most of this work has focused exclusively on polity size, was limited to a small number of simulation runs"
+    }
+  ],
+  "reliability_notes": "Full text obtained. Peer-reviewed almanac paper by leading authors (Gavrilets, Turchin), implemented in Matlab. The model is abstract and stylized. Most equations were images and were not captured. Publication date is not shown on the page; the citations suggest about 2010."
+}

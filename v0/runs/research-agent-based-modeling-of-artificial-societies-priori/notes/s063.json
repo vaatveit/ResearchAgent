@@ -1,0 +1,34 @@
+{
+  "id": "s063",
+  "url": "https://arxiv.org/pdf/2212.10143",
+  "subtopic": "Culture and opinion dynamics",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Validating argument-based opinion dynamics with survey experiments",
+  "publisher": "arXiv (Banisch & Shamon; JASSS special issue)",
+  "published_date": "2022-12",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Opinion dynamics uses ABMs of artificial agents on interaction networks to study consensus, polarization, and conflict.",
+      "evidence_quote": "It uses agent-based computational models (ABMs) to simulate the evolution of opinions in a population of artificial agents."
+    },
+    {
+      "claim": "Classical assimilative influence models predict consensus on connected networks. Later mechanisms explain persistent plurality: bounded confidence, homophily, negative influence, opinion reinforcement, and biased assimilation.",
+      "evidence_quote": "Early models (French 1956; DeGroot 1974; Friedkin & Johnsen 1990) implementing positive social influence by which opinions assimilate in interaction predict consensus whenever the interaction network is a single connected component."
+    },
+    {
+      "claim": "Empirical validation is a key open challenge. The paper links survey-experiment data to an argument-based model, calibrating the micro level and then matching macro-level opinion distributions.",
+      "evidence_quote": "The empirical validation of models remains one of the most important challenges in opinion dynamics."
+    },
+    {
+      "claim": "The extended model adds an external balanced-information source. Surveyed opinion distributions are matched with high accuracy in a region of parameter space where social influence and external noise have equal impact.",
+      "evidence_quote": "surveyed opinion distributions are matched with a high level of accuracy in a specific region in the parameter space, indicating an equal impact of social influence and external noise."
+    },
+    {
+      "claim": "The estimated strength of biased processing at the macro level is compatible with the micro-level estimates. The paper also presents a new method for automated classification of model outcomes.",
+      "evidence_quote": "the estimated strength of biased processing given the macro data is compatible with those values that achieve high likelihood at the micro level."
+    }
+  ],
+  "reliability_notes": "Full text was fetched, but I read only the abstract and the start of the introduction. Peer-reviewed venue (JASSS special issue) posted as an arXiv preprint. It covers the opinion dynamics and validation aspect of artificial societies, not artificial societies in general."
+}

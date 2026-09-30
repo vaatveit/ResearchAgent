@@ -1,0 +1,46 @@
+{
+  "id": "s019",
+  "url": "https://www.ecologyandsociety.org/vol26/iss2/art38/",
+  "subtopic": "Environment, resources and socio-ecological systems",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Governance in social-ecological agent-based models: a review",
+  "publisher": "Ecology and Society (Resilience Alliance)",
+  "published_date": "2021-06-15",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Many social-ecological ABMs lack explicit theoretical grounding for governance and actor decision-making.",
+      "evidence_quote": "a significant share of the literature is not explicitly based on theories supporting the modeling of governance and actors\u2019 decision making"
+    },
+    {
+      "claim": "State intervention dominates modeled governance modes; community- and market-based modes and formal/informal institutions are rare.",
+      "evidence_quote": "The governance modes that are mostly modeled are state interventions whereas the community-based and market-based modes of governance are scarcely represented."
+    },
+    {
+      "claim": "Theoretical background is mostly neoclassical economics; command-and-control and economic instruments are the most common policy instruments.",
+      "evidence_quote": "A little less than two-thirds of these models are grounded in neoclassical economics"
+    },
+    {
+      "claim": "Two implementation forms exist: governance as a variable (preferred) versus governance as an agent. Agent-based governance models rely more on institutional theories, represent information instruments and have more interactions.",
+      "evidence_quote": "In terms of implementation, governance as a variable is preferred to that as an agent."
+    },
+    {
+      "claim": "Bidirectional governance-SES links are uncommon; governance mostly acts on ecology through actors' decisions.",
+      "evidence_quote": "Bidirectional links are found in approximately one-fifth of all models."
+    },
+    {
+      "claim": "ABMs have mostly been used to compare theories, examine case studies and predict; rarely to develop new theory.",
+      "evidence_quote": "rarely to develop a new theory for analyzing SES"
+    },
+    {
+      "claim": "Limitations of ABM: parameter proliferation, lack of transparency, models either highly conceptual or case-specific.",
+      "evidence_quote": "the number of parameters can be high and the model difficult to calculate"
+    },
+    {
+      "claim": "Recommendation: greater diversity in governance representation, better model dynamics, explicit theory use and governance represented as an agent.",
+      "evidence_quote": "representation of governance as an agent"
+    }
+  ],
+  "reliability_notes": "Full text fetched (peer-reviewed, open access, 2021). Only abstract, introduction and discussion were read; methods and results details (e.g., number of reviewed articles) were not extracted. It covers social-ecological ABMs rather than general artificial societies."
+}

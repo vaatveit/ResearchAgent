@@ -1,0 +1,42 @@
+{
+  "id": "s084",
+  "url": "https://www.jasss.org/11/4/7.html",
+  "subtopic": "Politics, conflict and governance",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Governments, Civilians, and the Evolution of Insurgency: Modeling the Early Dynamics of Insurgencies",
+  "publisher": "Journal of Artificial Societies and Social Simulation (JASSS) 11(4) 7, by D. Scott Bennett",
+  "published_date": "2008-10-31",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Agent types and mechanism: civilians, insurgents and soldiers. Government counterattacks deter civilians through fear, but collateral damage angers them, and angry civilians become insurgents (agent internal states and behavior rules).",
+      "evidence_quote": "If civilians become angry enough, they become new insurgents."
+    },
+    {
+      "claim": "Main finding: avoiding collateral damage matters more than capturing insurgents for long-term defeat of insurgency.",
+      "evidence_quote": "accuracy (avoidance of collateral damage) is more important for the long-term defeat of insurgency than is effectiveness at capturing insurgents in any given counterattack."
+    },
+    {
+      "claim": "The model shows a tipping point in accuracy. Below it, insurgencies last much longer.",
+      "evidence_quote": "There also may be a critical 'tipping point' for accuracy below which the length of insurgencies increases dramatically."
+    },
+    {
+      "claim": "Spatial structure: 2D bounded grid, local interaction within a Moore neighborhood, one agent per cell. A torus is an optional variant.",
+      "evidence_quote": "By default, the grid is 50 x 50 cells. Each soldier or civilian in the simulation occupies one grid cell, and only one agent can occupy any cell location."
+    },
+    {
+      "claim": "Neighborhood and boundaries: agents interact only with neighbors within a Moore distance of 3 cells by default, on a grid with edge boundaries rather than a torus.",
+      "evidence_quote": "agents interact only with their neighbors, where neighbors are defined as all actors within a specified Moore distance (3 cells by default)."
+    },
+    {
+      "claim": "Empirical grounding: data on 129 insurgencies motivates a focus on the early stages.",
+      "evidence_quote": "Bapat's (2005) data on 129 insurgencies since 1955 finds that while the mean duration of an insurgency is 7 years, the median is 4 years"
+    },
+    {
+      "claim": "Design approach: minimal assumptions about agent interactions. The author cautions that real-world parameter values are uncertain, so extended insurgencies could result mainly from government actions.",
+      "evidence_quote": "The simulation started with minimal assumptions about agent interactions"
+    }
+  ],
+  "reliability_notes": "Full text of a peer-reviewed JASSS article. I read the abstract, the space section and the conclusions, and searched the rest. The model is stylized and covers only insurgency, and the results are simulation-based with no empirical validation. Its relevance to the broader task is domain-specific (conflict and politics)."
+}

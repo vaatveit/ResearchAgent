@@ -1,0 +1,38 @@
+{
+  "id": "s080",
+  "url": "https://aclanthology.org/2024.acl-long.829/",
+  "subtopic": "Economy and markets",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic Activities",
+  "publisher": "ACL Anthology (ACL 2024, long papers, pp. 15523\u201315536)",
+  "published_date": "2024-08",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Existing ABM agents use fixed rules or learned neural networks. Customizing each agent is hard, which makes heterogeneity difficult to model.",
+      "evidence_quote": "customizing each agent presents significant challenges, complicating the modeling of agent heterogeneity"
+    },
+    {
+      "claim": "Prior ABMs often overlook multi-period market dynamics and multifaceted macroeconomic factors in agent decisions.",
+      "evidence_quote": "the influence of multi-period market dynamics and multifaceted macroeconomic factors are often overlooked"
+    },
+    {
+      "claim": "EconAgent is an LLM-driven agent. The environment has market dynamics driven by agents' work and consumption decisions.",
+      "evidence_quote": "a simulation environment that incorporates various market dynamics driven by agents\u2019 decisions regarding work and consumption"
+    },
+    {
+      "claim": "A perception module creates heterogeneous agents with distinct decision-making mechanisms.",
+      "evidence_quote": "Through the perception module, we create heterogeneous agents with distinct decision-making mechanisms."
+    },
+    {
+      "claim": "A memory module lets agents reflect on past experience and market trends, which captures how macro trends affect decisions.",
+      "evidence_quote": "a memory module, which allows agents to reflect on past individual experiences and market dynamics"
+    },
+    {
+      "claim": "Experiments report more realistic decisions and more reasonable macro phenomena than rule-based or learning-based agents. The code is released.",
+      "evidence_quote": "EconAgent can make realistic decisions, leading to more reasonable macroeconomic phenomena compared to existing rule-based or learning-based agents"
+    }
+  ],
+  "reliability_notes": "Abstract only. The fetch returned the ACL Anthology landing page, not the full text (PDF at aclanthology.org/2024.acl-long.829.pdf). Peer-reviewed at ACL 2024. No quantitative results are given in the abstract."
+}

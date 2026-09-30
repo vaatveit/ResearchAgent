@@ -1,0 +1,13 @@
+{
+  "id": "s042",
+  "url": "https://www.jasss.org/20/1/1.html",
+  "subtopic": "Economy and markets",
+  "fetched_ok": false,
+  "failure_reason": "The code_execution tool refused the call with \"no more code_execution tool calls remaining this turn\". I could not fetch the page.",
+  "title": "",
+  "publisher": "JASSS",
+  "published_date": "",
+  "relevance": "none",
+  "key_points": [],
+  "reliability_notes": "No content was retrieved, so nothing was extracted."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "s029",
+  "url": "https://www.sciencedirect.com/science/article/pii/S1364815224000598",
+  "subtopic": "Environment, resources and socio-ecological systems",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Modelling forests as social-ecological systems: A systematic comparison of agent-based approaches",
+  "publisher": "Environmental Modelling & Software (Elsevier), vol. 175, 105998",
+  "published_date": "2024-04-01",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Review of 31 existing ABMs applied to managed forests using a social-ecological systems framework.",
+      "evidence_quote": "we review the functionality of 31 existing agent-based models applied to managed forests"
+    },
+    {
+      "claim": "Some models include advanced cognitive and emotional agent decision-making.",
+      "evidence_quote": "Several applications include advanced cognitive and emotional decision-making"
+    },
+    {
+      "claim": "Many models lack direct interactions and dynamic social/ecological processes.",
+      "evidence_quote": "far from all demonstrate representation of key elements in a social-ecological system like direct interactions, and dynamic representations of social and ecological processes"
+    },
+    {
+      "claim": "ABMs judged adequately complex for both social and ecological subsystems.",
+      "evidence_quote": "agent-based approaches are adequately complex for simulating both social and ecological subsystems"
+    },
+    {
+      "claim": "Three development avenues: calibration/validation standards; agent learning, adaptive governance, feedback loops; coupling to ecological models.",
+      "evidence_quote": "robust methodological standards for calibration and validation of agent-based approaches; ii) modelling of agent learning, adaptive governance and feedback loops; iii) coupling to ecological models"
+    }
+  ],
+  "reliability_notes": "Abstract only (full text not retrieved). Peer-reviewed review article; domain-specific (forest social-ecological systems), not general artificial societies."
+}

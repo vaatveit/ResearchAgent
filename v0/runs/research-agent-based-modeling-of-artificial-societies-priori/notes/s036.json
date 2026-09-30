@@ -1,0 +1,54 @@
+{
+  "id": "s036",
+  "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0020851",
+  "subtopic": "Politics, conflict and governance",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Fortune Favours the Bold: An Agent-Based Model Reveals Adaptive Advantages of Overconfidence in War",
+  "publisher": "PLOS ONE (Johnson, Weidmann, Cederman)",
+  "published_date": "2011-06-24",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Model design: spatial grid of states (agents) with geopolitical boundaries endogenously changing; follows Cederman's earlier protocols (GeoContest).",
+      "evidence_quote": "we examined the relative performance of states in competition with each other on a 30\u00d730 spatial grid"
+    },
+    {
+      "claim": "Agent cognition: overconfidence is a bias applied only to self-perception; others see true strength, avoiding trivially primed outcomes. Initial \u03b1 is log-normal, median 1.",
+      "evidence_quote": "A state's own perceived resource level is given by \u03b1R, so states with \u03b1>1 are overconfident"
+    },
+    {
+      "claim": "Simulation cycle has five synchronous phases: resource extraction, decision, resource allocation across fronts, interaction via logistic conflict success function, structural change (provinces become new states inheriting strategy).",
+      "evidence_quote": "all states synchronously execute 5 sub-procedures"
+    },
+    {
+      "claim": "Main result: overconfident strategy predominates despite the null expectation of extinction; robust across grid size, boundaries, polarity, k, and \u03b1 distribution. Optimum is moderate overconfidence.",
+      "evidence_quote": "overconfidence consistently emerges as the predominant strategy in the model"
+    },
+    {
+      "claim": "Mechanism 1, the 'lottery effect': overconfident states enter more wars and so are more likely to include the lucky survivors, and early size advantages compound through positive feedback.",
+      "evidence_quote": "effectively \u201cbuying more lottery tickets\u201d in the competition for survival"
+    },
+    {
+      "claim": "Mechanism 2, emergent offensive alliances (alliance formation): victims split defences without any coordination among attackers. Defensive alliances cannot emerge without higher-level commitment mechanisms.",
+      "evidence_quote": "offensive alliances can emerge spontaneously on their own, whereas defensive alliances cannot"
+    },
+    {
+      "claim": "Mechanism 3, attack threshold: w<0.5 favours underconfident states and a peaceful world. w>0.5 favours overconfident states and a war-prone world.",
+      "evidence_quote": "if w>0.5, then overconfident states are favoured\u2014even more than they already were"
+    },
+    {
+      "claim": "War costs limit the advantage of overconfidence. The costs are modelled as a share q of the opponent's committed resources.",
+      "evidence_quote": "there are limits on the advantages of overconfidence as the costs of fighting increase"
+    },
+    {
+      "claim": "Limitations: no learning, no secession, zero-sum territorial stakes, no defensive alliances. The authors argue that adding learning would only speed up the results.",
+      "evidence_quote": "we do not allow states to learn from their own experience, or from observing others"
+    },
+    {
+      "claim": "Robustness details: 200 runs per condition, terminating after 50 idle steps or when one state is left. Supplementary sweep of median final confidence: mean 1.611, range 1.047\u20133.091.",
+      "evidence_quote": "summary statistics for median confidence factors are: mean = 1.611, standard deviation = 0.467, range 1.047\u20133.091"
+    }
+  ],
+  "reliability_notes": "Full text was available. It is a peer-reviewed, open-access PLOS ONE paper from 2011. The model is stylized: geopolitics only, with states as agents, and the authors acknowledge limited realism. Findings are the model's own results, and the empirical validity claims are argued by analogy."
+}

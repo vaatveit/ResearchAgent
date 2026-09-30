@@ -1,0 +1,46 @@
+{
+  "id": "s025",
+  "url": "https://arxiv.org/pdf/1808.05035",
+  "subtopic": "Social networks and structure",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Structural transition in social networks: The role of homophily",
+  "publisher": "arXiv (Murase, Jo, T\u00f6r\u00f6k, Kert\u00e9sz, Kaski); Scientific Reports version",
+  "published_date": "2018",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Extends the weighted social network (WSN) model with F features per node, each with q values, to model homophily in tie formation. Agents' traits are fixed. This is a network-formation model in the spirit of Axelrod's.",
+      "evidence_quote": "we assign a vector of F components to each node i, corresponding to F different features of the node"
+    },
+    {
+      "claim": "Tie formation uses three mechanisms: global attachment (focal closure), local attachment (triadic closure) with weight reinforcement, and link deletion. Under homophily, links form only between nodes sharing the chosen feature's trait.",
+      "evidence_quote": "it can make links only to the nodes sharing the same trait for the feature f"
+    },
+    {
+      "claim": "Phase transition at Fc: for F<Fc the network is segregated into ~q^F homogeneous communities. For F>Fc communities overlap and feature overlap between neighbours falls toward ~1/q. Average degree is non-monotonic in F and clustering peaks at Fc.",
+      "evidence_quote": "nodes are segregated into loosely-connected homogeneous communities in the former phase, while the majority of the communities overlap with each other in the latter phase"
+    },
+    {
+      "claim": "The transition is set by the scaling variable N/q^F: it occurs when the number of matching nodes falls to the order of the typical WSN degree. Example: Fc=4 for q=5 gives 80 matching nodes, against a mean degree of 47.",
+      "evidence_quote": "The transition occurs when $\\tilde{N}$ becomes less than the typical degree for the original WSN model."
+    },
+    {
+      "claim": "Local attachment with link reinforcement amplifies homophily. Without LA, or with reinforcement disabled (wr=0), the transition disappears and results match a null model. Segregation therefore emerges without any trait-change (opinion-dynamics) mechanism.",
+      "evidence_quote": "a key ingredient for the transition is the presence of LA rule"
+    },
+    {
+      "claim": "Segregation slows information spreading. In SI simulations on networks with similar degree and link weights, spreading in the overlapping phase was about 2x faster than in the segregated phase.",
+      "evidence_quote": "the spreading speed in the overlapping phase is approximately two times faster than for the segregated phase"
+    },
+    {
+      "claim": "Simulation setup: N=50000 agents, p\u0394=0.02, pr=0.001, pd=0.005, wr=1. Runs used 5\u00d710^4 to 8\u00d710^5 Monte Carlo steps to equilibrate. Communities were detected with multilevel Infomap, and the OACIS framework managed the parameter scans.",
+      "evidence_quote": "N = 50000, $p_{\\Delta} = 0.02$ , $p_r = 0.001$ , $p_d = 0.005$ , $w_r = 1$ are used"
+    },
+    {
+      "claim": "Implications and limits: if ties form on few features or few trait options, society segregates, which the authors link to echo chambers. Planned extensions are feature updates combined with triadic closure, heterogeneous q per feature, and individual differences in F. The authors contrast the model with Schelling-type models and with opinion-dynamics models.",
+      "evidence_quote": "if the selection mechanism of acquaintances is based on very few features (F is small) and/or if traits a feature can take are limited only to few options (g is small), then the society will be segregated"
+    }
+  ],
+  "reliability_notes": "Full text was available. The paper is a peer-reviewed physics-style network model, not a general ABM or artificial-society survey. It is relevant to the social network formation, homophily, segregation and culture (Axelrod-like) aspects. Results are simulation-only, with no empirical validation. Some spreading results come from single runs."
+}

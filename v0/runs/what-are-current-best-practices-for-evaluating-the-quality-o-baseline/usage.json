@@ -1,0 +1,9 @@
+{
+  "input_tokens": 517127,
+  "output_tokens": 26750,
+  "cache_read_input_tokens": 0,
+  "cache_creation_input_tokens": 0,
+  "web_search_requests": 15,
+  "web_fetch_requests": 7,
+  "est_token_cost_usd": 2.6
+}

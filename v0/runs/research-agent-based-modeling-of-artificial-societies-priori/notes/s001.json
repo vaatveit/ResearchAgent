@@ -1,0 +1,38 @@
+{
+  "id": "s001",
+  "url": "https://www.brookings.edu/books/growing-artificial-societies/",
+  "subtopic": "Foundations and frameworks",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Growing Artificial Societies: Social Science From the Bottom Up",
+  "publisher": "Brookings Institution Press (with MIT Press)",
+  "published_date": "1996-10-01",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Foundational Sugarscape work: collective behaviors (group formation, culture, combat, trade) emerge from simple local agent rules.",
+      "evidence_quote": "group formation, cultural transmission, combat, and trade are seen to \u201cemerge\u201d from the interaction of individual agents following simple local rules."
+    },
+    {
+      "claim": "Agent design: heterogeneous genetic attributes, a simple movement rule, and metabolism-driven death.",
+      "evidence_quote": "Agents are born onto the Sugarscape with a vision, a metabolism, a speed, and other genetic attributes."
+    },
+    {
+      "claim": "Environment and wealth: seasons produce migration and hibernation, and resource accumulation yields a wealth distribution.",
+      "evidence_quote": "when seasons are introduced, migration and hibernation can be observed. Agents are accumulating sugar at all times, so there is always a distribution of wealth."
+    },
+    {
+      "claim": "Culture and conflict: on a twin-peaked landscape, agents self-organize into culturally distinct tribes that fight and compete for cultural dominance.",
+      "evidence_quote": "self-organization into spatially segregated and culturally distinct \u201ctribes\u201d centered on the peaks of the Sugarscape."
+    },
+    {
+      "claim": "Demography: sexual reproduction can lead to population crash or to ecological collapse from overpopulation.",
+      "evidence_quote": "the population becomes thin, birth rates fall, and the population can crash."
+    },
+    {
+      "claim": "Economy: adding a second resource (spice) and trade produces an emergent market. Pollution from resource-mining allows study of markets with environmental factors.",
+      "evidence_quote": "introduce a second resource (spice) to the Sugarscape and allow the agents to trade, an economic market emerges."
+    }
+  ],
+  "reliability_notes": "Publisher's book description page only (a summary, not full text). It describes a 1996 classic and gives no state-of-the-art or recent findings. Treat as abstract only."
+}

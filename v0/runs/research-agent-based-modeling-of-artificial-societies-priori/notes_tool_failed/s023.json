@@ -1,0 +1,13 @@
+{
+  "id": "s023",
+  "url": "https://arxiv.org/pdf/0910.0826",
+  "subtopic": "Cooperation, norms and institutions",
+  "fetched_ok": false,
+  "failure_reason": "The web_fetch result came back in an unexpected format (a string, not a list). My code failed to parse it, and I couldn't inspect the content because the code tool ran out of calls.",
+  "title": "",
+  "publisher": "",
+  "published_date": "",
+  "relevance": "none",
+  "key_points": [],
+  "reliability_notes": "No content was read, so I can't say anything about this source."
+}

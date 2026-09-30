@@ -1,0 +1,13 @@
+{
+  "id": "s025",
+  "url": "https://arxiv.org/pdf/1808.05035",
+  "subtopic": "Social networks and structure",
+  "fetched_ok": false,
+  "failure_reason": "The code_execution tool returned an error saying no calls remained, so web_fetch never ran and the page was not retrieved.",
+  "title": "",
+  "publisher": "",
+  "published_date": "",
+  "relevance": "none",
+  "key_points": [],
+  "reliability_notes": "No content was fetched, so there is nothing to assess."
+}

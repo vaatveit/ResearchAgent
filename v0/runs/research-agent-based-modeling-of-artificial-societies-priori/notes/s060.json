@@ -1,0 +1,34 @@
+{
+  "id": "s060",
+  "url": "https://jasss.soc.surrey.ac.uk/23/1/6.html",
+  "subtopic": "Methodology: calibration, validation and platforms",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "'One Size Does Not Fit All': A Roadmap of Purpose-Driven Mixed-Method Pathways for Sensitivity Analysis of Agent-Based Models",
+  "publisher": "Journal of Artificial Societies and Social Simulation (JASSS)",
+  "published_date": "2020-01-31",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Sensitivity analysis (SA) method choice for ABMs should depend on the model's purpose; no single method fits all.",
+      "evidence_quote": "no single SA method fits all ABMs and that different methods of SA should be used based on the overarching purpose of the model"
+    },
+    {
+      "claim": "Abstract exploratory models need only simple SA, as they use limited data on patterns or stylized facts.",
+      "evidence_quote": "For them, simple SA methods may be sufficient in capturing the dependencies between the output-input spaces."
+    },
+    {
+      "claim": "Applied, data-rich policy/scenario models need more sophisticated SA to establish robustness before results reach end-users.",
+      "evidence_quote": "the choice of a more sophisticated SA may be critical in establishing the robustness of the results"
+    },
+    {
+      "claim": "Paper offers a roadmap for choosing SA and advocates routine use of global methods that capture input interactions.",
+      "evidence_quote": "advocates for the routine use of global methods that capture input interactions"
+    },
+    {
+      "claim": "Frontier SA methods: spatial/temporal outputs, whole output distributions, topological relationships, and finding behavioral primitives to study regime shifts and tipping points.",
+      "evidence_quote": "finding behavioral primitives and using them to study complex system characteristics like regime shifts, tipping points, and condensation versus dissipation of collective system behavior"
+    }
+  ],
+  "reliability_notes": "Peer-reviewed JASSS review paper. The fetch returned the full text, but I only read the abstract and metadata before running out of tool calls, so all points come from the abstract. It covers methodology (SA/validation) rather than the content of artificial societies."
+}

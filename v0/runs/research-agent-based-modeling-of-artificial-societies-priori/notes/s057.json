@@ -1,0 +1,30 @@
+{
+  "id": "s057",
+  "url": "https://link.springer.com/article/10.1007/s10680-015-9362-0",
+  "subtopic": "Demography, migration and epidemics",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Decision-Making in Agent-Based Models of Migration: State of the Art and Challenges",
+  "publisher": "European Journal of Population (Springer)",
+  "published_date": "2016-02-15",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Review scope: ABMs of human migration, examined by their agent decision-making rules.",
+      "evidence_quote": "We review agent-based models (ABM) of human migration with respect to their decision-making rules."
+    },
+    {
+      "claim": "The dominant behavioural theories used as agent decision rules are random utility theory (discrete choice models) and the theory of planned behaviour.",
+      "evidence_quote": "The most prominent behavioural theories used as decision rules are the random utility theory, as implemented in the discrete choice model, and the theory of planned behaviour."
+    },
+    {
+      "claim": "Two critical modelling choices are how decision processes and social networks are modelled.",
+      "evidence_quote": "the critical choices that must be made in developing an ABM, namely the modelling of decision processes and social networks"
+    },
+    {
+      "claim": "Two challenges hinder wider ABM use in demography and the social sciences: operationalising a behavioural theory, and choosing empirical evidence for validation.",
+      "evidence_quote": "(a) the choice and the operationalisation of a behavioural theory (decision-making and social interaction) and (b) the selection of empirical evidence to validate the model."
+    }
+  ],
+  "reliability_notes": "Abstract only was checked. The fetch returned the full page, but I ran out of tool calls before reading the body text. Peer-reviewed review by Frans Willekens (Max Planck Institute for Demographic Research), open access. The body text likely contains more detail that these notes don't cover."
+}

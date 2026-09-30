@@ -1,0 +1,34 @@
+{
+  "id": "s001",
+  "url": "https://arxiv.org/abs/2506.11763",
+  "subtopic": "Benchmarks for deep research agents",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
+  "publisher": "arXiv",
+  "published_date": "2025-06-13",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Benchmark of 100 PhD-level expert-crafted research tasks across 22 fields for evaluating deep research agents.",
+      "evidence_quote": "a benchmark consisting of 100 PhD-level research tasks, each meticulously crafted by domain experts across 22 distinct fields"
+    },
+    {
+      "claim": "Proposes a reference-based method with adaptive criteria to assess report quality, aligned with human judgment.",
+      "evidence_quote": "a reference-based method with adaptive criteria to assess the quality of generated research reports"
+    },
+    {
+      "claim": "Separately evaluates retrieval/collection via effective citation count and citation accuracy.",
+      "evidence_quote": "evaluate DRA's information retrieval and collection capabilities by assessing its effective citation count and overall citation accuracy"
+    },
+    {
+      "claim": "Evaluating DRAs is hard and labor-intensive, motivating automated methods validated against human judgment.",
+      "evidence_quote": "Evaluating DRAs is inherently complex and labor-intensive."
+    },
+    {
+      "claim": "Code and key components are open-sourced.",
+      "evidence_quote": "We have open-sourced DeepResearch Bench and key components of these frameworks"
+    }
+  ],
+  "reliability_notes": "Abstract page only (not full paper), so no numeric results. Peer-review status unknown; preprint by the benchmark authors, who may favor their own method."
+}

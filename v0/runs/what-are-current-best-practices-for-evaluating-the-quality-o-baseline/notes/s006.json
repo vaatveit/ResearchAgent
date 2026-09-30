@@ -1,0 +1,86 @@
+{
+  "id": "s006",
+  "url": "https://arxiv.org/html/2606.01629v1",
+  "subtopic": "LLM-as-judge, rubrics and human evaluation",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Benchmarking LLM-as-a-Judge for Long-Form Output Evaluation (LongJudgeBench)",
+  "publisher": "arXiv (preprint, arXiv:2606.01629v1)",
+  "published_date": "2026-06 (inferred from arXiv ID 2606.xxxxx)",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Existing LLM-as-a-judge meta-evaluation benchmarks mostly use short outputs (a few hundred tokens), so there is little evidence on how reliable judges are for long-form outputs such as deep research reports.",
+      "evidence_quote": "most prior benchmarks are built around candidate outputs of only a few hundred tokens, leaving limited evidence about judge reliability in long-form evaluation."
+    },
+    {
+      "claim": "The difficulty of long-form evaluation is not just length. It involves document-level demands such as organization, consistency across sections, and coverage.",
+      "evidence_quote": "long-form evaluation involves qualitatively different document-level evaluation demands, such as assessing overall organization, cross-section consistency, and coverage and depth across multiple subtopics."
+    },
+    {
+      "claim": "LongJudgeBench covers five scenarios (including deep research) across six datasets. Candidate outputs average about 9,250 tokens, and all reference judgments come from experts.",
+      "evidence_quote": "It provides candidate outputs averaging 9,249.7 tokens, together with task-specific evaluation protocols and expert reference judgments."
+    },
+    {
+      "claim": "The authors built a new deep-research dataset, RealDeepResearch: 640 documents in Chinese and English, kept in their original DOCX format and annotated by experts for about USD 2,260.",
+      "evidence_quote": "RealDeepResearch, which contains 40 research tasks, 4 prompt styles, and 4 generation models, resulting in 640 long documents. RealDeepResearch covers both Chinese and English documents and preserves the original DOCX format"
+    },
+    {
+      "claim": "The paper argues against using LLM-generated gold labels to meta-evaluate judges, because this risks circularity. That is its criticism of the concurrent Long-form RewardBench.",
+      "evidence_quote": "most of its gold labels are produced by an LLM-as-a-judge pipeline rather than expert annotation, potentially causing circularity and judge-specific biases."
+    },
+    {
+      "claim": "Method: judge reliability is measured as agreement with expert judgments, using accuracy (the main metric), Spearman, and Kendall's tau-b, each computed per query group. Pairwise comparisons are run in both answer orders to reduce position bias.",
+      "evidence_quote": "To reduce position bias in pairwise evaluation, we evaluate each pair in both answer orders and average the two results."
+    },
+    {
+      "claim": "Current judges are only moderately reliable. The best configuration (Qwen3-Max + reference) reaches 0.6721 accuracy, and the mean across all 32 model-setting combinations is 0.5627, barely above the 0.5 random baseline.",
+      "evidence_quote": "Across all 32 model\u2013setting combinations, only 12 exceed 0.60, and the overall mean is 0.5627, only slightly above the random pairwise baseline of 0.5."
+    },
+    {
+      "claim": "Being a stronger general-purpose model does not guarantee being a better judge: GPT-4o-mini and GPT-5.2 scored lower than Qwen3-Max, DeepSeek-V4-Flash and GLM-5.1.",
+      "evidence_quote": "This suggests that stronger general-purpose capabilities may not always translate into stronger long-form judging performance."
+    },
+    {
+      "claim": "Realistic deep research reports (RealDR, with document structure and multilingual content) were among the hardest to judge, at 0.4393 accuracy versus 0.6454 on plain-text DR-Bench.",
+      "evidence_quote": "RealDR reaches 0.4393, possibly reflecting the added difficulty of realistic document structure and multilingual content"
+    },
+    {
+      "claim": "Giving the judge references improved average accuracy from 0.5313 to 0.5843. The gain was largest on verification tasks. Rubrics helped with multidimensional research-report evaluation, raising DR-Bench accuracy from 0.5454 to 0.7075.",
+      "evidence_quote": "Among the four judging settings, Reference achieves the best average performance, improving the overall score from 0.5313 under Vanilla to 0.5843."
+    },
+    {
+      "claim": "The benefits of rubrics and references are not universal or additive: using both scored 0.5784, slightly below reference alone, and rubrics hurt accuracy on some tasks.",
+      "evidence_quote": "the benefit of combining reference and rubric guidance is not simply additive: Ref.+Rubric reaches 0.5784, slightly below Reference alone at 0.5843."
+    },
+    {
+      "claim": "Turning on thinking mode for the judge (Qwen3-32B) lowered its overall average.",
+      "evidence_quote": "the overall average, which decreases from 0.5745 without thinking to 0.5241 with thinking."
+    },
+    {
+      "claim": "The effect of output length depends on the dataset; it is not simply that longer outputs are judged worse.",
+      "evidence_quote": "the relationship between output length and judge accuracy is dataset-specific and cannot be simply summarized as longer is worse."
+    },
+    {
+      "claim": "Failure mode: judges reward surface-level coverage. In one example, a 12K-token response that barely addressed the core question received 9.26 from the judge versus 5.87 from humans.",
+      "evidence_quote": "This case shows that LLM judges can mistake surface richness for substantive answers."
+    },
+    {
+      "claim": "Failure mode: judges confuse domain concepts and perform poorly in specialized domains such as medical systematic reviews.",
+      "evidence_quote": "The Qwen3-Max judge incorrectly treats Messages API streaming and Streamable HTTP as the same concept, assigning an overall score of 8.85, while the human score is only 5.37."
+    },
+    {
+      "claim": "Position bias is severe for some models. Swapping the order of the two candidates gave inconsistency rates from 10.6% up to 78.7% (GPT-4o-mini on WP-Bench).",
+      "evidence_quote": "GPT-4o-mini shows an especially high inconsistency rate of 78.7% on WP-Bench, suggesting strong dependence on candidate order."
+    },
+    {
+      "claim": "Some judgments fail outright because of context-window overflow (when outputs, references and rubrics are combined) or safety refusals. These failures are counted as incorrect.",
+      "evidence_quote": "Context-window overflow occurs when long prompts exceed the model\u2019s input limit, especially when outputs, references, and rubrics are combined."
+    },
+    {
+      "claim": "The paper did not test more advanced judge designs such as retrieval-augmented, multi-agent, or calibration-based judging; the authors leave these to future work.",
+      "evidence_quote": "more advanced judge designs, such as retrieval-augmented judging, multi-agent judging, and calibration-based methods, remain to be explored."
+    }
+  ],
+  "reliability_notes": "This is a v1 arXiv preprint that has not been peer reviewed. The code link is anonymized, which suggests it is under review. It evaluates LLM judges for long-form outputs, including deep research reports, rather than research agents end to end, so it bears on only the output-evaluation part of the task. Temperature was set to 0 and one prompt setup was used per configuration. Failed judgments were counted as incorrect, which pushes some scores down. Some model names (GPT-5.2, DeepSeek-V4-Flash, Kimi-K2.6) are recent, and the results are specific to those versions. The page fetched cleanly."
+}

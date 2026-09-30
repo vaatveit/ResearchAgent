@@ -1,0 +1,51 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2506.11763",
+    "title": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
+    "why_relevant": "Primary paper for a widely used deep-research benchmark (100 PhD-level tasks across 22 fields). Introduces RACE, which scores report quality against reference reports, and FACT, which checks citation accuracy and effective citation count. Also reviews what earlier agent benchmarks such as GAIA and BrowseComp leave out when judging long-form research reports.",
+    "subtopic": "Benchmarks for research/deep-research agents",
+    "id": "s001"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2506.11763",
+    "title": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
+    "why_relevant": "Introduces RACE, a reference-based framework for scoring deep research reports. An LLM judge grades reports against adaptive, task-specific rubric criteria across comprehensiveness, insight/depth, instruction-following and readability, scoring each report relative to a reference report. The paper compares evaluation methods and validates agreement with expert human judgments.",
+    "subtopic": "LLM-as-judge, rubrics and human evaluation",
+    "id": "s002"
+  },
+  {
+    "url": "https://docs.langchain.com/langsmith/trajectory-evals",
+    "title": "How to evaluate your agent with trajectory evaluations - Docs by LangChain",
+    "why_relevant": "Official LangChain/LangSmith docs on trajectory-level evaluation of agents: strict/unordered/subset trajectory matching of tool calls and LLM-as-judge trajectory evaluators. This is a primary source for step-level and tool-use process evaluation in production.",
+    "subtopic": "Process, trajectory and operational metrics",
+    "id": "s003"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2504.12516",
+    "title": "BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents (OpenAI)",
+    "why_relevant": "Primary OpenAI paper for BrowseComp, 1,266 questions built to require persistent, creative web search for hard-to-find information. Each question has a short answer that is easy to check, so grading can be automated. The paper states its own limits: it does not test long-form answers or how well agents handle ambiguous queries. It also compares BrowseComp with saturated benchmarks like SimpleQA and discusses contamination risk.",
+    "subtopic": "Benchmarks for research/deep-research agents",
+    "id": "s004"
+  },
+  {
+    "url": "https://neurips.cc/virtual/2024/poster/96675",
+    "title": "Long-form factuality in large language models (SAFE / LongFact, NeurIPS 2024)",
+    "why_relevant": "Primary source for SAFE, which splits long-form output into individual facts and checks each one with Google Search. It also defines the F1@K factuality metric and releases the LongFact prompt set; this is the basis for fact-level hallucination scoring.",
+    "subtopic": "Factuality, citation and source attribution evaluation",
+    "id": "s005"
+  },
+  {
+    "url": "https://arxiv.org/html/2606.01629v1",
+    "title": "Benchmarking LLM-as-a-Judge for Long-Form Output Evaluation (LongJudgeBench)",
+    "why_relevant": "Meta-evaluation benchmark that tests how reliable LLM judges are on long outputs (averaging over 9k tokens) across deep research, scientific surveys, systematic reviews and other scenarios. It checks judge agreement against human annotations, reports inter-annotator agreement, and covers document-level quality dimensions (coverage, organization, bias checking) with weighted rubrics.",
+    "subtopic": "LLM-as-judge, rubrics and human evaluation",
+    "id": "s006"
+  },
+  {
+    "url": "https://x.com/AnthropicAI/status/2009696515061911674",
+    "title": "Anthropic on X: New on the Anthropic Engineering Blog: Demystifying evals for AI agents",
+    "why_relevant": "Anthropic's official announcement linking to its engineering blog post 'Demystifying evals for AI agents' (Jan 2026). The post covers agent eval strategies from real deployments: pass@k vs pass^k reliability across runs, grading transcripts and outcomes, code, model and human graders, and eval practice in production. The anthropic.com URL itself did not come up in search, so this is the closest primary link.",
+    "subtopic": "Process, trajectory and operational metrics",
+    "id": "s007"
+  }
+]

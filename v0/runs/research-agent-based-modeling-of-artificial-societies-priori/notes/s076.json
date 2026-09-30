@@ -1,0 +1,30 @@
+{
+  "id": "s076",
+  "url": "https://link.springer.com/chapter/10.1007/978-3-319-47253-9_2",
+  "subtopic": "Agent cognition and LLM-based agents",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "A Simple-to-Use BDI Architecture for Agent-Based Modeling and Simulation",
+  "publisher": "Springer (Advances in Social Simulation 2015)",
+  "published_date": "2017",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Social simulations have grown more realistic, but most agent architectures are still simple reactive models (agent cognition aspect).",
+      "evidence_quote": "most agent architectures in these simulations use simple reactive models."
+    },
+    {
+      "claim": "Cognitive architectures face two obstacles: complexity for field-expert modelers and computational cost.",
+      "evidence_quote": "Cognitive architectures face two main obstacles: their complexity for the field-expert modeler, and their computational cost."
+    },
+    {
+      "claim": "The authors propose a BDI architecture integrated into GAMA, written in GAML, designed to be simple, flexible and computationally cheap.",
+      "evidence_quote": "a new cognitive agent architecture based on the Belief-Desire-Intention paradigm integrated into the GAMA modeling platform"
+    },
+    {
+      "claim": "The architecture is illustrated with a land-use evolution model of the Mekong Delta (environment/land-use aspect).",
+      "evidence_quote": "illustrated with a simulation of the evolution of land-use in the Mekong Delta."
+    }
+  ],
+  "reliability_notes": "Abstract only (paywalled preview). Peer-reviewed chapter by Taillandier et al. (University of Rouen). No full-text details or results were available."
+}

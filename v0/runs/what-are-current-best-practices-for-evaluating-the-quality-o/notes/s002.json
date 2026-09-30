@@ -1,0 +1,34 @@
+{
+  "id": "s002",
+  "url": "https://arxiv.org/abs/2305.14251",
+  "subtopic": "Factuality, citation and attribution evaluation",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation",
+  "publisher": "arXiv (EMNLP 2023 main conference paper)",
+  "published_date": "2023-05-23",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Binary correctness judgments are inadequate for long-form output, and human evaluation is costly. This motivates fine-grained, automated factuality metrics.",
+      "evidence_quote": "generations often contain a mixture of supported and unsupported pieces of information, making binary judgments of quality inadequate"
+    },
+    {
+      "claim": "FActScore splits a generation into atomic facts and reports the share supported by a reliable knowledge source. This is a claim-level precision metric that can be applied to research-agent reports.",
+      "evidence_quote": "breaks a generation into a series of atomic facts and computes the percentage of atomic facts supported by a reliable knowledge source"
+    },
+    {
+      "claim": "Fine-grained scoring shows that strong models are still far from fully factual. Retrieval-augmented systems such as PerplexityAI were also evaluated.",
+      "evidence_quote": "ChatGPT only achieves 58%"
+    },
+    {
+      "claim": "An automated estimator built on retrieval and a strong LM approximates human FActScore closely and cheaply. This makes large-scale evaluation feasible.",
+      "evidence_quote": "estimates FACTSCORE using retrieval and a strong language model, with less than a 2% error rate"
+    },
+    {
+      "claim": "The automated metric was applied to 6,500 generations from 13 LMs, at a cost saving versus human evaluation.",
+      "evidence_quote": "6,500 generations from a new set of 13 recent LMs that would have cost $26K if evaluated by humans"
+    }
+  ],
+  "reliability_notes": "This is the arXiv abstract page for a peer-reviewed EMNLP 2023 paper, so the source is reliable. I only read the abstract page, not the full text. The paper covers factual precision in biography generation, not research agents specifically. It measures precision only, not recall or coverage, and it dates from 2023. It is relevant as a building block for evaluating the factuality of agent outputs."
+}

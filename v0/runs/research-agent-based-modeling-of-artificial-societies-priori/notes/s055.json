@@ -1,0 +1,42 @@
+{
+  "id": "s055",
+  "url": "https://arxiv.org/pdf/2504.16307",
+  "subtopic": "Social networks and structure",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Schelling segregation dynamics in densely-connected social network graphs",
+  "publisher": "arXiv (Anastasi & Dalla Riva, University of Canterbury)",
+  "published_date": "2025",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Schelling model run on a dense, non-spatial social network segregates less strongly than sparse networks.",
+      "evidence_quote": "a dense social network does not become as strongly segregated as a sparse network"
+    },
+    {
+      "claim": "Agents' same-group neighbour counts closely match desired levels, without the overshoot usually seen in Schelling models.",
+      "evidence_quote": "the number of similar neighbours closely matches the agents' desired number, rather than becoming much larger"
+    },
+    {
+      "claim": "Polarisation (measured by embedded dimensionality of a Random Dot Product Graph) needs a much higher same-group preference than earlier Schelling tipping points. Online networks may therefore be structurally harder to polarise.",
+      "evidence_quote": "was also much higher than previously observed tipping points in Schelling models"
+    },
+    {
+      "claim": "Group size matters. A moderately small group cannot be polarised, and an extremely small group makes the network unstable.",
+      "evidence_quote": "when one group was very small, it was difficult or impossible for the model to stabilise"
+    },
+    {
+      "claim": "Fossett's 'paradox of weak minority preferences' gets mixed support in dense networks.",
+      "evidence_quote": "in a dense social network the evidence for the \"paradox of weak minority preferences\" is mixed"
+    },
+    {
+      "claim": "Asymmetric tolerance raises the tipping point slightly, but a very intolerant group still causes polarisation.",
+      "evidence_quote": "polarisation will still occur if one group is very intolerant"
+    },
+    {
+      "claim": "The authors propose extensions: opposite-group preferences, fuzzy group membership, more than two groups.",
+      "evidence_quote": "add a desired number of opposite group neighbours, fuzzy set (i.e. continuous) group membership, more than two groups"
+    }
+  ],
+  "reliability_notes": "Full text was fetched. It is an arXiv preprint and may not be peer reviewed. It covers a narrow topic: Schelling segregation and polarisation on networks. It is only indirectly about artificial societies in general. Simulation-only findings, with no empirical validation."
+}

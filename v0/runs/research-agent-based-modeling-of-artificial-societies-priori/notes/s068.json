@@ -1,0 +1,34 @@
+{
+  "id": "s068",
+  "url": "https://sesmo.org/article/view/17894",
+  "subtopic": "Environment, resources and socio-ecological systems",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "An agent-based model to support community forest management and non-timber forest product harvesting in northern Thailand",
+  "publisher": "Socio-Environmental Systems Modelling (SESMO)",
+  "published_date": "2021-02-01",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "CoComForest ABM built for community forest management and NTFP harvesting in Nan Province, Thailand, used as a role-playing game and in participatory simulations.",
+      "evidence_quote": "The model was used as a computer-based role-playing game to support sharing of perceptions and knowledge among stakeholders"
+    },
+    {
+      "claim": "Implementation: UML conceptual model, implemented on the CORMAS platform.",
+      "evidence_quote": "The Unified Modelling Language was used to build the conceptual model, subsequently implemented under the CORMAS"
+    },
+    {
+      "claim": "Validation and participation: lab verification and calibration, then a workshop with 21 stakeholders, including co-validation.",
+      "evidence_quote": "before using this tool with 21 diverse stakeholders during a field workshop"
+    },
+    {
+      "claim": "Scenario results: outsider intensive harvesting accelerated resource depletion, while firebreaks increased resource availability.",
+      "evidence_quote": "intensive harvesting practices of outsiders accelerated the depletion of resources, whereas the prevention of wildfire by establishing firebreaks could increase the resource availability"
+    },
+    {
+      "claim": "Stakeholders found the model a useful common representation that facilitated communication on collective action.",
+      "evidence_quote": "Most participants considered the model as a useful common representation of the system they manage collectively."
+    }
+  ],
+  "reliability_notes": "Abstract only (from page metadata). Peer-reviewed open-access journal. It is a participatory/companion-modelling case study, not a general artificial-society paper."
+}

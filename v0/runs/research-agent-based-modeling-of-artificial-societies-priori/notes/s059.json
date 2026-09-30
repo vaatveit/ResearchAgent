@@ -1,0 +1,34 @@
+{
+  "id": "s059",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12226385/",
+  "subtopic": "Environment, resources and socio-ecological systems",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Majority illusion drives the spontaneous emergence of alternative states in common-pool resource games with network-based information",
+  "publisher": "iScience (Cell Press), via PMC",
+  "published_date": "2025-06-06",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "An agent-based model is used to study how social network structure shapes common-pool resource (CPR) extraction; the ABM is of a stylized artificial population of resource users.",
+      "evidence_quote": "We use an agent-based model to investigate how social networks shape resource extraction outcomes."
+    },
+    {
+      "claim": "Highly visible network nodes create a 'majority illusion' that misleads agents about the dominant behavior. This can push the whole population into one of two states, either abundant/high-welfare or depleted/low-welfare.",
+      "evidence_quote": "This misperception can push the entire population toward one of two possible states: an abundant, high-welfare resource or a depleted, low-welfare one."
+    },
+    {
+      "claim": "Aligning users' environmental impact with their visibility reduces bistability and leads to a single, predictable outcome.",
+      "evidence_quote": "Aligning users\u2019 environmental impact with their visibility can mitigate this effect and steer the system toward a single, predictable outcome."
+    },
+    {
+      "claim": "Policy implication: reshaping information flows, particularly by targeting high-impact hubs, could stabilize cooperation and reduce tragedy-of-the-commons risk.",
+      "evidence_quote": "network-based policies, such as reshaping information flows, particularly targeting high-impact hubs, could help stabilize cooperative behaviors"
+    },
+    {
+      "claim": "Highlights: information asymmetry produces bistability. A few key users drive it, and which outcome occurs depends on the stochastic emergence of those users' behavior.",
+      "evidence_quote": "The stochastic emergence of key users\u2019 behavior determines which outcome results"
+    }
+  ],
+  "reliability_notes": "Full text was fetched (about 96k characters), but I read only the abstract, highlights and the start of the introduction. Quotes come from those parts. Peer-reviewed, open access, 2025. I did not extract model details such as parameters, network types and payoff structure. The paper is a narrow CPR-game ABM, not a broad survey of artificial societies."
+}

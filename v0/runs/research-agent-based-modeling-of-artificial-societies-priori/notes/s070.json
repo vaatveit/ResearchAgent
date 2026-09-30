@@ -1,0 +1,58 @@
+{
+  "id": "s070",
+  "url": "https://arxiv.org/pdf/physics/0701140",
+  "subtopic": "Economy and markets",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Agent-based Models of Financial Markets",
+  "publisher": "arXiv (physics/0701140); Samanidou, Zschischang, Stauffer, Lux",
+  "published_date": "2007",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Review covers Kim-Markowitz, Levy-Levy-Solomon, Cont-Bouchaud, Solomon-Weisbuch, Lux-Marchesi, Donangelo-Sneppen and Solomon-Levy-Huang models. It focuses on artificial financial markets, not general artificial societies.",
+      "evidence_quote": "This review deals with several microscopic (\"agent-based\") models of financial markets"
+    },
+    {
+      "claim": "Agent-based market models are mainly judged on whether they reproduce stylized facts: unpredictable returns, volatility clustering, power-law tails with exponent around 3, and multifractality. The authors argue that interaction is an alternative form of microfoundation to full optimization.",
+      "evidence_quote": "the tails of the cumulative distribution of returns are characterized by a power-law with exponent around 3"
+    },
+    {
+      "claim": "Economy/institutions: Donangelo-Sneppen barter agents develop a money good endogenously. The good that becomes money depends on random market dynamics, with no intrinsic advantage. Comparable Kiyotaki-Wright models in economics, tested with artificial agents and human subjects, often yield only \"fundamental\" equilibria.",
+      "evidence_quote": "Which product evolves as the most desired \"money\" thus depends on the random dynamics of the market, without outside interference"
+    },
+    {
+      "claim": "Agent cognition/learning: the Santa Fe Artificial Stock Market equips agents with classifier rules that evolve by genetic operations. Which strategy dominates depends on how often the genetic operations are activated. Related work uses genetic programming and neural networks, and the agents' learning changes the environment they are learning about.",
+      "evidence_quote": "the dominance of either chartist or fundamentalist classifiers depends on the frequency of activation of the genetic operations"
+    },
+    {
+      "claim": "Kim-Markowitz (1987 crash): with rebalancer and portfolio-insurer agents, more insurers raise volatility, and the effect grows with market size. Many insurers go bankrupt and produce cyclical prices, and the model's series show little resemblance to empirical scaling laws.",
+      "evidence_quote": "the impact of the portfolio insurance strategy on market volatility generally increases with growing market size"
+    },
+    {
+      "claim": "Levy-Levy-Solomon: agents with different memory lengths produce periodic booms and crashes. Claimed chaotic dynamics vanish with more agents (n=1000), the wealth-dominant group depends on initial random draws, and none of the empirical scaling laws are recovered.",
+      "evidence_quote": "none of the empirical scaling laws can be recovered in any of our simulations"
+    },
+    {
+      "claim": "Wealth distribution: the Solomon-Levy-Huang random multiplicative wealth model with a poverty floor gives a power-law wealth tail with exponent alpha = 1/(1-q). Random pairwise exchange models produce inequality from a homogeneous population, a process the authors trace to earlier sociological work by Angle.",
+      "evidence_quote": "a power law \u221d 1/w^\u03b1 was obtained ... The exponent for this power law is given by the cut-off: \u03b1 = 1/(1-q)"
+    },
+    {
+      "claim": "Social structure and herding: in Cont-Bouchaud, clusters of agents on a lattice or network decide jointly. This gives power-law returns with exponent about 3 in d=2-3, and the model has been extended with network topologies and applied to a Tobin tax. Economists criticize it as relabeling known percolation physics, with realistic results only under specific settings.",
+      "evidence_quote": "Thus in the realistic dimensions of a city or bank building, d = 2 or 3, we get the desired \u03bc \u2245 3"
+    },
+    {
+      "claim": "Diffusion of innovation: Solomon-Weisbuch social percolation on a lattice separates products into hits and flops at the percolation threshold. Adaptive quality and taste drive the system to self-organized criticality.",
+      "evidence_quote": "the q automatically moves to the threshold p_c, an example of self-organized criticality"
+    },
+    {
+      "claim": "Lux-Marchesi: agents switch between noise-trader (optimist or pessimist) and fundamentalist groups according to majority opinion, price trends and profit differentials. Price responds to excess demand. This yields intermittent volatility clusters and accurate power-law tails.",
+      "evidence_quote": "generates clusters of volatility and numerically accurate power laws for the tail behavior of raw returns"
+    },
+    {
+      "claim": "Open problems: finite-size effects. Many models' interesting dynamics disappear at realistically large agent numbers, as shown for Kim-Markowitz, Lux-Marchesi and Chen-Yeh. Intra-daily regularities may need more institutional detail.",
+      "evidence_quote": "the \"interesting\" dynamics does only apply for a certain range of the population size N of speculators and in most cases does not survive for realistically large N"
+    }
+  ],
+  "reliability_notes": "Full text was fetched, though the reference list was truncated. It is a peer-reviewed-style review by economists and physicists, written in a somewhat humorous tone. Its scope is financial markets and econophysics, which is narrower than artificial societies in general. Its date is approximate; the arXiv ID is Jan 2007 and the review is likely from around 2002-2006."
+}

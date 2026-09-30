@@ -1,0 +1,58 @@
+{
+  "id": "s069",
+  "url": "https://arxiv.org/pdf/1608.08517",
+  "subtopic": "Methodology: calibration, validation and platforms",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Empirically Grounded Agent-Based Models of Innovation Diffusion: A Critical Review",
+  "publisher": "arXiv (cs.SI), Zhang & Vorobeychik, Vanderbilt University; v4 25 May 2017",
+  "published_date": "2016-08 (v4 2017-05-25)",
+  "relevance": "medium",
+  "key_points": [
+    {
+      "claim": "Traditional aggregate models (Bass) assume homogeneous, fully connected populations; ABM adds agent heterogeneity and network-mediated interaction.",
+      "evidence_quote": "The ABM paradigm offers two advantages for the study of innovation diffusion: first, it facilitates the modeling of agent heterogeneity, and second, it enables fine-grained modeling of interactions mediated by social networks."
+    },
+    {
+      "claim": "Classic ABMs were conceptual and simple ('toy models'). Policy use is pushing a shift to empirically grounded models, where data initialize, parameterize or validate the simulation.",
+      "evidence_quote": "In these studies, empirical data are used to initialize simulation, parameterize agent-based models, or to evaluate model validity."
+    },
+    {
+      "claim": "Taxonomy of agent decision/adoption models: six methodological categories.",
+      "evidence_quote": "mathematical optimization based models, economic models, cognitive agent models, heuristic models, statistics-based models and social influence models"
+    },
+    {
+      "claim": "Calibration is split into micro-calibration (individual data, e.g. surveys for cognitive models like Theory of Planned Behavior) and macro-calibration (fitting aggregate diffusion trajectories, common for heuristic and economic models).",
+      "evidence_quote": "we call the first kind of calibration \"micro-calibration\", as it uses individual data during calibration, whereas the second type \"macro-calibration\", as it uses aggregate-level data."
+    },
+    {
+      "claim": "Issue I: macro-calibration risks over-fitting because ABMs are non-linear and aggregate data are limited. Remedies: parameter zones, multiple indicators, pattern-oriented modeling.",
+      "evidence_quote": "many parameter variations can give rise to similar aggregate dynamics."
+    },
+    {
+      "claim": "Issue II: validation on independent data is often informal, incomplete or missing. Few reviewed papers follow formal validation approaches.",
+      "evidence_quote": "validation is often informal, incomplete, and even missing."
+    },
+    {
+      "claim": "Issue III: few studies validate at both micro and macro level. The authors argue that accurate aggregate predictions need accurate individual behavior, and they recommend cross-validation.",
+      "evidence_quote": "robust predictions at the aggregate level can only emerge when individual behavior is accurately modeled as well"
+    },
+    {
+      "claim": "Issue IV: few studies test forecasting on independent future data. The authors propose 'forward validation' with a temporal split of the data.",
+      "evidence_quote": "calibration is performed on data prior to a split date, and forward validation is done on data after the split date"
+    },
+    {
+      "claim": "Recommended maximum likelihood estimation, borrowed from information-diffusion modeling, as a principled way to calibrate probabilistic agent adoption models on individual-level data.",
+      "evidence_quote": "we recommend constructing probabilistic adoption models for agents, and estimating parameters of these models by maximizing a global likelihood function"
+    },
+    {
+      "claim": "Most standard-practice pitfalls (Richiardi et al. protocol) are largely addressed in the reviewed work: theory, model description, sensitivity analysis, formal representations (UML/ODD) and public code.",
+      "evidence_quote": "nearly all of the reviewed papers present theoretical background, related work, sufficient description of model structure, sensitivity analysis of parameter variability, a formal representation"
+    },
+    {
+      "claim": "Summary of validation frameworks: Carley's four levels (grounding, calibration, verification, harmonizing) and Rand & Rust's four validation steps (micro-face, macro-face, empirical input, empirical output).",
+      "evidence_quote": "Carley (1996) suggests four levels of validation: grounding, calibration, verification, and harmonizing."
+    }
+  ],
+  "reliability_notes": "Full text was read (a 41-page PDF, decoded from base64). This is a peer-style critical review by credible authors, but it is about innovation diffusion, a narrow slice of artificial societies. Its methodology (calibration and validation) generalizes to social ABMs. I read the intro, discussion and conclusions in detail, and did not read the per-category application sections in detail."
+}

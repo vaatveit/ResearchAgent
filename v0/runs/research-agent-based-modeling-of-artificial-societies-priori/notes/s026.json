@@ -1,0 +1,62 @@
+{
+  "id": "s026",
+  "url": "https://faculty.sites.iastate.edu/tesfatsi/archive/tesfatsi/LarsErikCederman.ModelingSizeOfWars.pdf",
+  "subtopic": "Politics, conflict and governance",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "Modeling the Size of Wars: From Billiard Balls to Sandpiles",
+  "publisher": "Lars-Erik Cederman (Harvard); author draft hosted on Iowa State (Tesfatsion archive). The published version is in the American Political Science Review, 2003.",
+  "published_date": "2002-08-19",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Aim and framing: an agent-based model of war and state formation is built to generate the empirical power-law distribution of war sizes (Richardson's law) using self-organized criticality (SOC).",
+      "evidence_quote": "Drawing on the principles of self-organized criticality, I propose an agent-based model of war and state-formation that exhibits power-law regularities."
+    },
+    {
+      "claim": "Empirical target: COW interstate wars 1820-1997 fit a power law with slope -0.41 and R2 0.985 (N=97). Levy's European great-power wars 1495-1965 give slope -0.57 and R2 0.99.",
+      "evidence_quote": "The slope estimate \u20130.41 implies that a ten-fold increase of war severity decreases the probability of war by a factor of 2.6."
+    },
+    {
+      "claim": "The model descends from Bremer-Mihalka (1977) and Cusack-Stoll (1990). It differs in using quasi-parallel activation, province-level combat, and endogenous state borders on a grid, so wars can spread and be measured.",
+      "evidence_quote": "the quasi-parallel execution of the model presented here allows conflict to spread and diffuse, potentially over long periods of time."
+    },
+    {
+      "claim": "Agents and setup: about 200 state-like composite agents on a 50x50 lattice, implemented in Java/Repast. Interactions run over a dynamic network. Half of each state's resources are fixed and split across fronts, and half are mobile and allocated by neighbor power. States use a grim-trigger strategy.",
+      "evidence_quote": "The standard initial configuration consists of a 50 x 50 square lattice populated by about 200 composite, state-like agents interacting locally."
+    },
+    {
+      "claim": "Decision rules: a low baseline probability of unprovoked attack (0.01) rises to attempts every period once a state is 'alerted' by fighting nearby (contextual activation). Attack and victory use logistic threshold functions with a 3:1 power-ratio threshold. Conquest absorbs provinces, and capture of a capital collapses the state.",
+      "evidence_quote": "actors challenge the status quo with as low a probability per period as 0.01. If fighting involves neighboring states, however, a contextual activation mechanism prompts the state to enter alert status"
+    },
+    {
+      "claim": "Technological change is modeled as an outward shift of a logistic loss-of-strength gradient, which governs resource extraction and power projection. The gradient flattens at a 10% extraction rate at long distance and shifts linearly after period 500. This is the 'sand' driving the SOC dynamics.",
+      "evidence_quote": "technological change is modeled by shifting the threshold to the right, a process that allows the capital to extract more resources and project them power farther away from the center."
+    },
+    {
+      "claim": "War measurement: wars are identified by a spatio-temporal cluster-finding algorithm with a 20-period 'war shadow'. Severity is cumulative battle damage, set at 10% of the resources allocated to a front.",
+      "evidence_quote": "Active states are those that are currently fighting, or that fought in the last twenty time periods."
+    },
+    {
+      "claim": "Main result: the base runs (15 seeds, 10,500 periods) give median R2 0.991 and median slope -0.55 (range -0.64 to -0.49). Size ranges span more than four orders of magnitude, and states fell from about 200 to 35 in the sample run.",
+      "evidence_quote": "regression analysis of these series yields 15 R2 values ranging from 0.975 to 0.996, with a median of 0.991"
+    },
+    {
+      "claim": "Ablations: removing technological change (shockSize=0) gives slope about -1.32, R2 0.941 and range 1.4. Removing contextual activation gives slope about -1.34 and R2 0.882. Both mechanisms are therefore necessary for power laws.",
+      "evidence_quote": "Experiments with systems lacking contextual activation show that power-law behavior is unlikely without this mechanism."
+    },
+    {
+      "claim": "Robustness and limits: results are fairly stable to war-shadow length, attack threshold, resource fungibility, distance parameters and grid size (75x75 gives R2 0.993). However, calibration was hard and required tuning, so SOC's parameter-insensitivity is not fully satisfied.",
+      "evidence_quote": "the pure case of parameter-insensitivity characterizing SOC cannot be said to have been fully satisfied."
+    },
+    {
+      "claim": "Model simplifications: no alliances, contiguity-only interaction, and no secession or civil war in the reported version. No nationalism and no long-range great-power intervention. Extensions are proposed.",
+      "evidence_quote": "the attention must turn to alliances since, as we have seen above, they have been singled out in the theoretical and empirical literature on war diffusion."
+    },
+    {
+      "claim": "Theoretical implication: SOC and non-equilibrium dynamics cast doubt on static equilibrium theories (e.g. Waltz) and favor Gilpin-style spatio-temporal theories. Power-law statistics do not make war inevitable, because security communities can emerge.",
+      "evidence_quote": "the logic of SOC casts doubt on static equilibrium theories as blue-prints for systemic theorizing."
+    }
+  ],
+  "reliability_notes": "Full text was available, including the appendix and Table 1. It is an author's working-paper version dated 2002, and the peer-reviewed version is Cederman (2003), APSR. The results come from the author's own model and are not independently replicated here. The paper says it was reimplemented in Java/Repast with L. Gulyas. Validation is limited to matching the power-law slope and fit, and parameter tuning was required. The paper covers only one artificial-society aspect: interstate conflict and state formation on a territorial grid. It does not cover economy, culture, or demography."
+}

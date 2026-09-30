@@ -1,0 +1,70 @@
+{
+  "id": "s018",
+  "url": "https://arxiv.org/pdf/2502.08691",
+  "subtopic": "Agent cognition and LLM-based agents",
+  "fetched_ok": true,
+  "failure_reason": "",
+  "title": "AgentSociety: Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society",
+  "publisher": "arXiv (Tsinghua University)",
+  "published_date": "2025-02",
+  "relevance": "high",
+  "key_points": [
+    {
+      "claim": "Paper frames ABM as core of generative social science; LLM agents address the limits of rule/equation-based agents (e.g., scalar opinions).",
+      "evidence_quote": "most existing agents, driven by rules [29], equations [45], or even machine learning models [115], are limited in their ability to generate human-like behaviors."
+    },
+    {
+      "claim": "Proposes an evaluation framework for LLM social simulators along three dimensions: agents (minds, behaviors, mind-behavior coupling), environment, and engine scale.",
+      "evidence_quote": "we develop an evaluation framework to examine the capabilities of various LLM-driven social simulators along these three key dimensions"
+    },
+    {
+      "claim": "Agent cognition: profile plus status, with emotion (six emotions rated 0-10), hierarchical needs (Maslow), cognition/attitude (0-10), grounded in Theory of Planned Behavior. Behaviors are driven by mental state.",
+      "evidence_quote": "rate the intensity of six core emotions\u2014sadness, joy, fear, disgust, anger, and surprise\u2014on a scale from 0 to 10"
+    },
+    {
+      "claim": "Mobility is needs-driven. It uses hierarchical decisions with a gravity model for place selection to cut LLM cost while keeping human spatial patterns.",
+      "evidence_quote": "This model reduces LLM computational overhead while ensuring selections align with human spatial patterns"
+    },
+    {
+      "claim": "Social relations are family, friends and colleagues, with strength 0-100. Interactions are modeled as online messaging, with offline interaction planned. A 'supervisor' models platform moderation.",
+      "evidence_quote": "Each relationship has a strength value ranging from 0 to 100 representing social closeness between agents."
+    },
+    {
+      "claim": "Economic space has firms, government (taxes), banks (Taylor-rule interest) and a statistics bureau. Labor and goods markets are simplified, and this is acknowledged as a limitation.",
+      "evidence_quote": "it does not explicitly capture critical aspects such as the goods market and the labor market."
+    },
+    {
+      "claim": "Environment: realistic urban space (OpenStreetMap roads, SafeGraph POIs, IDM/MOBIL driving models) offloads objective computation from the LLM to reduce hallucination. Other simulators' environments (dataset, text, rule-based) are judged less realistic.",
+      "evidence_quote": "Text-based environments [75, 101], often built based on LLMs, can offer some interactive feedback; however, their realism and objectivity remain questionable"
+    },
+    {
+      "claim": "Engine: Ray + asyncio agent groups and an MQTT messaging system support 10k+ agents and about 5M interactions. LLM API latency is the main bottleneck. MQTT gave 44.7k msg/s and Redis 81.2k msg/s, while Kafka failed to initialize 100k agents.",
+      "evidence_quote": "the execution efficiency of large-scale agents is primarily constrained by the LLM API calls."
+    },
+    {
+      "claim": "Toolbox supports social-science methods: interventions (config, state manipulation, message), interviews and surveys.",
+      "evidence_quote": "There are three primary types of intervention in our system"
+    },
+    {
+      "claim": "Polarization experiment (gun control): homophilic exposure raised polarization, and opposing exposure moderated opinions.",
+      "evidence_quote": "in the homophilic interaction group, a clear polarization pattern emerges, with 52% of agents becoming more polarized."
+    },
+    {
+      "claim": "Inflammatory message spread: inflammatory content spreads more widely and raises emotion. Node-level intervention (suspending accounts) works better than edge-level (removing ties).",
+      "evidence_quote": "Node-level intervention is more effective than edge-level intervention in both containing information spread and moderating emotional intensity."
+    },
+    {
+      "claim": "UBI experiment (Texas demographics, $1,000/month) raised consumption and lowered CES-D depression, matching the real Texas UBI experiment.",
+      "evidence_quote": "the UBI policy increases consumption levels and reduces depression levels, which is similar to the impact observed in Texas' UBI policy"
+    },
+    {
+      "claim": "Hurricane Dorian experiment (1,000 agents, SafeGraph data): activity fell from 70-90% to about 30% during the hurricane and recovered, with trends similar to real trips. Small deviations were seen at the peak.",
+      "evidence_quote": "the activity level sharply decreased to approximately 30%, indicating a significant reduction in mobility behavior."
+    },
+    {
+      "claim": "Related-work survey: ABM history runs from cellular automata and Sugarscape to LLM agents (Generative Agents, S3, EconAgent, OASIS). Prior LLM work is narrow, uses simplified environments, and scales poorly.",
+      "evidence_quote": "Existing studies remain narrowly focused on isolated problems and rely on simplified environments, such as text-based [4] or simplistic game environments [77]"
+    }
+  ],
+  "reliability_notes": "Full text was fetched, but it was truncated in the Discussion section. It is an arXiv preprint from the authors of the system, so there is self-promotion bias. Validation against real data is qualitative and comes from a few case studies. Results depend on DeepSeek-V3."
+}

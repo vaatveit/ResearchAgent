@@ -81,6 +81,8 @@ ARXIV_SEARCH = submit_tool("arxiv_search", (
     "au:, cat:, all:, combined with AND/OR/ANDNOT, phrases in double quotes, e.g. "
     'all:"agent-based model" AND abs:norms. Returns title, date, authors, URL and abstract per paper.'
 ), PAPER_QUERY)
+# Disabled (not passed to the search stage): without an API key Semantic Scholar is almost always
+# rate-limited. To re-enable, add S2_SEARCH and its handler in find_sources and name it in the prompt.
 S2_SEARCH = submit_tool("semantic_scholar_search", (
     "Search Semantic Scholar, an index of published papers across all fields and venues. Plain keyword "
     "query. Returns title, year, authors, venue, links (free PDF when known, arXiv, DOI) and abstract."
@@ -278,18 +280,15 @@ async def find_sources(client, usage, sem, task, max_sources):
             try:
                 result = await run_until_submit(client, usage, "1_search", (
                     f"Research task: {task}\n\nSubtopic: {sub['name']}\nSearch focus: {sub['search_focus']}\n\n"
-                    "Use web_search (and the paper search tools arxiv_search, semantic_scholar_search and "
-                    f"core_search, if academic papers would help) to find up to {per_subtopic} high-quality "
-                    "sources for this subtopic. "
+                    "Use web_search (and the paper search tools arxiv_search and core_search, if academic "
+                    f"papers would help) to find up to {per_subtopic} high-quality sources for this subtopic. "
                     "Prefer primary and authoritative sources (papers, official docs, reputable reporting, "
                     "original data) over SEO content and aggregators. Favor papers from these venues "
                     f"and list them first: {'; '.join(PREFERRED_VENUES)}. If one of those papers is "
                     "paywalled, look for a free full-text copy (arXiv or author preprint) and use that URL. "
                     "Only include URLs that appeared in your search results. Then call submit_sources."
-                ), [WEB_SEARCH, ARXIV_SEARCH, S2_SEARCH, CORE_SEARCH], SUBMIT_SOURCES, effort="medium",
-                   max_turns=10, handlers={"arxiv_search": arxiv_search,
-                                           "semantic_scholar_search": semantic_scholar_search,
-                                           "core_search": core_search})
+                ), [WEB_SEARCH, ARXIV_SEARCH, CORE_SEARCH], SUBMIT_SOURCES, effort="medium",
+                   max_turns=10, handlers={"arxiv_search": arxiv_search, "core_search": core_search})
             except Exception as e:
                 print(f"  search failed for '{sub['name']}': {e}")
                 return []

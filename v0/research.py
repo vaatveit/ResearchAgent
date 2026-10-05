@@ -29,7 +29,11 @@ PRICES = {"claude-opus-5-5": (4.00, 20.00, 0.20, 5.00), "claude-sonnet-5-5": (2.
 TOKEN_FIELDS = ("input_tokens", "output_tokens", "cache_read_input_tokens", "cache_creation_input_tokens")
 OVERCOLLECT = 1.4  # some fetches fail (paywalls, JS-only pages), so find more candidates than needed
 
-UNFETCHABLE = ["x.com", "twitter.com", "science.org"]  # web_fetch can't read these
+PREFERRED_VENUES = ["JASSS (Journal of Artificial Societies and Social Simulation)",
+                    "JAAMAS (Autonomous Agents and Multi-Agent Systems)",
+                    "IEEE Transactions on Computational Social Systems",
+                    "Artificial Life (MIT Press)", "Social Science Computer Review"]
+UNFETCHABLE = ["x.com", "twitter.com", "science.org", "researchgate.net", "ssrn.com", "wiley.com"]  # web_fetch can't read these
 # Basic tool versions, not the _20260209 ones: those run searches/fetches from inside code execution, and
 # when Claude's filtering code failed or ran out of tool calls, it never saw any results.
 WEB_SEARCH = {"type": "web_search_20250305", "name": "web_search", "max_uses": 5, "blocked_domains": UNFETCHABLE}
@@ -204,8 +208,10 @@ async def find_sources(client, usage, sem, task, max_sources):
                     f"Use web_search (and arxiv_search, if academic papers would help) to find up to "
                     f"{per_subtopic} high-quality sources for this subtopic. "
                     "Prefer primary and authoritative sources (papers, official docs, reputable reporting, "
-                    "original data) over SEO content and aggregators. Only include URLs that appeared in "
-                    "your search results. Then call submit_sources."
+                    "original data) over SEO content and aggregators. Favor papers from these venues "
+                    f"and list them first: {'; '.join(PREFERRED_VENUES)}. If one of those papers is "
+                    "paywalled, look for a free full-text copy (arXiv or author preprint) and use that URL. "
+                    "Only include URLs that appeared in your search results. Then call submit_sources."
                 ), [WEB_SEARCH, ARXIV_SEARCH], SUBMIT_SOURCES, effort="medium", max_turns=10,
                    handlers={"arxiv_search": arxiv_search})
             except Exception as e:

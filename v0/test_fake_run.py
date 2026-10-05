@@ -2,7 +2,7 @@
 
 Run: python test_fake_run.py   (or: pytest test_fake_run.py)
 
-Covers: pause_turn resume, re-prompting when Claude doesn't submit, URL dedupe (utm params,
+Covers: pause_turn resume, running a client tool (arxiv_search), re-prompting when Claude doesn't submit, URL dedupe (utm params,
 arXiv abs/pdf/html variants), stopping at the target, unusable sources, API errors, per-stage
 model/effort choice, the appended source list, and resume making no new calls.
 """
@@ -17,7 +17,7 @@ from types import SimpleNamespace as NS
 sys.path.insert(0, str(Path(__file__).parent))
 import research
 
-calls = {"create": 0, "pause": 0, "nudge": 0}
+calls = {"create": 0, "pause": 0, "nudge": 0, "arxiv": 0}
 seen_models = {}
 
 
@@ -51,6 +51,13 @@ class Messages:
             if "Subtopic: t0" in prompt and len(kw["messages"]) == 1:
                 calls["pause"] += 1
                 return resp("pause_turn", [NS(type="server_tool_use")], model)
+            # t1 calls arxiv_search first, to exercise running a client tool and returning its result
+            if "Subtopic: t1" in prompt and len(kw["messages"]) == 1:
+                return resp("tool_use", [NS(type="tool_use", id="tu1", name="arxiv_search",
+                                            input={"query": "all:x", "max_results": 3})], model)
+            if "Subtopic: t1" in prompt:
+                result = kw["messages"][-1]["content"][0]
+                assert result == {"type": "tool_result", "tool_use_id": "tu1", "content": "arxiv results for all:x"}
             t = prompt.split("Subtopic: ")[1].split("\n")[0]
             srcs = [{"url": f"https://Ex.com/{t}/{j}/?utm_source=z", "title": f"{t}-{j}", "why_relevant": "r"}
                     for j in range(3)]
@@ -109,9 +116,15 @@ def test_url_helpers():
     assert research.normalize_url("https://Ex.com/a/?utm_source=z") == research.normalize_url("https://ex.com/a")
 
 
+async def fake_arxiv_search(query, max_results=10):
+    calls["arxiv"] += 1
+    return f"arxiv results for {query}"
+
+
 def test_pipeline_end_to_end():
-    real_client, cwd = research.anthropic.AsyncAnthropic, os.getcwd()
+    real_client, real_arxiv, cwd = research.anthropic.AsyncAnthropic, research.arxiv_search, os.getcwd()
     research.anthropic.AsyncAnthropic = FakeClient
+    research.arxiv_search = fake_arxiv_search
     try:
         with tempfile.TemporaryDirectory() as tmp:
             os.chdir(tmp)
@@ -128,7 +141,7 @@ def test_pipeline_end_to_end():
             assert len(usable) >= 8
             assert any(n["id"] == "s003" and not n["fetched_ok"] for n in notes)  # the "paywall" source
 
-            assert calls["pause"] == 1 and calls["nudge"] >= 1
+            assert calls["pause"] == 1 and calls["nudge"] >= 1 and calls["arxiv"] == 1
             assert seen_models["submit_plan"][0] == research.MODEL
             assert seen_models["submit_sources"][0] == research.MODEL
             assert seen_models["submit_notes"] == (research.EXTRACT_MODEL, research.EXTRACT_EFFORT)
@@ -143,6 +156,7 @@ def test_pipeline_end_to_end():
             os.chdir(cwd)
     finally:
         research.anthropic.AsyncAnthropic = real_client
+        research.arxiv_search = real_arxiv
         os.chdir(cwd)
 
 
